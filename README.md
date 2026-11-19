@@ -32,7 +32,13 @@ Run the stdio MCP server from this checkout:
 uv run --python 3.11 --locked python mcp/server.py
 ```
 
-The server reads the committed JSON snapshots under `data/`. It makes no network requests, installs nothing, and does not launch language servers.
+Without a checkout, run the packaged entry point from the git repository, or install the wheel and run `coding-language-library`:
+
+```sh
+uvx --from git+https://github.com/johnjoners/coding-language-library coding-language-library
+```
+
+The server reads the committed JSON snapshots under `data/`, which are also bundled into the package. It makes no network requests, installs nothing, and does not launch language servers.
 
 | Tool | Does |
 | --- | --- |

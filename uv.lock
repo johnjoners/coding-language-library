@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 [[package]]
 name = "coding-language-library"
 version = "0.3.0"
-source = { virtual = "." }
+source = { editable = "." }
 
 [package.dev-dependencies]
 catalog = [

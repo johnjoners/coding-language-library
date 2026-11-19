@@ -15,8 +15,9 @@ if __package__:
 else:
     from task_matching import compare_candidates, get_suitability_evidence, recommend_stack
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+HERE = Path(__file__).resolve().parent
+DATA = next((candidate for candidate in (HERE.parent / "data", HERE / "data")
+             if (candidate / "inventory.json").is_file()), HERE / "data")
 PROTOCOL = "2024-11-05"
 
 
