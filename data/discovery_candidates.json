@@ -1,0 +1,6102 @@
+{
+ "schema": 1,
+ "source": {
+  "name": "List of programming languages",
+  "role": "discovery candidates only; not the canonical inventory",
+  "data_url": "https://en.wikipedia.org/wiki/List_of_programming_languages",
+  "license": "CC BY-SA 4.0 and GFDL, except where a page indicates otherwise",
+  "license_url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+  "filter": "entries harvested from the A-Z index",
+  "monitor": {
+   "method": "page-revision",
+   "url": "https://en.wikipedia.org/w/api.php",
+   "cadence_days": 7
+  }
+ },
+ "revision": 1384874713,
+ "retrieved_at": "2026-11-18T21:17:43+00:00",
+ "entries": [
+  {
+   "name": "A.NET (A#/A sharp)",
+   "article": "https://en.wikipedia.org/wiki/A_Sharp_%28.NET%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1049708"
+   ]
+  },
+  {
+   "name": "A-0 System",
+   "article": "https://en.wikipedia.org/wiki/A-0_System",
+   "section": "A",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "A+ (A plus)",
+   "article": "https://en.wikipedia.org/wiki/A%2B_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q277710"
+   ]
+  },
+  {
+   "name": "ABAP",
+   "article": "https://en.wikipedia.org/wiki/ABAP",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q380523"
+   ]
+  },
+  {
+   "name": "ABC",
+   "article": "https://en.wikipedia.org/wiki/ABC_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1057802"
+   ]
+  },
+  {
+   "name": "ACC",
+   "article": "https://en.wikipedia.org/wiki/ACC_%28programming_language%29",
+   "section": "A",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Accent (Rational Synergy)",
+   "article": "https://en.wikipedia.org/wiki/Accent_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q972868"
+   ]
+  },
+  {
+   "name": "Action!",
+   "article": "https://en.wikipedia.org/wiki/Action%21_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q343587"
+   ]
+  },
+  {
+   "name": "ActionScript",
+   "article": "https://en.wikipedia.org/wiki/ActionScript",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q234657"
+   ]
+  },
+  {
+   "name": "Actor",
+   "article": "https://en.wikipedia.org/wiki/Actor_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4677713"
+   ]
+  },
+  {
+   "name": "Ada",
+   "article": "https://en.wikipedia.org/wiki/Ada_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q154755"
+   ]
+  },
+  {
+   "name": "Adenine (Haystack)",
+   "article": "https://en.wikipedia.org/wiki/Adenine_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q355968"
+   ]
+  },
+  {
+   "name": "AdvPL",
+   "article": "https://en.wikipedia.org/wiki/AdvPL",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q9555609"
+   ]
+  },
+  {
+   "name": "Agda",
+   "article": "https://en.wikipedia.org/wiki/Agda_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q20479"
+   ]
+  },
+  {
+   "name": "Agilent VEE",
+   "article": "https://en.wikipedia.org/wiki/Agilent_VEE",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q393768"
+   ]
+  },
+  {
+   "name": "Agora",
+   "article": "https://en.wikipedia.org/wiki/Agora_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4693571"
+   ]
+  },
+  {
+   "name": "AIMMS",
+   "article": "https://en.wikipedia.org/wiki/AIMMS",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4651947"
+   ]
+  },
+  {
+   "name": "Aldor",
+   "article": "https://en.wikipedia.org/wiki/Aldor",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1549370"
+   ]
+  },
+  {
+   "name": "Alef",
+   "article": "https://en.wikipedia.org/wiki/Alef_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1895587"
+   ]
+  },
+  {
+   "name": "Algebraic Logic Functional programming language",
+   "article": "https://en.wikipedia.org/wiki/Algebraic_Logic_Functional_programming_language",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4723982"
+   ]
+  },
+  {
+   "name": "ALGOL 58",
+   "article": "https://en.wikipedia.org/wiki/ALGOL_58",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1094499"
+   ]
+  },
+  {
+   "name": "ALGOL 60",
+   "article": "https://en.wikipedia.org/wiki/ALGOL_60",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1209759"
+   ]
+  },
+  {
+   "name": "ALGOL 68",
+   "article": "https://en.wikipedia.org/wiki/ALGOL_68",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2166735"
+   ]
+  },
+  {
+   "name": "ALGOL W",
+   "article": "https://en.wikipedia.org/wiki/ALGOL_W",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1538458"
+   ]
+  },
+  {
+   "name": "Alice ML",
+   "article": "https://en.wikipedia.org/wiki/Alice_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1136926"
+   ]
+  },
+  {
+   "name": "Alma-0",
+   "article": "https://en.wikipedia.org/wiki/Alma-0",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4733507"
+   ]
+  },
+  {
+   "name": "AmbientTalk",
+   "article": "https://en.wikipedia.org/wiki/AmbientTalk",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4741415"
+   ]
+  },
+  {
+   "name": "Amiga E",
+   "article": "https://en.wikipedia.org/wiki/Amiga_E",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q471181"
+   ]
+  },
+  {
+   "name": "AMPL",
+   "article": "https://en.wikipedia.org/wiki/AMPL",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q295250"
+   ]
+  },
+  {
+   "name": "Analitik",
+   "article": "https://en.wikipedia.org/wiki/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4064746"
+   ]
+  },
+  {
+   "name": "AngelScript",
+   "article": "https://en.wikipedia.org/wiki/AngelScript",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2366"
+   ]
+  },
+  {
+   "name": "Apache Pig latin",
+   "article": "https://en.wikipedia.org/wiki/Apache_Pig",
+   "section": "A",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Apex (Salesforce.com, Inc)",
+   "article": "https://en.wikipedia.org/wiki/Apex_%28programming_language%29",
+   "section": "A",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "APL",
+   "article": "https://en.wikipedia.org/wiki/APL_%28programming_language%29",
+   "section": "A",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q296187",
+    "wikidata:Q4057965"
+   ]
+  },
+  {
+   "name": "App Inventor for Android's visual block language (MIT App Inventor)",
+   "article": "https://en.wikipedia.org/wiki/App_Inventor_for_Android_%28programming_language%29",
+   "section": "A",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "AppleScript",
+   "article": "https://en.wikipedia.org/wiki/AppleScript",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q129137"
+   ]
+  },
+  {
+   "name": "APT",
+   "article": "https://en.wikipedia.org/wiki/APT_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q787227"
+   ]
+  },
+  {
+   "name": "Arc",
+   "article": "https://en.wikipedia.org/wiki/Arc_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2438046"
+   ]
+  },
+  {
+   "name": "ArkTS",
+   "article": "https://en.wikipedia.org/wiki/ArkTS",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q124669188"
+   ]
+  },
+  {
+   "name": "ARexx",
+   "article": "https://en.wikipedia.org/wiki/ARexx",
+   "section": "A",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q296959",
+    "wikidata:Q685820"
+   ]
+  },
+  {
+   "name": "Argus",
+   "article": "https://en.wikipedia.org/wiki/Argus_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3622471"
+   ]
+  },
+  {
+   "name": "Assembly language",
+   "article": "https://en.wikipedia.org/wiki/Assembly_language",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q165436"
+   ]
+  },
+  {
+   "name": "AssemblyScript",
+   "article": "https://en.wikipedia.org/wiki/AssemblyScript",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q105690185"
+   ]
+  },
+  {
+   "name": "ATS",
+   "article": "https://en.wikipedia.org/wiki/ATS_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q621618"
+   ]
+  },
+  {
+   "name": "AutoHotkey",
+   "article": "https://en.wikipedia.org/wiki/AutoHotkey",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q784816"
+   ]
+  },
+  {
+   "name": "AutoIt",
+   "article": "https://en.wikipedia.org/wiki/AutoIt",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q784845"
+   ]
+  },
+  {
+   "name": "AutoLISP",
+   "article": "https://en.wikipedia.org/wiki/AutoLISP",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q782397"
+   ]
+  },
+  {
+   "name": "Averest",
+   "article": "https://en.wikipedia.org/wiki/Averest",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2874223"
+   ]
+  },
+  {
+   "name": "AWK",
+   "article": "https://en.wikipedia.org/wiki/AWK",
+   "section": "A",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:mawk",
+    "wikidata:Q213970"
+   ]
+  },
+  {
+   "name": "Axum",
+   "article": "https://en.wikipedia.org/wiki/Axum_%28programming_language%29",
+   "section": "A",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4830701"
+   ]
+  },
+  {
+   "name": "B",
+   "article": "https://en.wikipedia.org/wiki/B_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q797302"
+   ]
+  },
+  {
+   "name": "Babbage",
+   "article": "https://en.wikipedia.org/wiki/Babbage_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4837581"
+   ]
+  },
+  {
+   "name": "Ballerina",
+   "article": "https://en.wikipedia.org/wiki/Ballerina_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51160183"
+   ]
+  },
+  {
+   "name": "Bash",
+   "article": "https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:bash"
+   ]
+  },
+  {
+   "name": "BASIC",
+   "article": "https://en.wikipedia.org/wiki/BASIC",
+   "section": "B",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q1022868",
+    "wikidata:Q42979"
+   ]
+  },
+  {
+   "name": "Batch file (Windows/MS-DOS)",
+   "article": "https://en.wikipedia.org/wiki/Batch_file",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:batch"
+   ]
+  },
+  {
+   "name": "bc (basic calculator)",
+   "article": "https://en.wikipedia.org/wiki/bc_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q300897"
+   ]
+  },
+  {
+   "name": "BCPL",
+   "article": "https://en.wikipedia.org/wiki/BCPL",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q810009"
+   ]
+  },
+  {
+   "name": "BeanShell",
+   "article": "https://en.wikipedia.org/wiki/BeanShell",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q812964"
+   ]
+  },
+  {
+   "name": "BETA",
+   "article": "https://en.wikipedia.org/wiki/BETA_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q830842"
+   ]
+  },
+  {
+   "name": "BLISS",
+   "article": "https://en.wikipedia.org/wiki/BLISS",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2877155"
+   ]
+  },
+  {
+   "name": "Blockly",
+   "article": "https://en.wikipedia.org/wiki/Blockly",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q18202981"
+   ]
+  },
+  {
+   "name": "BlooP",
+   "article": "https://en.wikipedia.org/wiki/BlooP_and_FlooP",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4927494"
+   ]
+  },
+  {
+   "name": "Boo",
+   "article": "https://en.wikipedia.org/wiki/Boo_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q892948"
+   ]
+  },
+  {
+   "name": "Boomerang",
+   "article": "https://en.wikipedia.org/wiki/Boomerang_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4943501"
+   ]
+  },
+  {
+   "name": "Bosque",
+   "article": "https://en.wikipedia.org/wiki/Bosque_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q63243349"
+   ]
+  },
+  {
+   "name": "C",
+   "article": "https://en.wikipedia.org/wiki/C_%28programming_language%29",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:c--",
+    "pldb:c-flat",
+    "pldb:c-for-all",
+    "pldb:tick-c",
+    "wikidata:Q15777",
+    "wikidata:Q5005842",
+    "wikidata:Q81348"
+   ]
+  },
+  {
+   "name": "C--",
+   "article": "https://en.wikipedia.org/wiki/C--",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:c--",
+    "pldb:c-flat",
+    "pldb:c-for-all",
+    "pldb:tick-c",
+    "wikidata:Q15777",
+    "wikidata:Q5005842",
+    "wikidata:Q7119554",
+    "wikidata:Q81348"
+   ]
+  },
+  {
+   "name": "C++",
+   "article": "https://en.wikipedia.org/wiki/C%2B%2B",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2407"
+   ]
+  },
+  {
+   "name": "C*",
+   "article": "https://en.wikipedia.org/wiki/C%2A",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:c--",
+    "pldb:c-flat",
+    "pldb:c-for-all",
+    "pldb:tick-c",
+    "wikidata:Q15777",
+    "wikidata:Q5005842",
+    "wikidata:Q7119554",
+    "wikidata:Q81348"
+   ]
+  },
+  {
+   "name": "C#",
+   "article": "https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2370"
+   ]
+  },
+  {
+   "name": "C/AL",
+   "article": "https://en.wikipedia.org/wiki/C/AL",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:c-al",
+    "wikidata:Q1926221",
+    "wikidata:Q5008638"
+   ]
+  },
+  {
+   "name": "Caché ObjectScript",
+   "article": "https://en.wikipedia.org/wiki/Cach%C3%A9_ObjectScript",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5016025"
+   ]
+  },
+  {
+   "name": "C Shell (csh)",
+   "article": "https://en.wikipedia.org/wiki/C_Shell",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1064516"
+   ]
+  },
+  {
+   "name": "Calcpad",
+   "article": "https://en.wikipedia.org/wiki/Calcpad",
+   "section": "C",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Caml",
+   "article": "https://en.wikipedia.org/wiki/Caml",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1118153"
+   ]
+  },
+  {
+   "name": "Carbon",
+   "article": "https://en.wikipedia.org/wiki/Carbon_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q113157814"
+   ]
+  },
+  {
+   "name": "Catrobat",
+   "article": "https://en.wikipedia.org/wiki/Catrobat",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q45341807"
+   ]
+  },
+  {
+   "name": "Cayenne (Lennart Augustsson)",
+   "article": "https://en.wikipedia.org/wiki/Cayenne_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5055293"
+   ]
+  },
+  {
+   "name": "Cecil",
+   "article": "https://en.wikipedia.org/wiki/Cecil_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7427136"
+   ]
+  },
+  {
+   "name": "CESIL (Computer Education in Schools Instruction Language)",
+   "article": "https://en.wikipedia.org/wiki/CESIL",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:cesil"
+   ]
+  },
+  {
+   "name": "CEEMAC",
+   "article": "https://en.wikipedia.org/wiki/CEEMAC",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5010234"
+   ]
+  },
+  {
+   "name": "Céu",
+   "article": "https://en.wikipedia.org/wiki/C%C3%A9u_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28457754"
+   ]
+  },
+  {
+   "name": "Ceylon",
+   "article": "https://en.wikipedia.org/wiki/Ceylon_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q93482"
+   ]
+  },
+  {
+   "name": "CFEngine",
+   "article": "https://en.wikipedia.org/wiki/CFEngine",
+   "section": "C",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Ch",
+   "article": "https://en.wikipedia.org/wiki/Ch_%28computer_programming%29",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q5065901",
+    "wikidata:Q850484"
+   ]
+  },
+  {
+   "name": "Chapel (Cascade High Productivity Language)",
+   "article": "https://en.wikipedia.org/wiki/Chapel_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4036051"
+   ]
+  },
+  {
+   "name": "Charm",
+   "article": "https://en.wikipedia.org/wiki/Charm_%28language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5086385"
+   ]
+  },
+  {
+   "name": "CHICKEN",
+   "article": "https://en.wikipedia.org/wiki/Chicken_%28Scheme_implementation%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q283456"
+   ]
+  },
+  {
+   "name": "CHILL",
+   "article": "https://en.wikipedia.org/wiki/CHILL",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q642207"
+   ]
+  },
+  {
+   "name": "CHIP-8",
+   "article": "https://en.wikipedia.org/wiki/CHIP-8",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1023623"
+   ]
+  },
+  {
+   "name": "ChucK",
+   "article": "https://en.wikipedia.org/wiki/ChucK",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q850484"
+   ]
+  },
+  {
+   "name": "Cilk (also Cilk++ and Cilk plus)",
+   "article": "https://en.wikipedia.org/wiki/Cilk",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2569373"
+   ]
+  },
+  {
+   "name": "Claire",
+   "article": "https://en.wikipedia.org/wiki/Claire_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5125133"
+   ]
+  },
+  {
+   "name": "Clarion",
+   "article": "https://en.wikipedia.org/wiki/Clarion_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1095608"
+   ]
+  },
+  {
+   "name": "Clean",
+   "article": "https://en.wikipedia.org/wiki/Clean_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q377986"
+   ]
+  },
+  {
+   "name": "Clipper",
+   "article": "https://en.wikipedia.org/wiki/Clipper_%28programming_language%29",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q834358",
+    "wikidata:Q9555609"
+   ]
+  },
+  {
+   "name": "CLIPS",
+   "article": "https://en.wikipedia.org/wiki/CLIPS_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q165372"
+   ]
+  },
+  {
+   "name": "CLIST",
+   "article": "https://en.wikipedia.org/wiki/CLIST",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q579880"
+   ]
+  },
+  {
+   "name": "Clojure",
+   "article": "https://en.wikipedia.org/wiki/Clojure",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51798"
+   ]
+  },
+  {
+   "name": "CLU",
+   "article": "https://en.wikipedia.org/wiki/CLU_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q775159"
+   ]
+  },
+  {
+   "name": "CMS-2",
+   "article": "https://en.wikipedia.org/wiki/CMS-2_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5012997"
+   ]
+  },
+  {
+   "name": "COBOL",
+   "article": "https://en.wikipedia.org/wiki/COBOL",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q131140"
+   ]
+  },
+  {
+   "name": "CobolScript",
+   "article": "https://en.wikipedia.org/wiki/CobolScript",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:cobolscript"
+   ]
+  },
+  {
+   "name": "Cobra",
+   "article": "https://en.wikipedia.org/wiki/Cobra_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q608565"
+   ]
+  },
+  {
+   "name": "CoffeeScript",
+   "article": "https://en.wikipedia.org/wiki/CoffeeScript",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1106819"
+   ]
+  },
+  {
+   "name": "ColdFusion",
+   "article": "https://en.wikipedia.org/wiki/ColdFusion",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:coldfusion"
+   ]
+  },
+  {
+   "name": "COMAL",
+   "article": "https://en.wikipedia.org/wiki/COMAL",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1023991"
+   ]
+  },
+  {
+   "name": "COMIT",
+   "article": "https://en.wikipedia.org/wiki/COMIT",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1024000"
+   ]
+  },
+  {
+   "name": "Common Intermediate Language",
+   "article": "https://en.wikipedia.org/wiki/Common_Intermediate_Language",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q263544"
+   ]
+  },
+  {
+   "name": "Common Lisp",
+   "article": "https://en.wikipedia.org/wiki/Common_Lisp",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q849146"
+   ]
+  },
+  {
+   "name": "COMPASS",
+   "article": "https://en.wikipedia.org/wiki/COMPASS",
+   "section": "C",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Component Pascal",
+   "article": "https://en.wikipedia.org/wiki/Component_Pascal",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1121719"
+   ]
+  },
+  {
+   "name": "COMTRAN",
+   "article": "https://en.wikipedia.org/wiki/COMTRAN",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5013384"
+   ]
+  },
+  {
+   "name": "Concurrent Pascal",
+   "article": "https://en.wikipedia.org/wiki/Concurrent_Pascal",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5159102"
+   ]
+  },
+  {
+   "name": "Constraint Handling Rules",
+   "article": "https://en.wikipedia.org/wiki/Constraint_Handling_Rules",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5164373"
+   ]
+  },
+  {
+   "name": "Control Language",
+   "article": "https://en.wikipedia.org/wiki/Control_Language",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q263490"
+   ]
+  },
+  {
+   "name": "Rocq",
+   "article": "https://en.wikipedia.org/wiki/Rocq",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1131652"
+   ]
+  },
+  {
+   "name": "CORAL",
+   "article": "https://en.wikipedia.org/wiki/CORAL",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:coral",
+    "pldb:coral-lang",
+    "wikidata:Q4117844"
+   ]
+  },
+  {
+   "name": "CorVision",
+   "article": "https://en.wikipedia.org/wiki/CorVision",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5169369"
+   ]
+  },
+  {
+   "name": "COWSEL",
+   "article": "https://en.wikipedia.org/wiki/COWSEL",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5013542"
+   ]
+  },
+  {
+   "name": "CPL",
+   "article": "https://en.wikipedia.org/wiki/CPL_%28programming_language%29",
+   "section": "C",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q11422769",
+    "wikidata:Q2347334"
+   ]
+  },
+  {
+   "name": "Cryptol",
+   "article": "https://en.wikipedia.org/wiki/Cryptol",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5190950"
+   ]
+  },
+  {
+   "name": "Crystal",
+   "article": "https://en.wikipedia.org/wiki/Crystal_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q21921428"
+   ]
+  },
+  {
+   "name": "Csound",
+   "article": "https://en.wikipedia.org/wiki/Csound",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q259347"
+   ]
+  },
+  {
+   "name": "Cuneiform",
+   "article": "https://en.wikipedia.org/wiki/Cuneiform_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28452212"
+   ]
+  },
+  {
+   "name": "Curl",
+   "article": "https://en.wikipedia.org/wiki/Curl_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1144631"
+   ]
+  },
+  {
+   "name": "Curry",
+   "article": "https://en.wikipedia.org/wiki/Curry_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2368856"
+   ]
+  },
+  {
+   "name": "Cybil",
+   "article": "https://en.wikipedia.org/wiki/Cybil_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5197880"
+   ]
+  },
+  {
+   "name": "Cyclone",
+   "article": "https://en.wikipedia.org/wiki/Cyclone_%28programming_language%29",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q79598"
+   ]
+  },
+  {
+   "name": "Cypher Query Language",
+   "article": "https://en.wikipedia.org/wiki/Cypher_Query_Language",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q16834355"
+   ]
+  },
+  {
+   "name": "Cython",
+   "article": "https://en.wikipedia.org/wiki/Cython",
+   "section": "C",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q975594"
+   ]
+  },
+  {
+   "name": "D",
+   "article": "https://en.wikipedia.org/wiki/D_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q319268"
+   ]
+  },
+  {
+   "name": "Dart",
+   "article": "https://en.wikipedia.org/wiki/Dart_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q406009"
+   ]
+  },
+  {
+   "name": "Darwin",
+   "article": "https://en.wikipedia.org/wiki/Darwin_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q48987595"
+   ]
+  },
+  {
+   "name": "DataFlex",
+   "article": "https://en.wikipedia.org/wiki/DataFlex",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2391203"
+   ]
+  },
+  {
+   "name": "Datalog",
+   "article": "https://en.wikipedia.org/wiki/Datalog",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1172264"
+   ]
+  },
+  {
+   "name": "DATATRIEVE",
+   "article": "https://en.wikipedia.org/wiki/DATATRIEVE",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5204332"
+   ]
+  },
+  {
+   "name": "dBase",
+   "article": "https://en.wikipedia.org/wiki/dBase",
+   "section": "D",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "dc",
+   "article": "https://en.wikipedia.org/wiki/dc_%28computer_program%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:dc"
+   ]
+  },
+  {
+   "name": "DCL (DIGITAL Command Language)",
+   "article": "https://en.wikipedia.org/wiki/DIGITAL_Command_Language",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q427002"
+   ]
+  },
+  {
+   "name": "Delphi",
+   "article": "https://en.wikipedia.org/wiki/Delphi_%28software%29",
+   "section": "D",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q4037189",
+    "wikidata:Q81571"
+   ]
+  },
+  {
+   "name": "DIBOL",
+   "article": "https://en.wikipedia.org/wiki/DIBOL",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5205093"
+   ]
+  },
+  {
+   "name": "DinkC",
+   "article": "https://en.wikipedia.org/wiki/Dink_Smallwood%23Modification",
+   "section": "D",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Dog",
+   "article": "https://en.wikipedia.org/wiki/Dog_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28937935"
+   ]
+  },
+  {
+   "name": "Draco",
+   "article": "https://en.wikipedia.org/wiki/Draco_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5304638"
+   ]
+  },
+  {
+   "name": "DRAKON",
+   "article": "https://en.wikipedia.org/wiki/DRAKON",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2671999"
+   ]
+  },
+  {
+   "name": "Dylan",
+   "article": "https://en.wikipedia.org/wiki/Dylan_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1268744"
+   ]
+  },
+  {
+   "name": "DYNAMO",
+   "article": "https://en.wikipedia.org/wiki/DYNAMO_%28programming_language%29",
+   "section": "D",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5206860"
+   ]
+  },
+  {
+   "name": "DAX (Data Analysis Expressions)",
+   "article": "https://en.wikipedia.org/wiki/Data_analysis_expressions",
+   "section": "D",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "E",
+   "article": "https://en.wikipedia.org/wiki/E_%28programming_language%29",
+   "section": "E",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q2658244",
+    "wikidata:Q471181"
+   ]
+  },
+  {
+   "name": "Ease",
+   "article": "https://en.wikipedia.org/wiki/Ease_%28programming_language%29",
+   "section": "E",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:eas-e",
+    "wikidata:Q5327483"
+   ]
+  },
+  {
+   "name": "Easy PL/I",
+   "article": "https://en.wikipedia.org/wiki/PL/I",
+   "section": "E",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:pl-i",
+    "pldb:pl-i-subset-g"
+   ]
+  },
+  {
+   "name": "EASYTRIEVE PLUS",
+   "article": "https://en.wikipedia.org/wiki/Easytrieve",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:easytrieve"
+   ]
+  },
+  {
+   "name": "ECMAScript",
+   "article": "https://en.wikipedia.org/wiki/ECMAScript",
+   "section": "E",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Edinburgh IMP",
+   "article": "https://en.wikipedia.org/wiki/Edinburgh_IMP",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5338206"
+   ]
+  },
+  {
+   "name": "EGL",
+   "article": "https://en.wikipedia.org/wiki/EGL_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q464338"
+   ]
+  },
+  {
+   "name": "Eiffel",
+   "article": "https://en.wikipedia.org/wiki/Eiffel_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q732089"
+   ]
+  },
+  {
+   "name": "ELAN",
+   "article": "https://en.wikipedia.org/wiki/ELAN_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1275046"
+   ]
+  },
+  {
+   "name": "Elixir",
+   "article": "https://en.wikipedia.org/wiki/Elixir_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5362035"
+   ]
+  },
+  {
+   "name": "Elm",
+   "article": "https://en.wikipedia.org/wiki/Elm_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5366250"
+   ]
+  },
+  {
+   "name": "Emacs Lisp",
+   "article": "https://en.wikipedia.org/wiki/Emacs_Lisp",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1334586"
+   ]
+  },
+  {
+   "name": "Emerald",
+   "article": "https://en.wikipedia.org/wiki/Emerald_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5370400"
+   ]
+  },
+  {
+   "name": "Epigram",
+   "article": "https://en.wikipedia.org/wiki/Epigram_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5382927"
+   ]
+  },
+  {
+   "name": "EPL (Easy Programming Language)",
+   "article": "https://en.wikipedia.org/wiki/Easy_Programming_Language",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q11088328"
+   ]
+  },
+  {
+   "name": "Erlang",
+   "article": "https://en.wikipedia.org/wiki/Erlang_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q334879"
+   ]
+  },
+  {
+   "name": "es",
+   "article": "https://en.wikipedia.org/wiki/es_%28Unix_shell%29",
+   "section": "E",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Escher",
+   "article": "https://en.wikipedia.org/wiki/Escher_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5397186"
+   ]
+  },
+  {
+   "name": "ESPOL",
+   "article": "https://en.wikipedia.org/wiki/Executive_Systems_Problem_Oriented_Language",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1275955"
+   ]
+  },
+  {
+   "name": "Esterel",
+   "article": "https://en.wikipedia.org/wiki/Esterel",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q486926"
+   ]
+  },
+  {
+   "name": "Etoys",
+   "article": "https://en.wikipedia.org/wiki/Etoys_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1044290"
+   ]
+  },
+  {
+   "name": "Euclid",
+   "article": "https://en.wikipedia.org/wiki/Euclid_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5406088"
+   ]
+  },
+  {
+   "name": "Euler",
+   "article": "https://en.wikipedia.org/wiki/Euler_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q907880"
+   ]
+  },
+  {
+   "name": "Euphoria",
+   "article": "https://en.wikipedia.org/wiki/Euphoria_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1374139"
+   ]
+  },
+  {
+   "name": "EusLisp Robot Programming Language",
+   "article": "https://en.wikipedia.org/wiki/EusLisp_Robot_Programming_Language",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5414185"
+   ]
+  },
+  {
+   "name": "CMS EXEC",
+   "article": "https://en.wikipedia.org/wiki/CMS_EXEC",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:cms-exec"
+   ]
+  },
+  {
+   "name": "EXEC 2",
+   "article": "https://en.wikipedia.org/wiki/EXEC_2",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5324679"
+   ]
+  },
+  {
+   "name": "Executable UML",
+   "article": "https://en.wikipedia.org/wiki/Executable_UML",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:xuml"
+   ]
+  },
+  {
+   "name": "Ezhil",
+   "article": "https://en.wikipedia.org/wiki/Ezhil_%28programming_language%29",
+   "section": "E",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q12975625"
+   ]
+  },
+  {
+   "name": "F",
+   "article": "https://en.wikipedia.org/wiki/F_%28programming_language%29",
+   "section": "F",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:apter-f",
+    "pldb:f",
+    "wikidata:Q1104016",
+    "wikidata:Q5423569",
+    "wikidata:Q5427464",
+    "wikidata:Q648619"
+   ]
+  },
+  {
+   "name": "F# (F sharp)",
+   "article": "https://en.wikipedia.org/wiki/F_Sharp_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q648619"
+   ]
+  },
+  {
+   "name": "F*",
+   "article": "https://en.wikipedia.org/wiki/F%2A_%28programming_language%29",
+   "section": "F",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:apter-f",
+    "pldb:f",
+    "wikidata:Q1104016",
+    "wikidata:Q5423569",
+    "wikidata:Q5427464",
+    "wikidata:Q648619"
+   ]
+  },
+  {
+   "name": "Factor",
+   "article": "https://en.wikipedia.org/wiki/Factor_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1391724"
+   ]
+  },
+  {
+   "name": "Fantom",
+   "article": "https://en.wikipedia.org/wiki/Fantom_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2699404"
+   ]
+  },
+  {
+   "name": "FAUST",
+   "article": "https://en.wikipedia.org/wiki/FAUST_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1398550"
+   ]
+  },
+  {
+   "name": "FFP",
+   "article": "https://en.wikipedia.org/wiki/FFP_%28programming_language%29",
+   "section": "F",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "fish",
+   "article": "https://en.wikipedia.org/wiki/friendly_interactive_shell",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:fish"
+   ]
+  },
+  {
+   "name": "Fjölnir",
+   "article": "https://en.wikipedia.org/wiki/Fj%C3%B6lnir_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3481158"
+   ]
+  },
+  {
+   "name": "FL",
+   "article": "https://en.wikipedia.org/wiki/FL_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5426589"
+   ]
+  },
+  {
+   "name": "Flavors",
+   "article": "https://en.wikipedia.org/wiki/Flavors_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1427564"
+   ]
+  },
+  {
+   "name": "Flex",
+   "article": "https://en.wikipedia.org/wiki/Flex_%28language%29",
+   "section": "F",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:flex-lang",
+    "wikidata:Q8563758"
+   ]
+  },
+  {
+   "name": "Flix",
+   "article": "https://en.wikipedia.org/wiki/Flix_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q104901822"
+   ]
+  },
+  {
+   "name": "FlooP",
+   "article": "https://en.wikipedia.org/wiki/BlooP_and_FlooP",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4927494"
+   ]
+  },
+  {
+   "name": "FLOW-MATIC (B0)",
+   "article": "https://en.wikipedia.org/wiki/FLOW-MATIC",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1389173"
+   ]
+  },
+  {
+   "name": "FOCAL (Formulating On-Line Calculations in Algebraic Language/FOrmula CALculator)",
+   "article": "https://en.wikipedia.org/wiki/FOCAL_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1966202"
+   ]
+  },
+  {
+   "name": "FOCUS",
+   "article": "https://en.wikipedia.org/wiki/Focus_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5426833"
+   ]
+  },
+  {
+   "name": "FOIL",
+   "article": "https://en.wikipedia.org/wiki/FOIL_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5426845"
+   ]
+  },
+  {
+   "name": "FORMAC",
+   "article": "https://en.wikipedia.org/wiki/FORMAC",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5426889"
+   ]
+  },
+  {
+   "name": "@Formula",
+   "article": "https://en.wikipedia.org/wiki/Formula_language",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5470342"
+   ]
+  },
+  {
+   "name": "Forth",
+   "article": "https://en.wikipedia.org/wiki/Forth_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q275472"
+   ]
+  },
+  {
+   "name": "Fortran",
+   "article": "https://en.wikipedia.org/wiki/Fortran",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q83303"
+   ]
+  },
+  {
+   "name": "Fortress",
+   "article": "https://en.wikipedia.org/wiki/Fortress_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1439015"
+   ]
+  },
+  {
+   "name": "FoxBase/FoxPro",
+   "article": "https://en.wikipedia.org/wiki/FoxPro_%28programming_language%29",
+   "section": "F",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "FP",
+   "article": "https://en.wikipedia.org/wiki/FP_%28programming_language%29",
+   "section": "F",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:fp3",
+    "wikidata:Q1474061",
+    "wikidata:Q5426980"
+   ]
+  },
+  {
+   "name": "Franz Lisp",
+   "article": "https://en.wikipedia.org/wiki/Franz_Lisp",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5492884"
+   ]
+  },
+  {
+   "name": "Futhark",
+   "article": "https://en.wikipedia.org/wiki/Futhark_%28programming_language%29",
+   "section": "F",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51159967"
+   ]
+  },
+  {
+   "name": "Game Maker Language",
+   "article": "https://en.wikipedia.org/wiki/Game_Maker_Language",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1807379"
+   ]
+  },
+  {
+   "name": "General Algebraic Modeling System",
+   "article": "https://en.wikipedia.org/wiki/General_Algebraic_Modeling_System",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q646446"
+   ]
+  },
+  {
+   "name": "GAP",
+   "article": "https://en.wikipedia.org/wiki/GAP_computer_algebra_system",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q677161"
+   ]
+  },
+  {
+   "name": "G-code",
+   "article": "https://en.wikipedia.org/wiki/G-code",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q620464"
+   ]
+  },
+  {
+   "name": "GDScript (Godot)",
+   "article": "https://en.wikipedia.org/wiki/Godot_%28game_engine%29",
+   "section": "G",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Geometric Description Language",
+   "article": "https://en.wikipedia.org/wiki/Geometric_Description_Language",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q519163"
+   ]
+  },
+  {
+   "name": "GEORGE",
+   "article": "https://en.wikipedia.org/wiki/GEORGE_%28programming_language%29",
+   "section": "G",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q5513190",
+    "wikidata:Q6487099"
+   ]
+  },
+  {
+   "name": "Gleam",
+   "article": "https://en.wikipedia.org/wiki/Gleam_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q66370905"
+   ]
+  },
+  {
+   "name": "OpenGL Shading Language",
+   "article": "https://en.wikipedia.org/wiki/OpenGL_Shading_Language",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q779819"
+   ]
+  },
+  {
+   "name": "GNU E",
+   "article": "https://en.wikipedia.org/wiki/GNU_E",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5514022"
+   ]
+  },
+  {
+   "name": "GNU Guile (GNU Ubiquitous Intelligent Language for Extensions)",
+   "article": "https://en.wikipedia.org/wiki/GNU_Guile",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1486208"
+   ]
+  },
+  {
+   "name": "GNU Octave",
+   "article": "https://en.wikipedia.org/wiki/GNU_Octave",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q223679"
+   ]
+  },
+  {
+   "name": "Go",
+   "article": "https://en.wikipedia.org/wiki/Go_%28programming_language%29",
+   "section": "G",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:go",
+    "pldb:go-bang",
+    "wikidata:Q3109515",
+    "wikidata:Q37227"
+   ]
+  },
+  {
+   "name": "Go!",
+   "article": "https://en.wikipedia.org/wiki/Go%21_%28programming_language%29",
+   "section": "G",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:go",
+    "pldb:go-bang",
+    "wikidata:Q3109515",
+    "wikidata:Q37227"
+   ]
+  },
+  {
+   "name": "Game Oriented Assembly Lisp",
+   "article": "https://en.wikipedia.org/wiki/Game_Oriented_Assembly_Lisp",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5519874"
+   ]
+  },
+  {
+   "name": "Gödel",
+   "article": "https://en.wikipedia.org/wiki/G%C3%B6del_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3294091"
+   ]
+  },
+  {
+   "name": "Golo",
+   "article": "https://en.wikipedia.org/wiki/Golo_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q22681958"
+   ]
+  },
+  {
+   "name": "GOM",
+   "article": "https://en.wikipedia.org/wiki/MAD_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4117854"
+   ]
+  },
+  {
+   "name": "Google Apps Script",
+   "article": "https://en.wikipedia.org/wiki/Google_Apps_Script",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5583799"
+   ]
+  },
+  {
+   "name": "Gosu",
+   "article": "https://en.wikipedia.org/wiki/Gosu_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5587589"
+   ]
+  },
+  {
+   "name": "GOTRAN (IBM 1620)",
+   "article": "https://en.wikipedia.org/wiki/IBM_1620%23GOTRAN",
+   "section": "G",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "GPSS",
+   "article": "https://en.wikipedia.org/wiki/GPSS",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1486554"
+   ]
+  },
+  {
+   "name": "Computer Sciences Corporation",
+   "article": "https://en.wikipedia.org/wiki/Computer_Sciences_Corporation",
+   "section": "G",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "GRASS",
+   "article": "https://en.wikipedia.org/wiki/GRASS_%28programming_language%29",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3756259"
+   ]
+  },
+  {
+   "name": "Grasshopper",
+   "article": "https://en.wikipedia.org/wiki/Grasshopper_3D",
+   "section": "G",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5597529"
+   ]
+  },
+  {
+   "name": "Groovy",
+   "article": "https://en.wikipedia.org/wiki/Apache_Groovy",
+   "section": "G",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:groovy",
+    "wikidata:Q504453"
+   ]
+  },
+  {
+   "name": "Hack",
+   "article": "https://en.wikipedia.org/wiki/Hack_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q15971618"
+   ]
+  },
+  {
+   "name": "HAGGIS",
+   "article": "https://en.wikipedia.org/wiki/HAGGIS",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28404924"
+   ]
+  },
+  {
+   "name": "HAL/S",
+   "article": "https://en.wikipedia.org/wiki/HAL/S",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q667290"
+   ]
+  },
+  {
+   "name": "Halide (programming language)",
+   "article": "https://en.wikipedia.org/wiki/Halide_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17020459"
+   ]
+  },
+  {
+   "name": "Hamilton C shell",
+   "article": "https://en.wikipedia.org/wiki/Hamilton_C_shell",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5644861"
+   ]
+  },
+  {
+   "name": "Harbour",
+   "article": "https://en.wikipedia.org/wiki/Harbour_%28software%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2544816"
+   ]
+  },
+  {
+   "name": "Hartmann pipeline",
+   "article": "https://en.wikipedia.org/wiki/Hartmann_pipeline",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5675045"
+   ]
+  },
+  {
+   "name": "Haskell",
+   "article": "https://en.wikipedia.org/wiki/Haskell",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q34010"
+   ]
+  },
+  {
+   "name": "Haxe",
+   "article": "https://en.wikipedia.org/wiki/Haxe",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q285886"
+   ]
+  },
+  {
+   "name": "Hermes",
+   "article": "https://en.wikipedia.org/wiki/Hermes_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q16989736"
+   ]
+  },
+  {
+   "name": "High Level Assembly",
+   "article": "https://en.wikipedia.org/wiki/High_Level_Assembly",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2630324"
+   ]
+  },
+  {
+   "name": "High Level Shader Language",
+   "article": "https://en.wikipedia.org/wiki/High_Level_Shader_Language",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q559519"
+   ]
+  },
+  {
+   "name": "Hollywood",
+   "article": "https://en.wikipedia.org/wiki/Hollywood_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1571870"
+   ]
+  },
+  {
+   "name": "HolyC",
+   "article": "https://en.wikipedia.org/wiki/TempleOS%23HolyC",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q22709094"
+   ]
+  },
+  {
+   "name": "Hop",
+   "article": "https://en.wikipedia.org/wiki/Hop_%28software%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3140351"
+   ]
+  },
+  {
+   "name": "Hope",
+   "article": "https://en.wikipedia.org/wiki/Hope_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4040754"
+   ]
+  },
+  {
+   "name": "Hopscotch",
+   "article": "https://en.wikipedia.org/wiki/Hopscotch_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17091945"
+   ]
+  },
+  {
+   "name": "Hume",
+   "article": "https://en.wikipedia.org/wiki/Hume_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5940583"
+   ]
+  },
+  {
+   "name": "HyperTalk",
+   "article": "https://en.wikipedia.org/wiki/HyperTalk",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q58329"
+   ]
+  },
+  {
+   "name": "Hy",
+   "article": "https://en.wikipedia.org/wiki/Hy_%28programming_language%29",
+   "section": "H",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q22661291"
+   ]
+  },
+  {
+   "name": "IBM Basic assembly language and successors",
+   "article": "https://en.wikipedia.org/wiki/IBM_Basic_assembly_language_and_successors",
+   "section": "I",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "IBM Informix-4GL",
+   "article": "https://en.wikipedia.org/wiki/IBM_Informix-4GL",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2816938"
+   ]
+  },
+  {
+   "name": "IBM RPG",
+   "article": "https://en.wikipedia.org/wiki/IBM_RPG",
+   "section": "I",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:rpg-ii",
+    "pldb:rpg-iii",
+    "wikidata:Q840543"
+   ]
+  },
+  {
+   "name": "Icon",
+   "article": "https://en.wikipedia.org/wiki/Icon_%28programming_language%29",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1156474"
+   ]
+  },
+  {
+   "name": "IDL",
+   "article": "https://en.wikipedia.org/wiki/IDL_%28programming_language%29",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1665857"
+   ]
+  },
+  {
+   "name": "Idris",
+   "article": "https://en.wikipedia.org/wiki/Idris_%28programming_language%29",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q15408477"
+   ]
+  },
+  {
+   "name": "Inform",
+   "article": "https://en.wikipedia.org/wiki/Inform_%28programming_language%29",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q539268"
+   ]
+  },
+  {
+   "name": "Instruction List",
+   "article": "https://en.wikipedia.org/wiki/Instruction_List",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q613332"
+   ]
+  },
+  {
+   "name": "Io",
+   "article": "https://en.wikipedia.org/wiki/Io_%28programming_language%29",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q756175"
+   ]
+  },
+  {
+   "name": "ISLISP",
+   "article": "https://en.wikipedia.org/wiki/ISLISP",
+   "section": "I",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5974027"
+   ]
+  },
+  {
+   "name": "J",
+   "article": "https://en.wikipedia.org/wiki/J_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q383994"
+   ]
+  },
+  {
+   "name": "J# (J sharp)",
+   "article": "https://en.wikipedia.org/wiki/J_Sharp",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1160312"
+   ]
+  },
+  {
+   "name": "J++ (J plus plus)",
+   "article": "https://en.wikipedia.org/wiki/Visual_J%2B%2B",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q973097"
+   ]
+  },
+  {
+   "name": "JADE",
+   "article": "https://en.wikipedia.org/wiki/JADE_%28programming_language%29",
+   "section": "J",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q1684174",
+    "wikidata:Q6107617"
+   ]
+  },
+  {
+   "name": "JAL",
+   "article": "https://en.wikipedia.org/wiki/JAL_%28compiler%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2005972"
+   ]
+  },
+  {
+   "name": "Janus (concurrent constraint programming language)",
+   "article": "https://en.wikipedia.org/wiki/Janus_%28concurrent_constraint_programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6155940"
+   ]
+  },
+  {
+   "name": "Janus (time-reversible computing programming language)",
+   "article": "https://en.wikipedia.org/wiki/Janus_%28time-reversible_computing_programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:janus-lang"
+   ]
+  },
+  {
+   "name": "JASS",
+   "article": "https://en.wikipedia.org/wiki/JASS_%28scripting_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1649380"
+   ]
+  },
+  {
+   "name": "Java",
+   "article": "https://en.wikipedia.org/wiki/Java_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q251"
+   ]
+  },
+  {
+   "name": "JavaFX Script",
+   "article": "https://en.wikipedia.org/wiki/JavaFX_Script",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q609804"
+   ]
+  },
+  {
+   "name": "JavaScript",
+   "article": "https://en.wikipedia.org/wiki/JavaScript",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2005"
+   ]
+  },
+  {
+   "name": "JCL",
+   "article": "https://en.wikipedia.org/wiki/Job_Control_Language",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1505372"
+   ]
+  },
+  {
+   "name": "JEAN",
+   "article": "https://en.wikipedia.org/wiki/JEAN",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6108047"
+   ]
+  },
+  {
+   "name": "Jess",
+   "article": "https://en.wikipedia.org/wiki/Jess_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2259392"
+   ]
+  },
+  {
+   "name": "Join Java",
+   "article": "https://en.wikipedia.org/wiki/Join_Java",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6268991"
+   ]
+  },
+  {
+   "name": "JOSS",
+   "article": "https://en.wikipedia.org/wiki/JOSS",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q974083"
+   ]
+  },
+  {
+   "name": "Joule",
+   "article": "https://en.wikipedia.org/wiki/Joule_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6294583"
+   ]
+  },
+  {
+   "name": "JOVIAL",
+   "article": "https://en.wikipedia.org/wiki/JOVIAL",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1277803"
+   ]
+  },
+  {
+   "name": "Joy",
+   "article": "https://en.wikipedia.org/wiki/Joy_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1265107"
+   ]
+  },
+  {
+   "name": "jq",
+   "article": "https://en.wikipedia.org/wiki/jq_%28programming_language%29",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q115959735"
+   ]
+  },
+  {
+   "name": "JScript",
+   "article": "https://en.wikipedia.org/wiki/JScript",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q553514"
+   ]
+  },
+  {
+   "name": "JScript .NET",
+   "article": "https://en.wikipedia.org/wiki/JScript_.NET",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1417175"
+   ]
+  },
+  {
+   "name": "Julia",
+   "article": "https://en.wikipedia.org/wiki/Julia_%28programming_language%29",
+   "section": "J",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q2613697",
+    "wikidata:Q28974961"
+   ]
+  },
+  {
+   "name": "Jython",
+   "article": "https://en.wikipedia.org/wiki/Jython",
+   "section": "J",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:jython"
+   ]
+  },
+  {
+   "name": "K",
+   "article": "https://en.wikipedia.org/wiki/K_%28programming_language%29",
+   "section": "K",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q138035154",
+    "wikidata:Q4042031",
+    "wikidata:Q9326009"
+   ]
+  },
+  {
+   "name": "Kaleidoscope",
+   "article": "https://en.wikipedia.org/wiki/Kaleidoscope_%28programming_language%29",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6351981"
+   ]
+  },
+  {
+   "name": "Karel",
+   "article": "https://en.wikipedia.org/wiki/Karel_%28programming_language%29",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q204693"
+   ]
+  },
+  {
+   "name": "KEE",
+   "article": "https://en.wikipedia.org/wiki/IntelliCorp_%28Software%29",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:kee"
+   ]
+  },
+  {
+   "name": "Kent Recursive Calculator",
+   "article": "https://en.wikipedia.org/wiki/Kent_Recursive_Calculator",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q375533"
+   ]
+  },
+  {
+   "name": "KiXtart",
+   "article": "https://en.wikipedia.org/wiki/KiXtart",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1477376"
+   ]
+  },
+  {
+   "name": "Klerer-May System",
+   "article": "https://en.wikipedia.org/wiki/Klerer-May_System",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6420637"
+   ]
+  },
+  {
+   "name": "Knowledge Interchange Format",
+   "article": "https://en.wikipedia.org/wiki/Knowledge_Interchange_Format",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:knowledge-interchange-format"
+   ]
+  },
+  {
+   "name": "Kodu",
+   "article": "https://en.wikipedia.org/wiki/Kodu_Game_Lab",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3496255"
+   ]
+  },
+  {
+   "name": "Kojo",
+   "article": "https://en.wikipedia.org/wiki/Kojo_%28programming_language%29",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6426496"
+   ]
+  },
+  {
+   "name": "Kotlin",
+   "article": "https://en.wikipedia.org/wiki/Kotlin",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3816639"
+   ]
+  },
+  {
+   "name": "KRL",
+   "article": "https://en.wikipedia.org/wiki/KRL_%28programming_language%29",
+   "section": "K",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q25245640",
+    "wikidata:Q6336852",
+    "wikidata:Q6410762"
+   ]
+  },
+  {
+   "name": "KUKA Robot Language",
+   "article": "https://en.wikipedia.org/wiki/KUKA_Robot_Language",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q25245640"
+   ]
+  },
+  {
+   "name": "KRYPTON",
+   "article": "https://en.wikipedia.org/wiki/KRYPTON",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6439704"
+   ]
+  },
+  {
+   "name": "KornShell",
+   "article": "https://en.wikipedia.org/wiki/KornShell",
+   "section": "K",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q204222"
+   ]
+  },
+  {
+   "name": "Kv (Kivy)",
+   "article": "https://en.wikipedia.org/wiki/Kivy_%28framework%29%23Kv_language",
+   "section": "K",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "LabVIEW",
+   "article": "https://en.wikipedia.org/wiki/LabVIEW",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:labview"
+   ]
+  },
+  {
+   "name": "Ladder",
+   "article": "https://en.wikipedia.org/wiki/Ladder_logic",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1411875"
+   ]
+  },
+  {
+   "name": "Language H",
+   "article": "https://en.wikipedia.org/wiki/Language_H",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q96386891"
+   ]
+  },
+  {
+   "name": "LANSA",
+   "article": "https://en.wikipedia.org/wiki/LANSA_%28development_environment%29",
+   "section": "L",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Lasso",
+   "article": "https://en.wikipedia.org/wiki/Lasso_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3218363"
+   ]
+  },
+  {
+   "name": "LC-3",
+   "article": "https://en.wikipedia.org/wiki/Little_Computer_3",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6457333"
+   ]
+  },
+  {
+   "name": "Lean",
+   "article": "https://en.wikipedia.org/wiki/Lean_%28proof_assistant%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6509476"
+   ]
+  },
+  {
+   "name": "Legoscript",
+   "article": "https://en.wikipedia.org/wiki/Legoscript",
+   "section": "L",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "LIL",
+   "article": "https://en.wikipedia.org/wiki/Little_Implementation_Language",
+   "section": "L",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:lil",
+    "pldb:lil-lang"
+   ]
+  },
+  {
+   "name": "LilyPond",
+   "article": "https://en.wikipedia.org/wiki/LilyPond",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:lilypond"
+   ]
+  },
+  {
+   "name": "Limbo",
+   "article": "https://en.wikipedia.org/wiki/Limbo_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q544927"
+   ]
+  },
+  {
+   "name": "LINC",
+   "article": "https://en.wikipedia.org/wiki/LINC_4GL",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6458741"
+   ]
+  },
+  {
+   "name": "Lingo",
+   "article": "https://en.wikipedia.org/wiki/Lingo_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q664867"
+   ]
+  },
+  {
+   "name": "LINQ",
+   "article": "https://en.wikipedia.org/wiki/LINQ",
+   "section": "L",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "LIS",
+   "article": "https://en.wikipedia.org/wiki/LIS_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6458817"
+   ]
+  },
+  {
+   "name": "LISA",
+   "article": "https://en.wikipedia.org/wiki/Language_for_Instruction_Set_Architecture",
+   "section": "L",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q6458803",
+    "wikidata:Q6559081"
+   ]
+  },
+  {
+   "name": "Lisp",
+   "article": "https://en.wikipedia.org/wiki/Lisp_%28programming_language%29",
+   "section": "L",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q132874",
+    "wikidata:Q4544975",
+    "wikidata:Q849146"
+   ]
+  },
+  {
+   "name": "Lithe",
+   "article": "https://en.wikipedia.org/wiki/Lithe_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6647840"
+   ]
+  },
+  {
+   "name": "Little b",
+   "article": "https://en.wikipedia.org/wiki/Little_b_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6652643"
+   ]
+  },
+  {
+   "name": "LiveCode",
+   "article": "https://en.wikipedia.org/wiki/LiveCode",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3068282"
+   ]
+  },
+  {
+   "name": "LiveScript",
+   "article": "https://en.wikipedia.org/wiki/LiveScript_%28programming_language%29",
+   "section": "L",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q16963446",
+    "wikidata:Q6309506"
+   ]
+  },
+  {
+   "name": "LLL",
+   "article": "https://en.wikipedia.org/wiki/Ethereum%23Contract_source_code",
+   "section": "L",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Logo",
+   "article": "https://en.wikipedia.org/wiki/Logo_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q201436"
+   ]
+  },
+  {
+   "name": "Logtalk",
+   "article": "https://en.wikipedia.org/wiki/Logtalk",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3258085"
+   ]
+  },
+  {
+   "name": "LotusScript",
+   "article": "https://en.wikipedia.org/wiki/LotusScript",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3260092"
+   ]
+  },
+  {
+   "name": "LPC",
+   "article": "https://en.wikipedia.org/wiki/LPC_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1798284"
+   ]
+  },
+  {
+   "name": "LSE",
+   "article": "https://en.wikipedia.org/wiki/LSE_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3206154"
+   ]
+  },
+  {
+   "name": "LSL",
+   "article": "https://en.wikipedia.org/wiki/Linden_Scripting_Language",
+   "section": "L",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:lsl",
+    "wikidata:Q1185543"
+   ]
+  },
+  {
+   "name": "Lua",
+   "article": "https://en.wikipedia.org/wiki/Lua",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q207316"
+   ]
+  },
+  {
+   "name": "Luau",
+   "article": "https://en.wikipedia.org/wiki/Luau_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q112119439"
+   ]
+  },
+  {
+   "name": "Lucid",
+   "article": "https://en.wikipedia.org/wiki/Lucid_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3561750"
+   ]
+  },
+  {
+   "name": "Lustre",
+   "article": "https://en.wikipedia.org/wiki/Lustre_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q464622"
+   ]
+  },
+  {
+   "name": "LYaPAS",
+   "article": "https://en.wikipedia.org/wiki/LYaPAS",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6460486"
+   ]
+  },
+  {
+   "name": "Lynx",
+   "article": "https://en.wikipedia.org/wiki/Lynx_%28programming_language%29",
+   "section": "L",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6709560"
+   ]
+  },
+  {
+   "name": "M Formula language",
+   "article": "https://en.wikipedia.org/wiki/M_Formula_language",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51241799"
+   ]
+  },
+  {
+   "name": "M4",
+   "article": "https://en.wikipedia.org/wiki/M4_%28computer_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q292068"
+   ]
+  },
+  {
+   "name": "Machine code",
+   "article": "https://en.wikipedia.org/wiki/Machine_code",
+   "section": "M",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "MAD",
+   "article": "https://en.wikipedia.org/wiki/MAD_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4117854"
+   ]
+  },
+  {
+   "name": "MAD/I",
+   "article": "https://en.wikipedia.org/wiki/MAD_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4117854"
+   ]
+  },
+  {
+   "name": "Magik",
+   "article": "https://en.wikipedia.org/wiki/Magik_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q9026871"
+   ]
+  },
+  {
+   "name": "Magma",
+   "article": "https://en.wikipedia.org/wiki/Magma_computer_algebra_system",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:magma"
+   ]
+  },
+  {
+   "name": "Maple",
+   "article": "https://en.wikipedia.org/wiki/Maple_%28software%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q139380"
+   ]
+  },
+  {
+   "name": "MAPPER",
+   "article": "https://en.wikipedia.org/wiki/MAPPER",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3287251"
+   ]
+  },
+  {
+   "name": "MARK-IV",
+   "article": "https://en.wikipedia.org/wiki/MARK_IV_%28software%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6714477"
+   ]
+  },
+  {
+   "name": "Mary",
+   "article": "https://en.wikipedia.org/wiki/Mary_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6778754"
+   ]
+  },
+  {
+   "name": "MASM Microsoft Assembly x86",
+   "article": "https://en.wikipedia.org/wiki/Microsoft_Macro_Assembler",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1756018"
+   ]
+  },
+  {
+   "name": "MATLAB",
+   "article": "https://en.wikipedia.org/wiki/MATLAB",
+   "section": "M",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q169478",
+    "wikidata:Q37805571"
+   ]
+  },
+  {
+   "name": "MATH-MATIC",
+   "article": "https://en.wikipedia.org/wiki/MATH-MATIC",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q16947404"
+   ]
+  },
+  {
+   "name": "Maude system",
+   "article": "https://en.wikipedia.org/wiki/Maude_system",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3558930"
+   ]
+  },
+  {
+   "name": "Max",
+   "article": "https://en.wikipedia.org/wiki/Max_%28software%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1707206"
+   ]
+  },
+  {
+   "name": "Maxima",
+   "article": "https://en.wikipedia.org/wiki/Maxima_%28software%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:maxima"
+   ]
+  },
+  {
+   "name": "MaxScript",
+   "article": "https://en.wikipedia.org/wiki/Autodesk_3ds_Max",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3651101"
+   ]
+  },
+  {
+   "name": "Maya (MEL)",
+   "article": "https://en.wikipedia.org/wiki/Maya_Embedded_Language",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3304832"
+   ]
+  },
+  {
+   "name": "MDL",
+   "article": "https://en.wikipedia.org/wiki/MDL_%28programming_language%29",
+   "section": "M",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:methodology-description-language",
+    "wikidata:Q1566567",
+    "wikidata:Q6715155"
+   ]
+  },
+  {
+   "name": "Mercury",
+   "article": "https://en.wikipedia.org/wiki/Mercury_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q206040"
+   ]
+  },
+  {
+   "name": "Mesa",
+   "article": "https://en.wikipedia.org/wiki/Mesa_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1042397"
+   ]
+  },
+  {
+   "name": "MHEG-5 (Interactive TV programming language)",
+   "article": "https://en.wikipedia.org/wiki/MHEG-5",
+   "section": "M",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Microcode",
+   "article": "https://en.wikipedia.org/wiki/Microassembler",
+   "section": "M",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Microsoft Power Fx",
+   "article": "https://en.wikipedia.org/wiki/Microsoft_Power_Fx",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q105743047"
+   ]
+  },
+  {
+   "name": "MIIS",
+   "article": "https://en.wikipedia.org/wiki/MIIS_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6716041"
+   ]
+  },
+  {
+   "name": "MIMIC",
+   "article": "https://en.wikipedia.org/wiki/MIMIC",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6716125"
+   ]
+  },
+  {
+   "name": "Mirah",
+   "article": "https://en.wikipedia.org/wiki/Mirah_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3858763"
+   ]
+  },
+  {
+   "name": "Miranda",
+   "article": "https://en.wikipedia.org/wiki/Miranda_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q780803"
+   ]
+  },
+  {
+   "name": "MIVA Script",
+   "article": "https://en.wikipedia.org/wiki/MIVA_Script",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3026464"
+   ]
+  },
+  {
+   "name": "ML",
+   "article": "https://en.wikipedia.org/wiki/ML_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q860654"
+   ]
+  },
+  {
+   "name": "Model 204",
+   "article": "https://en.wikipedia.org/wiki/Model_204",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:model-204"
+   ]
+  },
+  {
+   "name": "Modelica",
+   "article": "https://en.wikipedia.org/wiki/Modelica",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q385325"
+   ]
+  },
+  {
+   "name": "Modula",
+   "article": "https://en.wikipedia.org/wiki/Modula",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2428476"
+   ]
+  },
+  {
+   "name": "Modula-2",
+   "article": "https://en.wikipedia.org/wiki/Modula-2",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q777358"
+   ]
+  },
+  {
+   "name": "Modula-3",
+   "article": "https://en.wikipedia.org/wiki/Modula-3",
+   "section": "M",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:modula-3-star",
+    "wikidata:Q1928222"
+   ]
+  },
+  {
+   "name": "Mohol",
+   "article": "https://en.wikipedia.org/wiki/Mohol_programming_languages",
+   "section": "M",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Mojo",
+   "article": "https://en.wikipedia.org/wiki/Mojo_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q118152673"
+   ]
+  },
+  {
+   "name": "MOO",
+   "article": "https://en.wikipedia.org/wiki/MOO_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6717087"
+   ]
+  },
+  {
+   "name": "Mortran",
+   "article": "https://en.wikipedia.org/wiki/Mortran",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:mortran"
+   ]
+  },
+  {
+   "name": "Mouse",
+   "article": "https://en.wikipedia.org/wiki/Mouse_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17148785"
+   ]
+  },
+  {
+   "name": "MPD",
+   "article": "https://en.wikipedia.org/wiki/MPD_%28programming_language%29",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q840761"
+   ]
+  },
+  {
+   "name": "MSL",
+   "article": "https://en.wikipedia.org/wiki/MIRC_scripting_language",
+   "section": "M",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:mimix-stream-language",
+    "pldb:msl",
+    "wikidata:Q115570761",
+    "wikidata:Q300841"
+   ]
+  },
+  {
+   "name": "MUMPS",
+   "article": "https://en.wikipedia.org/wiki/MUMPS",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1882071"
+   ]
+  },
+  {
+   "name": "MuPAD",
+   "article": "https://en.wikipedia.org/wiki/MuPAD",
+   "section": "M",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:mupad"
+   ]
+  },
+  {
+   "name": "Mystic Programming Language",
+   "article": "https://en.wikipedia.org/wiki/Mystic_BBS",
+   "section": "M",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Napier88",
+   "article": "https://en.wikipedia.org/wiki/Napier88",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6964898"
+   ]
+  },
+  {
+   "name": "NASM",
+   "article": "https://en.wikipedia.org/wiki/Netwide_Assembler",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1571077"
+   ]
+  },
+  {
+   "name": "Neko",
+   "article": "https://en.wikipedia.org/wiki/Neko_%28programming_language%29",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3337877"
+   ]
+  },
+  {
+   "name": "NELIAC",
+   "article": "https://en.wikipedia.org/wiki/NELIAC",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6953482"
+   ]
+  },
+  {
+   "name": "Nemerle",
+   "article": "https://en.wikipedia.org/wiki/Nemerle",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2626413"
+   ]
+  },
+  {
+   "name": "NESL",
+   "article": "https://en.wikipedia.org/wiki/NESL",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6953575"
+   ]
+  },
+  {
+   "name": "Net.Data",
+   "article": "https://en.wikipedia.org/wiki/Net.Data",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6998127"
+   ]
+  },
+  {
+   "name": "NetLogo",
+   "article": "https://en.wikipedia.org/wiki/NetLogo",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q672307"
+   ]
+  },
+  {
+   "name": "NetRexx",
+   "article": "https://en.wikipedia.org/wiki/NetRexx",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6998311"
+   ]
+  },
+  {
+   "name": "NewLISP",
+   "article": "https://en.wikipedia.org/wiki/NewLISP",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q827233"
+   ]
+  },
+  {
+   "name": "NEWP",
+   "article": "https://en.wikipedia.org/wiki/NEWP",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q6953629"
+   ]
+  },
+  {
+   "name": "Newspeak",
+   "article": "https://en.wikipedia.org/wiki/Newspeak_%28programming_language%29",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7019813"
+   ]
+  },
+  {
+   "name": "NewtonScript",
+   "article": "https://en.wikipedia.org/wiki/NewtonScript",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1577753"
+   ]
+  },
+  {
+   "name": "Nial",
+   "article": "https://en.wikipedia.org/wiki/Nial",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7023815"
+   ]
+  },
+  {
+   "name": "Nim",
+   "article": "https://en.wikipedia.org/wiki/Nim_%28programming_language%29",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q20080327"
+   ]
+  },
+  {
+   "name": "Nix",
+   "article": "https://en.wikipedia.org/wiki/Nix_%28package_manager%29",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q131136950"
+   ]
+  },
+  {
+   "name": "Nord Programming Language",
+   "article": "https://en.wikipedia.org/wiki/Nord_Programming_Language",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7050550"
+   ]
+  },
+  {
+   "name": "Not eXactly C",
+   "article": "https://en.wikipedia.org/wiki/Not_eXactly_C",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1785511"
+   ]
+  },
+  {
+   "name": "Not Quite C",
+   "article": "https://en.wikipedia.org/wiki/Not_Quite_C",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1783709"
+   ]
+  },
+  {
+   "name": "Nu",
+   "article": "https://en.wikipedia.org/wiki/Nu_%28programming_language%29",
+   "section": "N",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q103695637",
+    "wikidata:Q7067717"
+   ]
+  },
+  {
+   "name": "Nullsoft Scriptable Install System",
+   "article": "https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:nsis"
+   ]
+  },
+  {
+   "name": "NWScript",
+   "article": "https://en.wikipedia.org/wiki/NWScript",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q584620"
+   ]
+  },
+  {
+   "name": "NXT-G",
+   "article": "https://en.wikipedia.org/wiki/NXT-G",
+   "section": "N",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:nxt-g"
+   ]
+  },
+  {
+   "name": "o:XML",
+   "article": "https://en.wikipedia.org/wiki/o%3AXML",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7072276"
+   ]
+  },
+  {
+   "name": "Oak",
+   "article": "https://en.wikipedia.org/wiki/Oak_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q10318621"
+   ]
+  },
+  {
+   "name": "Oberon",
+   "article": "https://en.wikipedia.org/wiki/Oberon_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1323362"
+   ]
+  },
+  {
+   "name": "OBJ2",
+   "article": "https://en.wikipedia.org/wiki/OBJ2",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7072318"
+   ]
+  },
+  {
+   "name": "Object Lisp",
+   "article": "https://en.wikipedia.org/wiki/Object_Lisp",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7075036"
+   ]
+  },
+  {
+   "name": "ObjectLOGO",
+   "article": "https://en.wikipedia.org/wiki/ObjectLOGO",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7075026"
+   ]
+  },
+  {
+   "name": "Object REXX",
+   "article": "https://en.wikipedia.org/wiki/Object_REXX",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2437099"
+   ]
+  },
+  {
+   "name": "Object Pascal",
+   "article": "https://en.wikipedia.org/wiki/Object_Pascal",
+   "section": "O",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q633894",
+    "wikidata:Q81571"
+   ]
+  },
+  {
+   "name": "Objective-C",
+   "article": "https://en.wikipedia.org/wiki/Objective-C",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q188531"
+   ]
+  },
+  {
+   "name": "Obliq",
+   "article": "https://en.wikipedia.org/wiki/Obliq",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7075164"
+   ]
+  },
+  {
+   "name": "OCaml",
+   "article": "https://en.wikipedia.org/wiki/OCaml",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q212587"
+   ]
+  },
+  {
+   "name": "occam",
+   "article": "https://en.wikipedia.org/wiki/occam_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q838062"
+   ]
+  },
+  {
+   "name": "occam-π",
+   "article": "https://en.wikipedia.org/wiki/occam-%CF%80",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7075672"
+   ]
+  },
+  {
+   "name": "OmniMark",
+   "article": "https://en.wikipedia.org/wiki/OmniMark",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7090311"
+   ]
+  },
+  {
+   "name": "Opa",
+   "article": "https://en.wikipedia.org/wiki/Opa_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3353033"
+   ]
+  },
+  {
+   "name": "Opal",
+   "article": "https://en.wikipedia.org/wiki/Opal_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2024920"
+   ]
+  },
+  {
+   "name": "Open Programming Language",
+   "article": "https://en.wikipedia.org/wiki/Open_Programming_Language",
+   "section": "O",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:opl",
+    "pldb:opl-langage-informatique",
+    "wikidata:Q1700602"
+   ]
+  },
+  {
+   "name": "OpenCL",
+   "article": "https://en.wikipedia.org/wiki/OpenCL",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q681360"
+   ]
+  },
+  {
+   "name": "OpenEdge Advanced Business Language",
+   "article": "https://en.wikipedia.org/wiki/OpenEdge_Advanced_Business_Language",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1963461"
+   ]
+  },
+  {
+   "name": "OpenQASM",
+   "article": "https://en.wikipedia.org/wiki/OpenQASM",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q48998901"
+   ]
+  },
+  {
+   "name": "OPS5",
+   "article": "https://en.wikipedia.org/wiki/OPS5",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7072853"
+   ]
+  },
+  {
+   "name": "OptimJ",
+   "article": "https://en.wikipedia.org/wiki/OptimJ",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3354460"
+   ]
+  },
+  {
+   "name": "Orc",
+   "article": "https://en.wikipedia.org/wiki/Orc_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7100142"
+   ]
+  },
+  {
+   "name": "ORCA/Modula-2",
+   "article": "https://en.wikipedia.org/wiki/ORCA/Modula-2",
+   "section": "O",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q7072910",
+    "wikidata:Q777358"
+   ]
+  },
+  {
+   "name": "Oriel",
+   "article": "https://en.wikipedia.org/wiki/Oriel_%28scripting_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7102251"
+   ]
+  },
+  {
+   "name": "Orwell",
+   "article": "https://en.wikipedia.org/wiki/Orwell_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7105278"
+   ]
+  },
+  {
+   "name": "Oxygene",
+   "article": "https://en.wikipedia.org/wiki/Oxygene_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q910482"
+   ]
+  },
+  {
+   "name": "Oz",
+   "article": "https://en.wikipedia.org/wiki/Oz_%28programming_language%29",
+   "section": "O",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1208217"
+   ]
+  },
+  {
+   "name": "P",
+   "article": "https://en.wikipedia.org/wiki/P_%28programming_language%29",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:p",
+    "pldb:p-star",
+    "pldb:pqq",
+    "wikidata:Q17143156",
+    "wikidata:Q2072087",
+    "wikidata:Q30599213"
+   ]
+  },
+  {
+   "name": "P4",
+   "article": "https://en.wikipedia.org/wiki/P4_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q25215425"
+   ]
+  },
+  {
+   "name": "P′′",
+   "article": "https://en.wikipedia.org/wiki/P%E2%80%B2%E2%80%B2",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:p",
+    "pldb:p-star",
+    "pldb:pqq",
+    "wikidata:Q1275874",
+    "wikidata:Q17143156",
+    "wikidata:Q2072087",
+    "wikidata:Q30599213",
+    "wikidata:Q7119556"
+   ]
+  },
+  {
+   "name": "ParaSail",
+   "article": "https://en.wikipedia.org/wiki/ParaSail_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7133637"
+   ]
+  },
+  {
+   "name": "PARI/GP",
+   "article": "https://en.wikipedia.org/wiki/PARI/GP",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3359573"
+   ]
+  },
+  {
+   "name": "Pascal",
+   "article": "https://en.wikipedia.org/wiki/Pascal_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q81571"
+   ]
+  },
+  {
+   "name": "Pascal Script",
+   "article": "https://en.wikipedia.org/wiki/Pascal_Script",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q16616746"
+   ]
+  },
+  {
+   "name": "PCASTL",
+   "article": "https://en.wikipedia.org/wiki/PCASTL",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7118490"
+   ]
+  },
+  {
+   "name": "PCF",
+   "article": "https://en.wikipedia.org/wiki/Programming_language_for_Computable_Functions",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7248484"
+   ]
+  },
+  {
+   "name": "PDL",
+   "article": "https://en.wikipedia.org/wiki/Perl_Data_Language",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:pdl",
+    "wikidata:Q4046690"
+   ]
+  },
+  {
+   "name": "PEARL",
+   "article": "https://en.wikipedia.org/wiki/PEARL_%28programming_language%29",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q2043979",
+    "wikidata:Q42478"
+   ]
+  },
+  {
+   "name": "PeopleCode",
+   "article": "https://en.wikipedia.org/wiki/PeopleCode",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7165836"
+   ]
+  },
+  {
+   "name": "Perl",
+   "article": "https://en.wikipedia.org/wiki/Perl",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q42478"
+   ]
+  },
+  {
+   "name": "Pharo",
+   "article": "https://en.wikipedia.org/wiki/Pharo",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q369096"
+   ]
+  },
+  {
+   "name": "PHP",
+   "article": "https://en.wikipedia.org/wiki/PHP",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q59"
+   ]
+  },
+  {
+   "name": "Picolisp",
+   "article": "https://en.wikipedia.org/wiki/Picolisp",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7191049"
+   ]
+  },
+  {
+   "name": "Pict",
+   "article": "https://en.wikipedia.org/wiki/Pict_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7191089"
+   ]
+  },
+  {
+   "name": "Pike",
+   "article": "https://en.wikipedia.org/wiki/Pike_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1572341"
+   ]
+  },
+  {
+   "name": "PILOT",
+   "article": "https://en.wikipedia.org/wiki/PILOT",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2044212"
+   ]
+  },
+  {
+   "name": "Pipelines",
+   "article": "https://en.wikipedia.org/wiki/Hartmann_pipeline",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:pipelines"
+   ]
+  },
+  {
+   "name": "Pizza",
+   "article": "https://en.wikipedia.org/wiki/Pizza_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q10350148"
+   ]
+  },
+  {
+   "name": "PL-11",
+   "article": "https://en.wikipedia.org/wiki/PL-11",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7119550"
+   ]
+  },
+  {
+   "name": "PL/0",
+   "article": "https://en.wikipedia.org/wiki/PL/0",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1719128"
+   ]
+  },
+  {
+   "name": "PL/B",
+   "article": "https://en.wikipedia.org/wiki/Programming_Language_for_Business",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:databus",
+    "wikidata:Q2924087"
+   ]
+  },
+  {
+   "name": "PL/C",
+   "article": "https://en.wikipedia.org/wiki/PL/C",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:c--",
+    "wikidata:Q5005842",
+    "wikidata:Q7119554",
+    "wikidata:Q81348"
+   ]
+  },
+  {
+   "name": "PL/I",
+   "article": "https://en.wikipedia.org/wiki/PL/I",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:pl-i",
+    "pldb:pl-i-subset-g",
+    "wikidata:Q223433"
+   ]
+  },
+  {
+   "name": "PL/M",
+   "article": "https://en.wikipedia.org/wiki/PL/M",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2160963"
+   ]
+  },
+  {
+   "name": "PL/P",
+   "article": "https://en.wikipedia.org/wiki/PL/P",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:pqq",
+    "wikidata:Q1275874",
+    "wikidata:Q2072087",
+    "wikidata:Q7119556"
+   ]
+  },
+  {
+   "name": "PL/S",
+   "article": "https://en.wikipedia.org/wiki/PL/S",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2044321"
+   ]
+  },
+  {
+   "name": "PL/SQL",
+   "article": "https://en.wikipedia.org/wiki/PL/SQL",
+   "section": "P",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q10366596",
+    "wikidata:Q41574",
+    "wikidata:Q47607"
+   ]
+  },
+  {
+   "name": "PL360",
+   "article": "https://en.wikipedia.org/wiki/PL360",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7119559"
+   ]
+  },
+  {
+   "name": "PLANC",
+   "article": "https://en.wikipedia.org/wiki/PLANC",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7119581"
+   ]
+  },
+  {
+   "name": "Plankalkül",
+   "article": "https://en.wikipedia.org/wiki/Plankalk%C3%BCl",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q34280"
+   ]
+  },
+  {
+   "name": "Planner",
+   "article": "https://en.wikipedia.org/wiki/Planner_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2349274"
+   ]
+  },
+  {
+   "name": "PLEX",
+   "article": "https://en.wikipedia.org/wiki/PLEX_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7119636"
+   ]
+  },
+  {
+   "name": "PLEXIL",
+   "article": "https://en.wikipedia.org/wiki/PLEXIL",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7119633"
+   ]
+  },
+  {
+   "name": "Plus",
+   "article": "https://en.wikipedia.org/wiki/Plus_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7197427"
+   ]
+  },
+  {
+   "name": "Pony",
+   "article": "https://en.wikipedia.org/wiki/Pony_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51160093"
+   ]
+  },
+  {
+   "name": "POP-11",
+   "article": "https://en.wikipedia.org/wiki/POP-11",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7120001"
+   ]
+  },
+  {
+   "name": "POP-2",
+   "article": "https://en.wikipedia.org/wiki/POP-2",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7120003"
+   ]
+  },
+  {
+   "name": "PostScript",
+   "article": "https://en.wikipedia.org/wiki/PostScript",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q218170"
+   ]
+  },
+  {
+   "name": "PortablE",
+   "article": "https://en.wikipedia.org/wiki/Amiga_E%23PortablE",
+   "section": "P",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "POV-Ray SDL",
+   "article": "https://en.wikipedia.org/wiki/POV-Ray",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:pov-ray-sdl"
+   ]
+  },
+  {
+   "name": "PowerBuilder",
+   "article": "https://en.wikipedia.org/wiki/PowerBuilder",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:powerbuilder"
+   ]
+  },
+  {
+   "name": "Powerhouse",
+   "article": "https://en.wikipedia.org/wiki/Powerhouse_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7236198"
+   ]
+  },
+  {
+   "name": "PowerShell",
+   "article": "https://en.wikipedia.org/wiki/PowerShell",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q840410"
+   ]
+  },
+  {
+   "name": "Polymorphic Programming Language",
+   "article": "https://en.wikipedia.org/wiki/Polymorphic_Programming_Language",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7226597"
+   ]
+  },
+  {
+   "name": "Processing",
+   "article": "https://en.wikipedia.org/wiki/Processing",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1053535"
+   ]
+  },
+  {
+   "name": "Prograph",
+   "article": "https://en.wikipedia.org/wiki/Prograph",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7248516"
+   ]
+  },
+  {
+   "name": "Project Verona",
+   "article": "https://en.wikipedia.org/wiki/Project_Verona",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q104870483"
+   ]
+  },
+  {
+   "name": "Prolog",
+   "article": "https://en.wikipedia.org/wiki/Prolog",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q163468"
+   ]
+  },
+  {
+   "name": "PROMAL",
+   "article": "https://en.wikipedia.org/wiki/PROMAL",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7120399"
+   ]
+  },
+  {
+   "name": "Promela",
+   "article": "https://en.wikipedia.org/wiki/Promela",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:promela"
+   ]
+  },
+  {
+   "name": "PROSE modeling language",
+   "article": "https://en.wikipedia.org/wiki/PROSE_modeling_language",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17162806"
+   ]
+  },
+  {
+   "name": "PROTEL",
+   "article": "https://en.wikipedia.org/wiki/Protel",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7251525"
+   ]
+  },
+  {
+   "name": "Pro*C",
+   "article": "https://en.wikipedia.org/wiki/Pro%2AC",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2111340"
+   ]
+  },
+  {
+   "name": "Pure",
+   "article": "https://en.wikipedia.org/wiki/Pure_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7261054"
+   ]
+  },
+  {
+   "name": "Pure Data",
+   "article": "https://en.wikipedia.org/wiki/Pure_Data",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1401466"
+   ]
+  },
+  {
+   "name": "PureScript",
+   "article": "https://en.wikipedia.org/wiki/PureScript",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q65082796"
+   ]
+  },
+  {
+   "name": "Python",
+   "article": "https://en.wikipedia.org/wiki/Python_%28programming_language%29",
+   "section": "P",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28865"
+   ]
+  },
+  {
+   "name": "Q (programming language from Kx Systems)",
+   "article": "https://en.wikipedia.org/wiki/Q_%28programming_language_from_Kx_Systems%29",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7265638"
+   ]
+  },
+  {
+   "name": "Q#",
+   "article": "https://en.wikipedia.org/wiki/Q_Sharp",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q45322975"
+   ]
+  },
+  {
+   "name": "Qalb",
+   "article": "https://en.wikipedia.org/wiki/Qalb_%28programming_language%29",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7265978"
+   ]
+  },
+  {
+   "name": ".QL",
+   "article": "https://en.wikipedia.org/wiki/.QL",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4545417"
+   ]
+  },
+  {
+   "name": "QPL",
+   "article": "https://en.wikipedia.org/wiki/Quantum_programming",
+   "section": "Q",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "QtScript",
+   "article": "https://en.wikipedia.org/wiki/QtScript",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:qtscript"
+   ]
+  },
+  {
+   "name": "QuakeC",
+   "article": "https://en.wikipedia.org/wiki/QuakeC",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2122062"
+   ]
+  },
+  {
+   "name": "Quantum Computation Language",
+   "article": "https://en.wikipedia.org/wiki/Quantum_Computation_Language",
+   "section": "Q",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q48998905"
+   ]
+  },
+  {
+   "name": "R",
+   "article": "https://en.wikipedia.org/wiki/R_%28programming_language%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q206904"
+   ]
+  },
+  {
+   "name": "R++",
+   "article": "https://en.wikipedia.org/wiki/R%2B%2B",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7273242"
+   ]
+  },
+  {
+   "name": "Racket",
+   "article": "https://en.wikipedia.org/wiki/Racket_%28programming_language%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1254148"
+   ]
+  },
+  {
+   "name": "Raku",
+   "article": "https://en.wikipedia.org/wiki/Raku_%28programming_language%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2052676"
+   ]
+  },
+  {
+   "name": "RAPID",
+   "article": "https://en.wikipedia.org/wiki/RAPID",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7275797"
+   ]
+  },
+  {
+   "name": "Rapira",
+   "article": "https://en.wikipedia.org/wiki/Rapira",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4117140"
+   ]
+  },
+  {
+   "name": "Ratfiv",
+   "article": "https://en.wikipedia.org/wiki/Ratfiv",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:ratfiv"
+   ]
+  },
+  {
+   "name": "Ratfor",
+   "article": "https://en.wikipedia.org/wiki/Ratfor",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4115288"
+   ]
+  },
+  {
+   "name": "rc",
+   "article": "https://en.wikipedia.org/wiki/Rc_%28Unix_shell%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1050629"
+   ]
+  },
+  {
+   "name": "Reason",
+   "article": "https://en.wikipedia.org/wiki/Reason_%28programming_language%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q63565848"
+   ]
+  },
+  {
+   "name": "REBOL",
+   "article": "https://en.wikipedia.org/wiki/REBOL",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1359171"
+   ]
+  },
+  {
+   "name": "Red",
+   "article": "https://en.wikipedia.org/wiki/Red_%28programming_language%29",
+   "section": "R",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:red-lang",
+    "wikidata:Q3217187"
+   ]
+  },
+  {
+   "name": "Redcode",
+   "article": "https://en.wikipedia.org/wiki/Core_War",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4048122"
+   ]
+  },
+  {
+   "name": "REFAL",
+   "article": "https://en.wikipedia.org/wiki/REFAL",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2626418"
+   ]
+  },
+  {
+   "name": "ReScript",
+   "article": "https://en.wikipedia.org/wiki/ReScript",
+   "section": "R",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:rescript",
+    "wikidata:Q116885321"
+   ]
+  },
+  {
+   "name": "REXX",
+   "article": "https://en.wikipedia.org/wiki/REXX",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q685820"
+   ]
+  },
+  {
+   "name": "RPG",
+   "article": "https://en.wikipedia.org/wiki/IBM_RPG",
+   "section": "R",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:rpg-ii",
+    "pldb:rpg-iii",
+    "wikidata:Q840543"
+   ]
+  },
+  {
+   "name": "RPL",
+   "article": "https://en.wikipedia.org/wiki/RPL_%28programming_language%29",
+   "section": "R",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:rpl-lang",
+    "wikidata:Q7301377",
+    "wikidata:Q960361"
+   ]
+  },
+  {
+   "name": "RSL",
+   "article": "https://en.wikipedia.org/wiki/Robot_Battle%23Robot_scripting_language",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4047892"
+   ]
+  },
+  {
+   "name": "RTL/2",
+   "article": "https://en.wikipedia.org/wiki/RTL/2",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7277848"
+   ]
+  },
+  {
+   "name": "Ruby",
+   "article": "https://en.wikipedia.org/wiki/Ruby_%28programming_language%29",
+   "section": "R",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q161053",
+    "wikidata:Q7376262"
+   ]
+  },
+  {
+   "name": "Rust",
+   "article": "https://en.wikipedia.org/wiki/Rust_%28programming_language%29",
+   "section": "R",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q575650"
+   ]
+  },
+  {
+   "name": "S",
+   "article": "https://en.wikipedia.org/wiki/S_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1283865"
+   ]
+  },
+  {
+   "name": "S-Lang",
+   "article": "https://en.wikipedia.org/wiki/S-Lang",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "github_linguist:239357863",
+    "pldb:s-lang",
+    "pldb:slang"
+   ]
+  },
+  {
+   "name": "S-PLUS",
+   "article": "https://en.wikipedia.org/wiki/S-PLUS",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q206904",
+    "wikidata:Q3267991"
+   ]
+  },
+  {
+   "name": "S2",
+   "article": "https://en.wikipedia.org/wiki/S2_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7388255"
+   ]
+  },
+  {
+   "name": "S3",
+   "article": "https://en.wikipedia.org/wiki/S3_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7388288"
+   ]
+  },
+  {
+   "name": "SA-C",
+   "article": "https://en.wikipedia.org/wiki/SA-C_%28programming_language%29",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:sa-c-programming-language",
+    "pldb:sac-programming-language",
+    "wikidata:Q7388405",
+    "wikidata:Q7388480"
+   ]
+  },
+  {
+   "name": "SabreTalk",
+   "article": "https://en.wikipedia.org/wiki/SabreTalk",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2210114"
+   ]
+  },
+  {
+   "name": "SAIL",
+   "article": "https://en.wikipedia.org/wiki/SAIL_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2204794"
+   ]
+  },
+  {
+   "name": "SAKO",
+   "article": "https://en.wikipedia.org/wiki/SAKO_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q9326009"
+   ]
+  },
+  {
+   "name": "SAS",
+   "article": "https://en.wikipedia.org/wiki/SAS_%28software%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7388824"
+   ]
+  },
+  {
+   "name": "SASL",
+   "article": "https://en.wikipedia.org/wiki/SASL_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4048691"
+   ]
+  },
+  {
+   "name": "Sather",
+   "article": "https://en.wikipedia.org/wiki/Sather",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q602012"
+   ]
+  },
+  {
+   "name": "Sawzall",
+   "article": "https://en.wikipedia.org/wiki/Sawzall_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q970424"
+   ]
+  },
+  {
+   "name": "SBL",
+   "article": "https://en.wikipedia.org/wiki/Superbase_database",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2367280"
+   ]
+  },
+  {
+   "name": "Scala",
+   "article": "https://en.wikipedia.org/wiki/Scala_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q460584"
+   ]
+  },
+  {
+   "name": "Scheme",
+   "article": "https://en.wikipedia.org/wiki/Scheme_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q187560"
+   ]
+  },
+  {
+   "name": "Scilab",
+   "article": "https://en.wikipedia.org/wiki/Scilab",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q828742"
+   ]
+  },
+  {
+   "name": "Scratch",
+   "article": "https://en.wikipedia.org/wiki/Scratch_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q275131"
+   ]
+  },
+  {
+   "name": "ScratchJr",
+   "article": "https://en.wikipedia.org/wiki/ScratchJr",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q18215985"
+   ]
+  },
+  {
+   "name": "Script.NET",
+   "article": "https://en.wikipedia.org/wiki/Script.NET",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q820978"
+   ]
+  },
+  {
+   "name": "Sed",
+   "article": "https://en.wikipedia.org/wiki/Sed",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q305876"
+   ]
+  },
+  {
+   "name": "Seed7",
+   "article": "https://en.wikipedia.org/wiki/Seed7",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1186348"
+   ]
+  },
+  {
+   "name": "Self",
+   "article": "https://en.wikipedia.org/wiki/Self_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1864529"
+   ]
+  },
+  {
+   "name": "SenseTalk",
+   "article": "https://en.wikipedia.org/wiki/SenseTalk",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7450966"
+   ]
+  },
+  {
+   "name": "SequenceL",
+   "article": "https://en.wikipedia.org/wiki/SequenceL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7452449"
+   ]
+  },
+  {
+   "name": "Serpent",
+   "article": "https://en.wikipedia.org/wiki/Ethereum%23Programming_languages",
+   "section": "S",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "SETL",
+   "article": "https://en.wikipedia.org/wiki/SETL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2205923"
+   ]
+  },
+  {
+   "name": "Short Code",
+   "article": "https://en.wikipedia.org/wiki/Short_Code_%28computer_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2566011"
+   ]
+  },
+  {
+   "name": "SIGNAL",
+   "article": "https://en.wikipedia.org/wiki/SIGNAL_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7390335"
+   ]
+  },
+  {
+   "name": "SiMPLE",
+   "article": "https://en.wikipedia.org/wiki/SiMPLE",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7506340"
+   ]
+  },
+  {
+   "name": "SIMPOL",
+   "article": "https://en.wikipedia.org/wiki/Superbase_database%23History",
+   "section": "S",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "SIMSCRIPT",
+   "article": "https://en.wikipedia.org/wiki/SIMSCRIPT",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7390408"
+   ]
+  },
+  {
+   "name": "Simula",
+   "article": "https://en.wikipedia.org/wiki/Simula",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q212569"
+   ]
+  },
+  {
+   "name": "Simulink",
+   "article": "https://en.wikipedia.org/wiki/Simulink",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q606550"
+   ]
+  },
+  {
+   "name": "SISAL",
+   "article": "https://en.wikipedia.org/wiki/SISAL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7390483"
+   ]
+  },
+  {
+   "name": "SKILL",
+   "article": "https://en.wikipedia.org/wiki/SKILL",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q29319364",
+    "wikidata:Q5016377"
+   ]
+  },
+  {
+   "name": "SLIP",
+   "article": "https://en.wikipedia.org/wiki/SLIP_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7390955"
+   ]
+  },
+  {
+   "name": "SMALL",
+   "article": "https://en.wikipedia.org/wiki/SMALL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7391044"
+   ]
+  },
+  {
+   "name": "Smalltalk",
+   "article": "https://en.wikipedia.org/wiki/Smalltalk",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q235086"
+   ]
+  },
+  {
+   "name": "SML",
+   "article": "https://en.wikipedia.org/wiki/Standard_ML",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q597330"
+   ]
+  },
+  {
+   "name": "Snap!",
+   "article": "https://en.wikipedia.org/wiki/Snap%21_%28programming_language%29",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:snap",
+    "wikidata:Q1002996",
+    "wikidata:Q85798397"
+   ]
+  },
+  {
+   "name": "SNOBOL",
+   "article": "https://en.wikipedia.org/wiki/SNOBOL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q522041"
+   ]
+  },
+  {
+   "name": "Snowball",
+   "article": "https://en.wikipedia.org/wiki/Snowball_programming_language",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7548444"
+   ]
+  },
+  {
+   "name": "SOL",
+   "article": "https://en.wikipedia.org/wiki/Secure_Operations_Language",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q15712808",
+    "wikidata:Q7424380"
+   ]
+  },
+  {
+   "name": "Solidity",
+   "article": "https://en.wikipedia.org/wiki/Solidity",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q24909565"
+   ]
+  },
+  {
+   "name": "SOPHAEROS",
+   "article": "https://en.wikipedia.org/wiki/SOPHAEROS",
+   "section": "S",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Source",
+   "article": "https://en.wikipedia.org/wiki/Source_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q85802202"
+   ]
+  },
+  {
+   "name": "SPARK",
+   "article": "https://en.wikipedia.org/wiki/SPARK_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3493345"
+   ]
+  },
+  {
+   "name": "Speakeasy",
+   "article": "https://en.wikipedia.org/wiki/Speakeasy_%28computational_environment%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7574230"
+   ]
+  },
+  {
+   "name": "Speedcode",
+   "article": "https://en.wikipedia.org/wiki/Speedcoding",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475416"
+   ]
+  },
+  {
+   "name": "SPIN",
+   "article": "https://en.wikipedia.org/wiki/Parallax_Propeller",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:spin"
+   ]
+  },
+  {
+   "name": "SP/k",
+   "article": "https://en.wikipedia.org/wiki/SP/k",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7392398"
+   ]
+  },
+  {
+   "name": "SPL",
+   "article": "https://en.wikipedia.org/wiki/Systems_Programming_Language",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q1140574",
+    "wikidata:Q28942400"
+   ]
+  },
+  {
+   "name": "SPS",
+   "article": "https://en.wikipedia.org/wiki/IBM_1401_Symbolic_Programming_System",
+   "section": "S",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "SQL",
+   "article": "https://en.wikipedia.org/wiki/SQL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q47607"
+   ]
+  },
+  {
+   "name": "SQR",
+   "article": "https://en.wikipedia.org/wiki/SQR",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3459986"
+   ]
+  },
+  {
+   "name": "Squeak",
+   "article": "https://en.wikipedia.org/wiki/Squeak_%28programming_language%29",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q235086",
+    "wikidata:Q762464"
+   ]
+  },
+  {
+   "name": "Squirrel",
+   "article": "https://en.wikipedia.org/wiki/Squirrel_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1200182"
+   ]
+  },
+  {
+   "name": "SR",
+   "article": "https://en.wikipedia.org/wiki/SR_%28programming_language%29",
+   "section": "S",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:sr",
+    "wikidata:Q446168"
+   ]
+  },
+  {
+   "name": "S/SL",
+   "article": "https://en.wikipedia.org/wiki/S/SL_programming_language",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q12179525"
+   ]
+  },
+  {
+   "name": "Starlogo",
+   "article": "https://en.wikipedia.org/wiki/Starlogo",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4050034"
+   ]
+  },
+  {
+   "name": "Stata",
+   "article": "https://en.wikipedia.org/wiki/Stata",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1204300"
+   ]
+  },
+  {
+   "name": "Stateflow",
+   "article": "https://en.wikipedia.org/wiki/Stateflow",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1266659"
+   ]
+  },
+  {
+   "name": "Strand",
+   "article": "https://en.wikipedia.org/wiki/Strand_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7621223"
+   ]
+  },
+  {
+   "name": "Strongtalk",
+   "article": "https://en.wikipedia.org/wiki/Strongtalk",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2357042"
+   ]
+  },
+  {
+   "name": "Structured Text",
+   "article": "https://en.wikipedia.org/wiki/Structured_Text",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1753738"
+   ]
+  },
+  {
+   "name": "Subtext",
+   "article": "https://en.wikipedia.org/wiki/Subtext_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475887"
+   ]
+  },
+  {
+   "name": "SuperCollider",
+   "article": "https://en.wikipedia.org/wiki/SuperCollider",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2299598"
+   ]
+  },
+  {
+   "name": "Superplan",
+   "article": "https://en.wikipedia.org/wiki/Superplan",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q28942263"
+   ]
+  },
+  {
+   "name": "SuperTalk",
+   "article": "https://en.wikipedia.org/wiki/SuperTalk",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7642069"
+   ]
+  },
+  {
+   "name": "Swift (Apple programming language)",
+   "article": "https://en.wikipedia.org/wiki/Swift_%28programming_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17118377"
+   ]
+  },
+  {
+   "name": "Swift (parallel scripting language)",
+   "article": "https://en.wikipedia.org/wiki/Swift_%28parallel_scripting_language%29",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17147733"
+   ]
+  },
+  {
+   "name": "SYCL",
+   "article": "https://en.wikipedia.org/wiki/SYCL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q41776209"
+   ]
+  },
+  {
+   "name": "SYMPL",
+   "article": "https://en.wikipedia.org/wiki/SYMPL",
+   "section": "S",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7395256"
+   ]
+  },
+  {
+   "name": "T",
+   "article": "https://en.wikipedia.org/wiki/T_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7672623"
+   ]
+  },
+  {
+   "name": "TACL",
+   "article": "https://en.wikipedia.org/wiki/TACL_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q598722"
+   ]
+  },
+  {
+   "name": "Tcl",
+   "article": "https://en.wikipedia.org/wiki/Tcl_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q5288"
+   ]
+  },
+  {
+   "name": "Tea",
+   "article": "https://en.wikipedia.org/wiki/Tea_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3516674"
+   ]
+  },
+  {
+   "name": "TELCOMP",
+   "article": "https://en.wikipedia.org/wiki/TELCOMP",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7669982"
+   ]
+  },
+  {
+   "name": "Tensilica",
+   "article": "https://en.wikipedia.org/wiki/Tensilica",
+   "section": "T",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "TeX",
+   "article": "https://en.wikipedia.org/wiki/TeX",
+   "section": "T",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q5301",
+    "wikidata:Q7475278"
+   ]
+  },
+  {
+   "name": "Text Adventure Development System",
+   "article": "https://en.wikipedia.org/wiki/Text_Adventure_Development_System",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4050562"
+   ]
+  },
+  {
+   "name": "Text Editor and Corrector",
+   "article": "https://en.wikipedia.org/wiki/Text_Editor_and_Corrector",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1547448"
+   ]
+  },
+  {
+   "name": "Text Processing Utility",
+   "article": "https://en.wikipedia.org/wiki/DEC_Text_Processing_Utility",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7708401"
+   ]
+  },
+  {
+   "name": "TMG (TransMoGrifier)",
+   "article": "https://en.wikipedia.org/wiki/TMG_%28language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1754079"
+   ]
+  },
+  {
+   "name": "Tom",
+   "article": "https://en.wikipedia.org/wiki/Tom_%28pattern_matching_language%29",
+   "section": "T",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:tom",
+    "wikidata:Q7424115",
+    "wikidata:Q7670997"
+   ]
+  },
+  {
+   "name": "Topspeed (Clarion)",
+   "article": "https://en.wikipedia.org/wiki/Clarion_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1095608"
+   ]
+  },
+  {
+   "name": "TRAC",
+   "article": "https://en.wikipedia.org/wiki/TRAC_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2842324"
+   ]
+  },
+  {
+   "name": "Transact-SQL",
+   "article": "https://en.wikipedia.org/wiki/Transact-SQL",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1411245"
+   ]
+  },
+  {
+   "name": "Transaction Application Language",
+   "article": "https://en.wikipedia.org/wiki/Transaction_Application_Language",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q389350"
+   ]
+  },
+  {
+   "name": "Transcript (LiveCode)",
+   "article": "https://en.wikipedia.org/wiki/Transcript_%28programming_language%29",
+   "section": "T",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "TTCN",
+   "article": "https://en.wikipedia.org/wiki/TTCN",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2007031"
+   ]
+  },
+  {
+   "name": "TTM",
+   "article": "https://en.wikipedia.org/wiki/TTM_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7671956"
+   ]
+  },
+  {
+   "name": "Turing",
+   "article": "https://en.wikipedia.org/wiki/Turing_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q490481"
+   ]
+  },
+  {
+   "name": "TUTOR",
+   "article": "https://en.wikipedia.org/wiki/TUTOR",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7672049"
+   ]
+  },
+  {
+   "name": "TXL",
+   "article": "https://en.wikipedia.org/wiki/TXL_%28programming_language%29",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7590386"
+   ]
+  },
+  {
+   "name": "TypeScript",
+   "article": "https://en.wikipedia.org/wiki/TypeScript",
+   "section": "T",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q978185"
+   ]
+  },
+  {
+   "name": "Tynker",
+   "article": "https://en.wikipedia.org/wiki/Tynker",
+   "section": "T",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Ubercode",
+   "article": "https://en.wikipedia.org/wiki/Ubercode",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7876482"
+   ]
+  },
+  {
+   "name": "UCSD Pascal",
+   "article": "https://en.wikipedia.org/wiki/UCSD_Pascal",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q176984"
+   ]
+  },
+  {
+   "name": "Umple",
+   "article": "https://en.wikipedia.org/wiki/Umple",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q16958879"
+   ]
+  },
+  {
+   "name": "Unicon",
+   "article": "https://en.wikipedia.org/wiki/Unicon_%28programming_language%29",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3279945"
+   ]
+  },
+  {
+   "name": "Uniface",
+   "article": "https://en.wikipedia.org/wiki/Uniface_%28programming_language%29",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2143563"
+   ]
+  },
+  {
+   "name": "UNITY",
+   "article": "https://en.wikipedia.org/wiki/UNITY_%28programming_language%29",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475904"
+   ]
+  },
+  {
+   "name": "UnrealScript",
+   "article": "https://en.wikipedia.org/wiki/UnrealScript",
+   "section": "U",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1191442"
+   ]
+  },
+  {
+   "name": "V",
+   "article": "https://en.wikipedia.org/wiki/V_%28programming_language%29",
+   "section": "V",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:v-visual-language",
+    "wikidata:Q61632937"
+   ]
+  },
+  {
+   "name": "Vala",
+   "article": "https://en.wikipedia.org/wiki/Vala_%28programming_language%29",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1138939"
+   ]
+  },
+  {
+   "name": "Verse",
+   "article": "https://en.wikipedia.org/wiki/Verse_%28coding%29",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q115942237"
+   ]
+  },
+  {
+   "name": "Vim script",
+   "article": "https://en.wikipedia.org/wiki/Vim_%28text_editor%29%23Vim_script",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7931258"
+   ]
+  },
+  {
+   "name": "Viper (Ethereum/Ether (ETH))",
+   "article": "https://en.wikipedia.org/wiki/Ethereum%23Smart_contracts",
+   "section": "V",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Visual DataFlex",
+   "article": "https://en.wikipedia.org/wiki/Visual_DataFlex",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:visual-dataflex"
+   ]
+  },
+  {
+   "name": "Visual DialogScript",
+   "article": "https://en.wikipedia.org/wiki/Visual_DialogScript",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q2715148"
+   ]
+  },
+  {
+   "name": "Visual FoxPro",
+   "article": "https://en.wikipedia.org/wiki/Visual_FoxPro",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q753868"
+   ]
+  },
+  {
+   "name": "Visual J++ (Visual J plus plus)",
+   "article": "https://en.wikipedia.org/wiki/Visual_J%2B%2B",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q973097"
+   ]
+  },
+  {
+   "name": "Visual LISP",
+   "article": "https://en.wikipedia.org/wiki/AutoLISP",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q782397"
+   ]
+  },
+  {
+   "name": "Visual Objects",
+   "article": "https://en.wikipedia.org/wiki/Visual_Objects",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1309721"
+   ]
+  },
+  {
+   "name": "Visual Prolog",
+   "article": "https://en.wikipedia.org/wiki/Visual_Prolog",
+   "section": "V",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q627600"
+   ]
+  },
+  {
+   "name": "WATFIV",
+   "article": "https://en.wikipedia.org/wiki/WATFIV",
+   "section": "W",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475315"
+   ]
+  },
+  {
+   "name": "WebAssembly",
+   "article": "https://en.wikipedia.org/wiki/WebAssembly",
+   "section": "W",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q20155677"
+   ]
+  },
+  {
+   "name": "WebGPU Shading Language",
+   "article": "https://en.wikipedia.org/wiki/WebGPU_Shading_Language",
+   "section": "W",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q117769352"
+   ]
+  },
+  {
+   "name": "Whiley",
+   "article": "https://en.wikipedia.org/wiki/Whiley_%28programming_language%29",
+   "section": "W",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q23653623"
+   ]
+  },
+  {
+   "name": "Wolfram Language",
+   "article": "https://en.wikipedia.org/wiki/Wolfram_Language",
+   "section": "W",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "wikidata:Q15241057",
+    "wikidata:Q81294"
+   ]
+  },
+  {
+   "name": "Wyvern",
+   "article": "https://en.wikipedia.org/wiki/Wyvern_%28programming_language%29",
+   "section": "W",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q18029891"
+   ]
+  },
+  {
+   "name": "X++ (X plus plus/Microsoft Dynamics AX)",
+   "article": "https://en.wikipedia.org/wiki/X%2B%2B",
+   "section": "X",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "X10",
+   "article": "https://en.wikipedia.org/wiki/X10_%28programming_language%29",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1852616"
+   ]
+  },
+  {
+   "name": "XBL",
+   "article": "https://en.wikipedia.org/wiki/XBL",
+   "section": "X",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "XC",
+   "article": "https://en.wikipedia.org/wiki/XC_%28programming_language%29",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7665653"
+   ]
+  },
+  {
+   "name": "XL",
+   "article": "https://en.wikipedia.org/wiki/XL_%28programming_language%29",
+   "section": "X",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:xl",
+    "wikidata:Q1859276",
+    "wikidata:Q368880"
+   ]
+  },
+  {
+   "name": "Xod",
+   "article": "https://en.wikipedia.org/wiki/XOD_%28programming_language%29",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q55642732"
+   ]
+  },
+  {
+   "name": "Xojo",
+   "article": "https://en.wikipedia.org/wiki/Xojo",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q14378091"
+   ]
+  },
+  {
+   "name": "XOTcl",
+   "article": "https://en.wikipedia.org/wiki/XOTcl",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4053333"
+   ]
+  },
+  {
+   "name": "XPL",
+   "article": "https://en.wikipedia.org/wiki/XPL",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q4021505"
+   ]
+  },
+  {
+   "name": "XPL0",
+   "article": "https://en.wikipedia.org/wiki/XPL0",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475390"
+   ]
+  },
+  {
+   "name": "XQuery",
+   "article": "https://en.wikipedia.org/wiki/XQuery",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q850661"
+   ]
+  },
+  {
+   "name": "XSB",
+   "article": "https://en.wikipedia.org/wiki/XSB",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q8042469"
+   ]
+  },
+  {
+   "name": "XSLT",
+   "article": "https://en.wikipedia.org/wiki/XSLT",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q32110"
+   ]
+  },
+  {
+   "name": "Xtend",
+   "article": "https://en.wikipedia.org/wiki/Xtend",
+   "section": "X",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q1691738"
+   ]
+  },
+  {
+   "name": "Yorick",
+   "article": "https://en.wikipedia.org/wiki/Yorick_%28programming_language%29",
+   "section": "Y",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3174329"
+   ]
+  },
+  {
+   "name": "YQL",
+   "article": "https://en.wikipedia.org/wiki/YQL_%28programming_language%29",
+   "section": "Y",
+   "status": "discovery-only",
+   "inventory_ids": []
+  },
+  {
+   "name": "Z++",
+   "article": "https://en.wikipedia.org/wiki/Z%2B%2B",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q17047882"
+   ]
+  },
+  {
+   "name": "Z shell",
+   "article": "https://en.wikipedia.org/wiki/Z_shell",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:z-shell"
+   ]
+  },
+  {
+   "name": "Zebra, ZPL, ZPL2",
+   "article": "https://en.wikipedia.org/wiki/Zebra_%28programming_language%29",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q169412"
+   ]
+  },
+  {
+   "name": "ZetaLisp",
+   "article": "https://en.wikipedia.org/wiki/ZetaLisp",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q3575311"
+   ]
+  },
+  {
+   "name": "Zig",
+   "article": "https://en.wikipedia.org/wiki/Zig_%28programming_language%29",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q51885456"
+   ]
+  },
+  {
+   "name": "Zonnon",
+   "article": "https://en.wikipedia.org/wiki/Zonnon",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q219959"
+   ]
+  },
+  {
+   "name": "ZOPL",
+   "article": "https://en.wikipedia.org/wiki/ZOPL",
+   "section": "Z",
+   "status": "linked",
+   "inventory_ids": [
+    "wikidata:Q7475348"
+   ]
+  },
+  {
+   "name": "ZPL",
+   "article": "https://en.wikipedia.org/wiki/ZPL_%28programming_language%29",
+   "section": "Z",
+   "status": "ambiguous",
+   "inventory_ids": [
+    "pldb:zpl",
+    "wikidata:Q169412",
+    "wikidata:Q3332038"
+   ]
+  }
+ ]
+}

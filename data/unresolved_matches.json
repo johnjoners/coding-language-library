@@ -1,0 +1,2341 @@
+{
+ "schema": 1,
+ "generated_at": "2026-11-19T00:59:21+00:00",
+ "count": 238,
+ "matches": [
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ada95",
+   "candidates": [
+    "github_linguist:11",
+    "pldb:ada-95"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ada95",
+   "candidates": [
+    "github_linguist:11",
+    "wikidata:Q20665104"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ada2005",
+   "candidates": [
+    "github_linguist:11",
+    "wikidata:Q37822576"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "gams",
+   "candidates": [
+    "github_linguist:118",
+    "pldb:gams",
+    "pldb:general-algebraic-modeling-system"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "go",
+   "candidates": [
+    "github_linguist:132",
+    "pldb:go",
+    "pldb:go-bang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "go",
+   "candidates": [
+    "github_linguist:132",
+    "wikidata:Q3109515",
+    "wikidata:Q37227"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "IGOR Pro",
+   "candidates": [
+    "github_linguist:162",
+    "pldb:igor-pro"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Inform 7",
+   "candidates": [
+    "github_linguist:166",
+    "pldb:inform"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "apex",
+   "candidates": [
+    "github_linguist:17",
+    "wikidata:Q109315314",
+    "wikidata:Q130472061"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "julia",
+   "candidates": [
+    "github_linguist:184",
+    "wikidata:Q2613697",
+    "wikidata:Q28974961"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "krl",
+   "candidates": [
+    "github_linguist:186",
+    "wikidata:Q25245640",
+    "wikidata:Q6336852",
+    "wikidata:Q6410762"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "lsl",
+   "candidates": [
+    "github_linguist:193",
+    "wikidata:Q1185543"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "LiveScript",
+   "candidates": [
+    "github_linguist:208",
+    "pldb:livescript"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "livescript",
+   "candidates": [
+    "github_linguist:208",
+    "wikidata:Q16963446",
+    "wikidata:Q6309506"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "m",
+   "candidates": [
+    "github_linguist:214",
+    "pldb:m-programming-language",
+    "pldb:mumps"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "m",
+   "candidates": [
+    "github_linguist:214",
+    "wikidata:Q15241057",
+    "wikidata:Q1537488",
+    "wikidata:Q1882071"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "wolframlanguage",
+   "candidates": [
+    "github_linguist:224",
+    "pldb:mathematica",
+    "pldb:wolfram"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mathematica",
+   "candidates": [
+    "github_linguist:224",
+    "wikidata:Q15241057",
+    "wikidata:Q81294"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "wl",
+   "candidates": [
+    "github_linguist:224",
+    "wikidata:Q15241057"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "wolfram",
+   "candidates": [
+    "github_linguist:224",
+    "wikidata:Q15241057"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "wolframlanguage",
+   "candidates": [
+    "github_linguist:224",
+    "wikidata:Q15241057"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "matlab",
+   "candidates": [
+    "github_linguist:225",
+    "wikidata:Q169478",
+    "wikidata:Q37805571"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "octave",
+   "candidates": [
+    "github_linguist:225",
+    "wikidata:Q20870787",
+    "wikidata:Q223679"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "minid",
+   "candidates": [
+    "github_linguist:231",
+    "wikidata:Q6864985"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "monkey",
+   "candidates": [
+    "github_linguist:236",
+    "wikidata:Q1040272",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "slang",
+   "candidates": [
+    "github_linguist:239357863",
+    "pldb:s-lang",
+    "pldb:slang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "asm",
+   "candidates": [
+    "github_linguist:24",
+    "wikidata:Q165436"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "assembly",
+   "candidates": [
+    "github_linguist:24",
+    "wikidata:Q165436"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ncl",
+   "candidates": [
+    "github_linguist:240",
+    "wikidata:Q130367486",
+    "wikidata:Q3334275"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pyret",
+   "candidates": [
+    "github_linguist:252961827",
+    "pldb:pyret",
+    "pldb:pyret-lang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "nu",
+   "candidates": [
+    "github_linguist:253",
+    "wikidata:Q103695637",
+    "wikidata:Q7067717"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Objective-C",
+   "candidates": [
+    "github_linguist:257",
+    "pldb:objective-c"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Objective-C++",
+   "candidates": [
+    "github_linguist:258",
+    "pldb:objective-cpp"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Objective-J",
+   "candidates": [
+    "github_linguist:259",
+    "pldb:objective-j"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pawn",
+   "candidates": [
+    "github_linguist:271",
+    "pldb:pawn",
+    "pldb:pawn-scripting-language"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Pawn",
+   "candidates": [
+    "github_linguist:271",
+    "pldb:pawn-scripting-language"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "inc",
+   "candidates": [
+    "github_linguist:272",
+    "pldb:inc"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "plsql",
+   "candidates": [
+    "github_linguist:273",
+    "wikidata:Q10366596",
+    "wikidata:Q41574"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "delphi",
+   "candidates": [
+    "github_linguist:281",
+    "pldb:delphi"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "objectpascal",
+   "candidates": [
+    "github_linguist:281",
+    "pldb:object-pascal"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "delphi",
+   "candidates": [
+    "github_linguist:281",
+    "wikidata:Q4037189"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "objectpascal",
+   "candidates": [
+    "github_linguist:281",
+    "wikidata:Q633894"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cperl",
+   "candidates": [
+    "github_linguist:282",
+    "pldb:cperl"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "basic",
+   "candidates": [
+    "github_linguist:28923963",
+    "wikidata:Q1022868",
+    "wikidata:Q42979"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "winbatch",
+   "candidates": [
+    "github_linguist:29",
+    "pldb:winbatch"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "py",
+   "candidates": [
+    "github_linguist:303",
+    "pldb:py"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "py",
+   "candidates": [
+    "github_linguist:303",
+    "wikidata:Q10355573"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "py3",
+   "candidates": [
+    "github_linguist:303",
+    "wikidata:Q31205855"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "python3",
+   "candidates": [
+    "github_linguist:303",
+    "wikidata:Q31205855"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "splus",
+   "candidates": [
+    "github_linguist:307",
+    "pldb:s-plus"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "splus",
+   "candidates": [
+    "github_linguist:307",
+    "wikidata:Q3267991"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "realbasic",
+   "candidates": [
+    "github_linguist:310",
+    "pldb:xojo"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "arexx",
+   "candidates": [
+    "github_linguist:311",
+    "pldb:arexx"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "arexx",
+   "candidates": [
+    "github_linguist:311",
+    "wikidata:Q296959"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "red",
+   "candidates": [
+    "github_linguist:320",
+    "pldb:red",
+    "pldb:red-lang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Ren'Py",
+   "candidates": [
+    "github_linguist:322",
+    "pldb:renpy"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "jruby",
+   "candidates": [
+    "github_linguist:326",
+    "pldb:jruby"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ruby",
+   "candidates": [
+    "github_linguist:326",
+    "wikidata:Q161053",
+    "wikidata:Q7376262"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "f",
+   "candidates": [
+    "github_linguist:336943375",
+    "pldb:apter-f",
+    "pldb:f",
+    "pldb:fstar"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "f",
+   "candidates": [
+    "github_linguist:336943375",
+    "wikidata:Q1104016",
+    "wikidata:Q5423569",
+    "wikidata:Q5427464",
+    "wikidata:Q648619"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sage",
+   "candidates": [
+    "github_linguist:338",
+    "pldb:sage",
+    "pldb:sagemath"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitz3d",
+   "candidates": [
+    "github_linguist:34",
+    "pldb:blitz3d"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzplus",
+   "candidates": [
+    "github_linguist:34",
+    "pldb:blitzplus"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzbasic",
+   "candidates": [
+    "github_linguist:34",
+    "wikidata:Q11605785",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "b3d",
+   "candidates": [
+    "github_linguist:34",
+    "wikidata:Q11605797"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitz3d",
+   "candidates": [
+    "github_linguist:34",
+    "wikidata:Q11605797"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzplus",
+   "candidates": [
+    "github_linguist:34",
+    "wikidata:Q11605804",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sh",
+   "candidates": [
+    "github_linguist:346",
+    "pldb:sh"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "zsh",
+   "candidates": [
+    "github_linguist:346",
+    "pldb:z-shell"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sh",
+   "candidates": [
+    "github_linguist:346",
+    "wikidata:Q844595"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "slash",
+   "candidates": [
+    "github_linguist:349",
+    "pldb:slash",
+    "pldb:slashlang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzmax",
+   "candidates": [
+    "github_linguist:35",
+    "wikidata:Q11605828",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "squeak",
+   "candidates": [
+    "github_linguist:352",
+    "pldb:squeak"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "squeak",
+   "candidates": [
+    "github_linguist:352",
+    "wikidata:Q762464"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "swift",
+   "candidates": [
+    "github_linguist:362",
+    "wikidata:Q17118377",
+    "wikidata:Q17147733"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "tcsh",
+   "candidates": [
+    "github_linguist:368",
+    "wikidata:Q1064516"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ts",
+   "candidates": [
+    "github_linguist:378",
+    "pldb:ts"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "UrWeb",
+   "candidates": [
+    "github_linguist:383",
+    "pldb:urweb"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Vim script",
+   "candidates": [
+    "github_linguist:388",
+    "pldb:vim-script"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "visualbasic",
+   "candidates": [
+    "github_linguist:389",
+    "pldb:visual-basic"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "visualbasic",
+   "candidates": [
+    "github_linguist:389",
+    "wikidata:Q2378",
+    "wikidata:Q50077"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "brightscript",
+   "candidates": [
+    "github_linguist:39",
+    "pldb:brightscript-lang",
+    "pldb:roku-brightscript"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "Zeek",
+   "candidates": [
+    "github_linguist:40",
+    "pldb:zeek"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "zeek",
+   "candidates": [
+    "github_linguist:40",
+    "pldb:zeek"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "xs",
+   "candidates": [
+    "github_linguist:403",
+    "pldb:xs",
+    "pldb:xs-lang"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "c",
+   "candidates": [
+    "github_linguist:41",
+    "pldb:c",
+    "pldb:c--",
+    "pldb:c-flat",
+    "pldb:c-for-all",
+    "pldb:tick-c"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "c",
+   "candidates": [
+    "github_linguist:41",
+    "wikidata:Q15777",
+    "wikidata:Q5005842",
+    "wikidata:Q81348"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "clipper",
+   "candidates": [
+    "github_linguist:421",
+    "pldb:clipper"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "foxpro",
+   "candidates": [
+    "github_linguist:421",
+    "pldb:foxpro"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "foxpro",
+   "candidates": [
+    "github_linguist:421",
+    "wikidata:Q2507721"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "clipper",
+   "candidates": [
+    "github_linguist:421",
+    "wikidata:Q834358"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mql5",
+   "candidates": [
+    "github_linguist:427",
+    "pldb:mql"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mql5",
+   "candidates": [
+    "github_linguist:427",
+    "wikidata:Q11765028"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "rescript",
+   "candidates": [
+    "github_linguist:501875647",
+    "wikidata:Q116885321"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "beef",
+   "candidates": [
+    "github_linguist:545626333",
+    "pldb:beef-lang"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "modula3",
+   "candidates": [
+    "github_linguist:564743864",
+    "pldb:modula-3",
+    "pldb:modula-3-star"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "qbasic",
+   "candidates": [
+    "github_linguist:593107205",
+    "pldb:qbasic"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "quickbasic",
+   "candidates": [
+    "github_linguist:593107205",
+    "pldb:quickbasic"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "qb",
+   "candidates": [
+    "github_linguist:593107205",
+    "wikidata:Q1056057"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "quickbasic",
+   "candidates": [
+    "github_linguist:593107205",
+    "wikidata:Q1056057"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "qbasic",
+   "candidates": [
+    "github_linguist:593107205",
+    "wikidata:Q381247"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "apl",
+   "candidates": [
+    "github_linguist:6",
+    "wikidata:Q296187",
+    "wikidata:Q4057965"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "v",
+   "candidates": [
+    "github_linguist:603371597",
+    "pldb:v",
+    "pldb:v-visual-language"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "pldb-githubLanguage",
+   "key": "CoffeeScript",
+   "candidates": [
+    "github_linguist:63",
+    "pldb:coffeescript"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "coffee",
+   "candidates": [
+    "github_linguist:63",
+    "wikidata:Q5013287"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cfml",
+   "candidates": [
+    "github_linguist:64",
+    "pldb:cfml"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cfml",
+   "candidates": [
+    "github_linguist:64",
+    "wikidata:Q2524362"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "lisp",
+   "candidates": [
+    "github_linguist:66",
+    "pldb:lisp"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "lisp",
+   "candidates": [
+    "github_linguist:66",
+    "wikidata:Q132874",
+    "wikidata:Q4544975"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "classicvisualbasic",
+   "candidates": [
+    "github_linguist:679594952",
+    "wikidata:Q2378"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "c3",
+   "candidates": [
+    "github_linguist:769248603",
+    "pldb:c-cubed",
+    "pldb:c3"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pyrex",
+   "candidates": [
+    "github_linguist:79",
+    "pldb:pyrex"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pyrex",
+   "candidates": [
+    "github_linguist:79",
+    "wikidata:Q3411311"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "asp",
+   "candidates": [
+    "github_linguist:8",
+    "wikidata:Q344266"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "classicasp",
+   "candidates": [
+    "github_linguist:8",
+    "wikidata:Q344266"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cypher",
+   "candidates": [
+    "github_linguist:850806976",
+    "wikidata:Q16834355"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "e",
+   "candidates": [
+    "github_linguist:92",
+    "pldb:amiga-e",
+    "pldb:e"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ecl",
+   "candidates": [
+    "github_linguist:93",
+    "pldb:ecl",
+    "pldb:eclipse-command-language"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ecl",
+   "candidates": [
+    "github_linguist:93",
+    "wikidata:Q5322691",
+    "wikidata:Q5322692"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "q",
+   "candidates": [
+    "github_linguist:970539067",
+    "pldb:q",
+    "pldb:q-equational-programming-language"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "q",
+   "candidates": [
+    "github_linguist:970539067",
+    "wikidata:Q7265635",
+    "wikidata:Q7265638"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "abcl",
+   "candidates": [
+    "pldb:abcl-lang",
+    "wikidata:Q2818994"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "alice",
+   "candidates": [
+    "pldb:alice",
+    "wikidata:Q1136926",
+    "wikidata:Q1335388"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "alphard",
+   "candidates": [
+    "pldb:alphard",
+    "pldb:alphard-programming-language",
+    "wikidata:Q4735267"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "amber",
+   "candidates": [
+    "pldb:amber",
+    "pldb:amber-lang",
+    "wikidata:Q138018801",
+    "wikidata:Q58642936"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "e",
+   "candidates": [
+    "pldb:amiga-e",
+    "pldb:e",
+    "wikidata:Q2658244"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "apex",
+   "candidates": [
+    "pldb:apex",
+    "wikidata:Q109315314",
+    "wikidata:Q130472061"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "apl",
+   "candidates": [
+    "pldb:apl",
+    "wikidata:Q296187",
+    "wikidata:Q4057965"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "f",
+   "candidates": [
+    "pldb:apter-f",
+    "pldb:f",
+    "pldb:fstar",
+    "wikidata:Q1104016",
+    "wikidata:Q5423569",
+    "wikidata:Q5427464",
+    "wikidata:Q648619"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "awk",
+   "candidates": [
+    "pldb:awk",
+    "pldb:mawk",
+    "wikidata:Q213970"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "basic",
+   "candidates": [
+    "pldb:basic",
+    "wikidata:Q1022868",
+    "wikidata:Q42979"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "basicplus",
+   "candidates": [
+    "pldb:basic-plus",
+    "wikidata:Q4834657",
+    "wikidata:Q5635642"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "beef",
+   "candidates": [
+    "pldb:beef-lang",
+    "wikidata:Q84104242"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzbasic",
+   "candidates": [
+    "pldb:blitzbasic",
+    "wikidata:Q11605785",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzmax",
+   "candidates": [
+    "pldb:blitzmax",
+    "wikidata:Q11605828",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blitzplus",
+   "candidates": [
+    "pldb:blitzplus",
+    "wikidata:Q11605804",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "blue",
+   "candidates": [
+    "pldb:blue",
+    "pldb:blue-programming-language",
+    "wikidata:Q4928808",
+    "wikidata:Q947171"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "c",
+   "candidates": [
+    "pldb:c",
+    "pldb:c--",
+    "pldb:c-flat",
+    "pldb:c-for-all",
+    "pldb:tick-c",
+    "wikidata:Q15777",
+    "wikidata:Q5005842",
+    "wikidata:Q81348"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "c",
+   "candidates": [
+    "pldb:c--",
+    "pldb:pl-c",
+    "wikidata:Q5005842",
+    "wikidata:Q81348"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cal",
+   "candidates": [
+    "pldb:c-al",
+    "wikidata:Q1926221",
+    "wikidata:Q5008638"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "c3",
+   "candidates": [
+    "pldb:c-cubed",
+    "pldb:c3",
+    "wikidata:Q128598918"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "skill",
+   "candidates": [
+    "pldb:cadence-skill",
+    "wikidata:Q29319364"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ch",
+   "candidates": [
+    "pldb:chuck",
+    "wikidata:Q5065901"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cil",
+   "candidates": [
+    "pldb:cil",
+    "pldb:cilk",
+    "wikidata:Q263544",
+    "wikidata:Q2932182"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cl",
+   "candidates": [
+    "pldb:clausal-lang",
+    "wikidata:Q263490",
+    "wikidata:Q849146"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "coffee",
+   "candidates": [
+    "pldb:coffeescript",
+    "wikidata:Q5013287"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "coral",
+   "candidates": [
+    "pldb:coral",
+    "pldb:coral-lang",
+    "wikidata:Q4117844"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "cpl",
+   "candidates": [
+    "pldb:cpl",
+    "wikidata:Q11422769",
+    "wikidata:Q2347334"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "programminglanguageforbusiness",
+   "candidates": [
+    "pldb:databus",
+    "pldb:plb",
+    "wikidata:Q2924087"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "dasl",
+   "candidates": [
+    "pldb:datapoint-dasl",
+    "wikidata:Q1150963",
+    "wikidata:Q5204326"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "dml",
+   "candidates": [
+    "pldb:dependent-ml",
+    "pldb:dml",
+    "wikidata:Q4037222"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ease",
+   "candidates": [
+    "pldb:eas-e",
+    "pldb:ease",
+    "wikidata:Q5327483"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ecl",
+   "candidates": [
+    "pldb:ecl",
+    "pldb:eclipse-command-language",
+    "wikidata:Q5322691",
+    "wikidata:Q5322692"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "epsilon",
+   "candidates": [
+    "pldb:epsilon",
+    "wikidata:Q50378369",
+    "wikidata:Q5323921"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "p",
+   "candidates": [
+    "pldb:esc-p",
+    "pldb:pl-p",
+    "pldb:pqq",
+    "wikidata:Q2072087"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "fprogramminglanguage",
+   "candidates": [
+    "pldb:f",
+    "pldb:fstar",
+    "wikidata:Q5423569",
+    "wikidata:Q5427464"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "fact",
+   "candidates": [
+    "pldb:fact-lang",
+    "wikidata:Q7474729"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "fcl",
+   "candidates": [
+    "pldb:fcl",
+    "wikidata:Q15276568",
+    "wikidata:Q5511064"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "flow",
+   "candidates": [
+    "pldb:flow",
+    "wikidata:Q17146842",
+    "wikidata:Q85760258"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "flowcode",
+   "candidates": [
+    "pldb:flowcode",
+    "wikidata:Q17146842",
+    "wikidata:Q5462122"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "fp",
+   "candidates": [
+    "pldb:fp",
+    "pldb:fp3",
+    "wikidata:Q1474061",
+    "wikidata:Q5426980"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "gambas",
+   "candidates": [
+    "pldb:gambas",
+    "wikidata:Q21577202",
+    "wikidata:Q648124"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "gams",
+   "candidates": [
+    "pldb:gams",
+    "pldb:general-algebraic-modeling-system",
+    "wikidata:Q646446"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "gel",
+   "candidates": [
+    "pldb:genius-extension-language",
+    "wikidata:Q105079174",
+    "wikidata:Q1486208"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "george",
+   "candidates": [
+    "pldb:george",
+    "wikidata:Q5513190",
+    "wikidata:Q6487099"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "go",
+   "candidates": [
+    "pldb:go",
+    "pldb:go-bang",
+    "wikidata:Q3109515",
+    "wikidata:Q37227"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "goprogramminglanguage",
+   "candidates": [
+    "pldb:go",
+    "pldb:go-bang",
+    "wikidata:Q3109515",
+    "wikidata:Q37227"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "goal",
+   "candidates": [
+    "pldb:goal",
+    "wikidata:Q5514049",
+    "wikidata:Q5519874"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "hpgl",
+   "candidates": [
+    "pldb:hp-gl",
+    "wikidata:Q1422842",
+    "wikidata:Q4657151"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "ibmrpg",
+   "candidates": [
+    "pldb:ibm-rpg",
+    "pldb:rpg-ii",
+    "pldb:rpg-iii",
+    "wikidata:Q840543"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "imp",
+   "candidates": [
+    "pldb:imp",
+    "pldb:imp-lang",
+    "wikidata:Q5972087"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ipl",
+   "candidates": [
+    "pldb:information-processing-language",
+    "pldb:intuitionistic",
+    "wikidata:Q776372"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "jade",
+   "candidates": [
+    "pldb:jade",
+    "wikidata:Q1684174",
+    "wikidata:Q6107617"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "janus",
+   "candidates": [
+    "pldb:janus-lang",
+    "pldb:janus-programming-language",
+    "wikidata:Q25345964",
+    "wikidata:Q6155940"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "julia",
+   "candidates": [
+    "pldb:julia",
+    "wikidata:Q2613697",
+    "wikidata:Q28974961"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "k",
+   "candidates": [
+    "pldb:k",
+    "wikidata:Q138035154",
+    "wikidata:Q4042031",
+    "wikidata:Q9326009"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "krl",
+   "candidates": [
+    "pldb:krl",
+    "wikidata:Q25245640",
+    "wikidata:Q6336852",
+    "wikidata:Q6410762"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "lindenscriptinglanguage",
+   "candidates": [
+    "pldb:linden-scripting-language",
+    "pldb:lsl",
+    "wikidata:Q1185543"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "links",
+   "candidates": [
+    "pldb:links",
+    "pldb:links-programming-language",
+    "wikidata:Q28938017"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "lisp",
+   "candidates": [
+    "pldb:lisp",
+    "wikidata:Q132874",
+    "wikidata:Q4544975"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "livescript",
+   "candidates": [
+    "pldb:livescript",
+    "wikidata:Q16963446",
+    "wikidata:Q6309506"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "luna",
+   "candidates": [
+    "pldb:luna",
+    "pldb:luna-1",
+    "wikidata:Q15833022"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "m",
+   "candidates": [
+    "pldb:m-programming-language",
+    "pldb:mumps",
+    "wikidata:Q15241057",
+    "wikidata:Q1537488",
+    "wikidata:Q1882071"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "wolframlanguage",
+   "candidates": [
+    "pldb:mathematica",
+    "pldb:wolfram",
+    "wikidata:Q15241057"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mathematica",
+   "candidates": [
+    "pldb:mathematica",
+    "wikidata:Q15241057",
+    "wikidata:Q81294"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "matlab",
+   "candidates": [
+    "pldb:matlab",
+    "wikidata:Q169478",
+    "wikidata:Q37805571"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mdl",
+   "candidates": [
+    "pldb:mdl",
+    "pldb:methodology-description-language",
+    "wikidata:Q1566567",
+    "wikidata:Q6715155"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "msl",
+   "candidates": [
+    "pldb:mimix-stream-language",
+    "pldb:msl",
+    "wikidata:Q115570761"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "minid",
+   "candidates": [
+    "pldb:minid",
+    "wikidata:Q6864985"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "modula3",
+   "candidates": [
+    "pldb:modula-3",
+    "pldb:modula-3-star",
+    "wikidata:Q1928222"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "monkey",
+   "candidates": [
+    "pldb:monkey",
+    "wikidata:Q1040272",
+    "wikidata:Q143419"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "nimrod",
+   "candidates": [
+    "pldb:nim",
+    "pldb:nimrod",
+    "wikidata:Q20080327"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "nomad",
+   "candidates": [
+    "pldb:nomad",
+    "wikidata:Q17157203"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "npl",
+   "candidates": [
+    "pldb:npl",
+    "pldb:npl-lang",
+    "wikidata:Q6955040",
+    "wikidata:Q7050550"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "nu",
+   "candidates": [
+    "pldb:nu",
+    "wikidata:Q103695637",
+    "wikidata:Q7067717"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "opl",
+   "candidates": [
+    "pldb:opl",
+    "pldb:opl-langage-informatique",
+    "pldb:optimization-programming-language",
+    "wikidata:Q1700602"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "openprogramminglanguage",
+   "candidates": [
+    "pldb:opl",
+    "pldb:opl-langage-informatique",
+    "wikidata:Q1700602"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "p",
+   "candidates": [
+    "pldb:p",
+    "pldb:p-star",
+    "pldb:pqq",
+    "wikidata:Q17143156",
+    "wikidata:Q2072087",
+    "wikidata:Q30599213"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pactia",
+   "candidates": [
+    "pldb:pact-ia",
+    "wikidata:Q7118053"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pawn",
+   "candidates": [
+    "pldb:pawn",
+    "pldb:pawn-scripting-language",
+    "wikidata:Q1929075"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pdl",
+   "candidates": [
+    "pldb:pdl",
+    "wikidata:Q4046690"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pearl",
+   "candidates": [
+    "pldb:pearl",
+    "wikidata:Q2043979",
+    "wikidata:Q42478"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "phoenixobjectbasic",
+   "candidates": [
+    "pldb:phoenix-object-basic",
+    "wikidata:Q110885022",
+    "wikidata:Q7186942"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pli",
+   "candidates": [
+    "pldb:pl-i",
+    "pldb:pl-i-subset-g",
+    "wikidata:Q223433"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "plsql",
+   "candidates": [
+    "pldb:pl-sql",
+    "wikidata:Q10366596",
+    "wikidata:Q41574"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "powerbasic",
+   "candidates": [
+    "pldb:powerbasic",
+    "wikidata:Q1306585",
+    "wikidata:Q1648571"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "psl",
+   "candidates": [
+    "pldb:psl",
+    "wikidata:Q7231352",
+    "wikidata:Q7248259"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "pyret",
+   "candidates": [
+    "pldb:pyret",
+    "pldb:pyret-lang",
+    "wikidata:Q64683329"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "q",
+   "candidates": [
+    "pldb:q",
+    "pldb:q-equational-programming-language",
+    "wikidata:Q7265635",
+    "wikidata:Q7265638"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "red",
+   "candidates": [
+    "pldb:red",
+    "pldb:red-lang",
+    "wikidata:Q3217187"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "rescript",
+   "candidates": [
+    "pldb:rescript",
+    "wikidata:Q116885321"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "revolution",
+   "candidates": [
+    "pldb:revolution-programming-language",
+    "wikidata:Q3068282"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "robic",
+   "candidates": [
+    "pldb:robic",
+    "wikidata:Q4358532",
+    "wikidata:Q4395116"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "rpl",
+   "candidates": [
+    "pldb:rpl",
+    "pldb:rpl-lang",
+    "wikidata:Q7301377",
+    "wikidata:Q960361"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ruby",
+   "candidates": [
+    "pldb:ruby",
+    "wikidata:Q161053",
+    "wikidata:Q7376262"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "sacprogramminglanguage",
+   "candidates": [
+    "pldb:sa-c-programming-language",
+    "pldb:sac-programming-language",
+    "wikidata:Q7388405",
+    "wikidata:Q7388480"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sac",
+   "candidates": [
+    "pldb:sa-c-programming-language",
+    "pldb:sac-programming-language",
+    "wikidata:Q7388405"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sol",
+   "candidates": [
+    "pldb:secure-operations-language",
+    "wikidata:Q15712808",
+    "wikidata:Q7424380"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sh",
+   "candidates": [
+    "pldb:sh",
+    "wikidata:Q844595"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "smallbasic",
+   "candidates": [
+    "pldb:smallbasic",
+    "wikidata:Q5095896",
+    "wikidata:Q767018"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "snap",
+   "candidates": [
+    "pldb:snap",
+    "wikidata:Q1002996",
+    "wikidata:Q85798397"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "snapprogramminglanguage",
+   "candidates": [
+    "pldb:snap",
+    "wikidata:Q1002996",
+    "wikidata:Q85798397"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sr",
+   "candidates": [
+    "pldb:sr",
+    "pldb:sr-programming-language",
+    "wikidata:Q446168"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "stx",
+   "candidates": [
+    "pldb:stx",
+    "wikidata:Q1753738"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "swift",
+   "candidates": [
+    "pldb:swift",
+    "wikidata:Q17118377",
+    "wikidata:Q17147733"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "tcsh",
+   "candidates": [
+    "pldb:tcsh",
+    "wikidata:Q1064516"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "tex",
+   "candidates": [
+    "pldb:tex",
+    "pldb:text-executive-programming-language",
+    "wikidata:Q5301",
+    "wikidata:Q7475278"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "tibasic",
+   "candidates": [
+    "pldb:ti-basic",
+    "wikidata:Q1759833",
+    "wikidata:Q2384396"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "tom",
+   "candidates": [
+    "pldb:tom",
+    "wikidata:Q7424115",
+    "wikidata:Q7670997"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "ts",
+   "candidates": [
+    "pldb:ts",
+    "wikidata:Q978185"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "v",
+   "candidates": [
+    "pldb:v",
+    "pldb:v-visual-language",
+    "wikidata:Q61632937"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "visualbasic",
+   "candidates": [
+    "pldb:visual-basic",
+    "wikidata:Q2378",
+    "wikidata:Q50077"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "xbasic",
+   "candidates": [
+    "pldb:x-basic",
+    "pldb:xbasic",
+    "wikidata:Q4053289",
+    "wikidata:Q8041424"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-wikipedia-sitelink",
+   "key": "xbasic",
+   "candidates": [
+    "pldb:x-basic",
+    "pldb:xbasic",
+    "wikidata:Q4053289"
+   ],
+   "reason": "ambiguous-crosswalk"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "xl",
+   "candidates": [
+    "pldb:xl",
+    "pldb:xl-lang",
+    "wikidata:Q1859276",
+    "wikidata:Q368880"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "realbasic",
+   "candidates": [
+    "pldb:xojo",
+    "wikidata:Q795929"
+   ],
+   "reason": "same-source-collision"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "xprofan",
+   "candidates": [
+    "pldb:xprofan",
+    "wikidata:Q141642778",
+    "wikidata:Q2597563"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "zpl",
+   "candidates": [
+    "pldb:zpl",
+    "wikidata:Q169412",
+    "wikidata:Q3332038"
+   ],
+   "reason": "ambiguous-exact-name"
+  }
+ ]
+}

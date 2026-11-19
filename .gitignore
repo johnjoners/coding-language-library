@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Local environments and runtime
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+architecture/*.delivery.json

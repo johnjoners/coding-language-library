@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "adapters": [
+    {
+      "name": "mcp-language-server",
+      "url": "https://github.com/isaacphi/mcp-language-server",
+      "version": "v0.1.1",
+      "install": "go install github.com/isaacphi/mcp-language-server@v0.1.1",
+      "purpose": "Expose an LSP server to MCP clients.",
+      "verification": {
+        "status": "tested",
+        "package": "pyright",
+        "language": "Python",
+        "executable": "pyright-langserver",
+        "arguments": ["--stdio"],
+        "mcp_tools": ["definition", "diagnostics", "edit_file", "hover", "references", "rename_symbol"],
+        "note": "MCP initialize and tools/list completed against the local Pyright language server. Other LSP packages remain candidates until exercised."
+      }
+    }
+  ]
+}

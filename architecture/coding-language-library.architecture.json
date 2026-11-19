@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Language catalogue and refresh",
+    "locale": "en",
+    "subtitle": "Source union · revision monitoring · review gate · read-only MCP",
+    "output": "architecture/coding-language-library.architecture.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    {
+      "id": "public_sources",
+      "type": "external",
+      "label": "Public sources",
+      "sublabel": "identity · tools · seed",
+      "pos": [
+        40,
+        330
+      ]
+    },
+    {
+      "id": "refresh_workflow",
+      "type": "cloud",
+      "label": "Weekly refresh",
+      "sublabel": "weekly · check · PR",
+      "pos": [
+        520,
+        700
+      ]
+    },
+    {
+      "id": "change_monitor",
+      "type": "backend",
+      "label": "Change monitor",
+      "sublabel": "validators · revisions",
+      "pos": [
+        340,
+        560
+      ]
+    },
+    {
+      "id": "union_builder",
+      "type": "backend",
+      "label": "Union builder",
+      "sublabel": "IDs · tools · sources",
+      "pos": [
+        340,
+        260
+      ]
+    },
+    {
+      "id": "snapshots",
+      "type": "database",
+      "label": "Committed snapshots",
+      "sublabel": "inventory · state",
+      "pos": [
+        580,
+        260
+      ]
+    },
+    {
+      "id": "review_pr",
+      "type": "external",
+      "label": "Review pull request",
+      "sublabel": "human merge gate",
+      "pos": [
+        455,
+        40
+      ]
+    },
+    {
+      "id": "mcp_server",
+      "type": "backend",
+      "label": "Read-only MCP",
+      "sublabel": "4 tools · PATH",
+      "pos": [
+        800,
+        260
+      ]
+    },
+    {
+      "id": "mcp_client",
+      "type": "external",
+      "label": "MCP client",
+      "sublabel": "stdio",
+      "pos": [
+        1010,
+        260
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "coding-language-library",
+      "wraps": [
+        "change_monitor",
+        "union_builder",
+        "snapshots",
+        "mcp_server"
+      ],
+      "pad": 18
+    }
+  ],
+  "connections": [
+    {
+      "from": "public_sources",
+      "to": "union_builder",
+      "label": "records · candidates"
+    },
+    {
+      "from": "public_sources",
+      "to": "change_monitor",
+      "label": "validators · revisions"
+    },
+    {
+      "from": "refresh_workflow",
+      "to": "change_monitor",
+      "label": "weekly check"
+    },
+    {
+      "from": "snapshots",
+      "to": "change_monitor",
+      "label": "saved revisions"
+    },
+    {
+      "from": "change_monitor",
+      "to": "union_builder",
+      "label": "changed source"
+    },
+    {
+      "from": "union_builder",
+      "to": "snapshots",
+      "label": "regenerate"
+    },
+    {
+      "from": "union_builder",
+      "to": "review_pr",
+      "label": "propose changes",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "from": "review_pr",
+      "to": "snapshots",
+      "label": "review · merge",
+      "fromSide": "right",
+      "toSide": "top"
+    },
+    {
+      "from": "snapshots",
+      "to": "mcp_server",
+      "label": "read JSON"
+    },
+    {
+      "from": "mcp_server",
+      "to": "mcp_client",
+      "label": "stdio MCP"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Identity joins",
+      "items": [
+        "PLDB, Wikidata, and Linguist provide identity; Mason and Homebrew add tooling.",
+        "Ambiguous matches remain separate and are counted for review.",
+        "The Wikipedia list supplies candidates, not canonical records."
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Change handling",
+      "items": [
+        "Weekly checks compare HTTP validators, page revisions, QID sets, and entity modification digests.",
+        "A changed source rebuilds snapshots and opens a pull request; it is never merged automatically."
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Runtime boundary",
+      "items": [
+        "The MCP server reads committed records; it does not install packages or launch language servers.",
+        "Python with Pyright is the only adapter pairing marked tested."
+      ]
+    }
+  ]
+}

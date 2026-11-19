@@ -1,0 +1,59 @@
+{
+ "schema": 1,
+ "sources": {
+  "pldb": {
+   "name": "Programming Language Database",
+   "role": "broad language discovery and crosswalk",
+   "data_url": "https://pldb.info/pldb.json",
+   "license": "Public domain, as stated in the upstream README",
+   "license_url": "https://github.com/Programming-Language-DataBase/pldb/blob/main/readme.md",
+   "filter": "tags contains the exact token pl",
+   "monitor": {"method": "conditional-http-sha256", "url": "https://pldb.info/pldb.json", "cadence_days": 7}
+  },
+  "wikidata": {
+   "name": "Wikidata",
+   "role": "identity hub and structured claims",
+   "data_url": "https://query.wikidata.org/sparql",
+   "license": "CC0 1.0 Universal",
+   "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+   "filter": "items in the programming-language class or its subclasses",
+   "monitor": {"method": "qid-and-revision-digest", "url": "https://query.wikidata.org/sparql", "cadence_days": 7}
+  },
+  "github_linguist": {
+   "name": "GitHub Linguist",
+   "role": "GitHub language recognition and file extensions",
+   "data_url": "https://raw.githubusercontent.com/github-linguist/linguist/main/lib/linguist/languages.yml",
+   "license": "MIT",
+   "license_url": "https://github.com/github-linguist/linguist/blob/main/LICENSE",
+   "filter": "type is programming",
+   "monitor": {"method": "conditional-http-sha256", "url": "https://raw.githubusercontent.com/github-linguist/linguist/main/lib/linguist/languages.yml", "cadence_days": 7}
+  },
+  "mason_registry": {
+   "name": "Mason Registry",
+   "role": "language-tool package availability",
+   "data_url": "https://github.com/mason-org/mason-registry/releases/latest/download/registry.json.zip",
+   "license": "Apache-2.0",
+   "license_url": "https://github.com/mason-org/mason-registry/blob/main/LICENSE",
+   "filter": "explicit package language declarations",
+   "monitor": {"method": "conditional-http-sha256", "url": "https://github.com/mason-org/mason-registry/releases/latest/download/registry.json.zip", "cadence_days": 7}
+  },
+  "homebrew": {
+   "name": "Homebrew Core",
+   "role": "formula availability and executable names",
+   "data_url": "https://formulae.brew.sh/api/formula.json",
+   "license": "BSD-2-Clause for the upstream repository; formula software licenses are separate values",
+   "license_url": "https://github.com/Homebrew/homebrew-core/blob/main/LICENSE.txt",
+   "filter": "exact formula identifiers from Wikidata claims",
+   "monitor": {"method": "conditional-http-sha256", "url": "https://formulae.brew.sh/api/formula.json", "cadence_days": 7}
+  },
+  "wikipedia_seed": {
+   "name": "List of programming languages",
+   "role": "discovery candidates only; not the canonical inventory",
+   "data_url": "https://en.wikipedia.org/wiki/List_of_programming_languages",
+   "license": "CC BY-SA 4.0 and GFDL, except where a page indicates otherwise",
+   "license_url": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights",
+   "filter": "entries harvested from the A-Z index",
+   "monitor": {"method": "page-revision", "url": "https://en.wikipedia.org/w/api.php", "cadence_days": 7}
+  }
+ }
+}

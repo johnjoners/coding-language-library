@@ -1,0 +1,8 @@
+[project]
+name = "coding-language-library"
+version = "0.3.0"
+description = "Source-linked union of programming-language and tooling catalogues"
+requires-python = ">=3.11"
+
+[dependency-groups]
+catalog = ["PyYAML==6.0.3"]
