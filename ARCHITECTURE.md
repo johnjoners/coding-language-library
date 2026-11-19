@@ -7,8 +7,12 @@
 `harvest_wikipedia.py` records the MediaWiki list as a discovery seed only.
 `build_inventory.py` joins PLDB and Wikidata identity records with GitHub Linguist,
 Mason, and Homebrew metadata; Wikipedia entries do not determine inventory membership.
-`verify_inventory.py` checks the generated snapshot. The stdio MCP server reads
-the committed files. It does not install tools or launch language servers.
+`verify_inventory.py` checks the generated snapshot and the curated suitability
+profiles, including claim statuses, conditions, and HTTPS evidence. The stdio
+MCP server reads the committed files. It does not install tools or launch
+language servers. `recommend_stack` filters and ranks recorded stacks against
+a structured task profile; conditional support stays unknown, and unevidenced
+constraints are reported rather than guessed.
 
 A catalogue match is not a compatibility check. Python with Pyright is the only
 adapter pairing marked tested.

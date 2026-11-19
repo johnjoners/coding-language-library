@@ -24,7 +24,7 @@
 ## Architecture and verification
 
 - Review `ARCHITECTURE.md` whenever sources, records, scripts, server behavior, data flow, or runtime boundaries change. Update its editable diagram source and generated views in the same change.
-- Before staging, run the inventory verifier, the unit-test suite, and an official Python MCP SDK client that calls all four tools. Keep client scripts and downloaded probes outside the repo.
+- Before staging, run the inventory verifier, the unit-test suite, and an official Python MCP SDK client that calls all the listed tools. Keep client scripts and downloaded probes outside the repo.
 - The inventory builder uses the `catalog` dependency group; the MCP server stays standard-library-only.
 - Keep probes and downloaded working files outside the repo. Keep tests focused on source joins, monitoring behavior, and the refresh workflow.
 - Check links, attribution, secrets, staged whitespace, branch, commits, and remotes before handoff.

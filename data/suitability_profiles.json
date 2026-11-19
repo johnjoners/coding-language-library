@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "curated_at": "2026-11-19",
+  "stacks": [
+    {
+      "id": "python-fastapi-psycopg",
+      "language_id": "wikidata:Q28865",
+      "language_name": "Python",
+      "framework": "FastAPI",
+      "frameworks": ["FastAPI", "Psycopg 3"],
+      "runtime": "Python 3",
+      "verification_status": "source_documented",
+      "capabilities": {
+        "integration.http": {
+          "status": "supported",
+          "conditions": ["FastAPI application and ASGI server are configured."],
+          "evidence": [{"source_url": "https://fastapi.tiangolo.com/tutorial/first-steps/", "checked_at": "2026-11-19", "applies_to": "FastAPI documentation"}]
+        },
+        "integration.postgresql": {
+          "status": "supported_with_conditions",
+          "conditions": ["Add and configure the Psycopg 3 adapter; compatibility depends on the selected package extras and deployment."],
+          "evidence": [{"source_url": "https://www.psycopg.org/psycopg3/docs/", "checked_at": "2026-11-19", "applies_to": "Psycopg 3 documentation"}]
+        },
+        "platform.linux": {"status": "unknown", "evidence": []},
+        "deployment.container": {"status": "unknown", "evidence": []},
+        "resources.memory_peak_mb": {"status": "unknown", "evidence": []},
+        "dependencies.native": {"status": "unknown", "evidence": []}
+      },
+      "preference_signals": {},
+      "tradeoffs": ["Memory use and native dependency requirements are not measured in this profile."],
+      "next_validation": "Build and test a minimal FastAPI service with the chosen Psycopg installation in the target container."
+    },
+    {
+      "id": "go-net-http-pgx",
+      "language_id": "pldb:go",
+      "language_name": "Go",
+      "framework": "net/http",
+      "frameworks": ["net/http", "pgx"],
+      "runtime": "Go toolchain",
+      "verification_status": "source_documented",
+      "capabilities": {
+        "integration.http": {"status": "supported", "conditions": [], "evidence": [{"source_url": "https://pkg.go.dev/net/http", "checked_at": "2026-11-19", "applies_to": "Go standard library documentation"}]},
+        "integration.postgresql": {"status": "supported_with_conditions", "conditions": ["Add and configure pgx."], "evidence": [{"source_url": "https://github.com/jackc/pgx", "checked_at": "2026-11-19", "applies_to": "pgx documentation"}]},
+        "platform.linux": {"status": "unknown", "evidence": []},
+        "deployment.container": {"status": "unknown", "evidence": []},
+        "resources.memory_peak_mb": {"status": "unknown", "evidence": []},
+        "dependencies.native": {"status": "supported_with_conditions", "value": "not_required", "conditions": ["pgx describes its driver as pure Go; avoid adding dependencies that require cgo."], "evidence": [{"source_url": "https://github.com/jackc/pgx", "checked_at": "2026-11-19", "applies_to": "pgx driver documentation"}]}
+      },
+      "preference_signals": {},
+      "tradeoffs": ["The HTTP server is in the standard library; PostgreSQL access requires a separately managed driver."],
+      "next_validation": "Build, test, and exercise the database connection in the target container."
+    },
+    {
+      "id": "typescript-node-http-pg",
+      "language_id": "wikidata:Q978185",
+      "language_name": "TypeScript",
+      "framework": "Node.js HTTP and node-postgres",
+      "frameworks": ["Node.js HTTP", "node-postgres"],
+      "runtime": "Node.js",
+      "verification_status": "source_documented",
+      "capabilities": {
+        "integration.http": {"status": "supported_with_conditions", "conditions": ["TypeScript output must run on Node.js."], "evidence": [{"source_url": "https://nodejs.org/api/http.html", "checked_at": "2026-11-19", "applies_to": "Node.js HTTP API documentation"}]},
+        "integration.postgresql": {"status": "supported_with_conditions", "conditions": ["Add and configure node-postgres."], "evidence": [{"source_url": "https://node-postgres.com/", "checked_at": "2026-11-19", "applies_to": "node-postgres documentation"}]},
+        "platform.linux": {"status": "unknown", "evidence": []},
+        "deployment.container": {"status": "unknown", "evidence": []},
+        "resources.memory_peak_mb": {"status": "unknown", "evidence": []},
+        "dependencies.native": {"status": "unknown", "evidence": []}
+      },
+      "preference_signals": {},
+      "tradeoffs": ["TypeScript requires a JavaScript runtime and a build or execution setup."],
+      "next_validation": "Compile and test a minimal TypeScript service and PostgreSQL query in the target container."
+    },
+    {
+      "id": "rust-axum-sqlx",
+      "language_id": "wikidata:Q575650",
+      "language_name": "Rust",
+      "framework": "Axum and SQLx",
+      "frameworks": ["Axum", "SQLx"],
+      "runtime": "Rust toolchain",
+      "verification_status": "source_documented",
+      "capabilities": {
+        "integration.http": {"status": "supported_with_conditions", "conditions": ["Configure the Axum service and async runtime."], "evidence": [{"source_url": "https://docs.rs/axum/latest/axum/", "checked_at": "2026-11-19", "applies_to": "Axum crate documentation"}]},
+        "integration.postgresql": {"status": "supported_with_conditions", "conditions": ["Enable SQLx PostgreSQL and runtime features and configure a driver."], "evidence": [{"source_url": "https://docs.rs/sqlx/latest/sqlx/", "checked_at": "2026-11-19", "applies_to": "SQLx crate documentation"}]},
+        "platform.linux": {"status": "unknown", "evidence": []},
+        "deployment.container": {"status": "unknown", "evidence": []},
+        "resources.memory_peak_mb": {"status": "unknown", "evidence": []},
+        "dependencies.native": {"status": "unknown", "evidence": []}
+      },
+      "preference_signals": {},
+      "tradeoffs": ["The HTTP and database path uses an async runtime and feature-selected dependencies."],
+      "next_validation": "Build, test, and exercise an Axum endpoint and SQLx PostgreSQL connection in the target container."
+    },
+    {
+      "id": "java-spring-boot-pgjdbc",
+      "language_id": "wikidata:Q251",
+      "language_name": "Java",
+      "framework": "Spring Boot and pgJDBC",
+      "frameworks": ["Spring Boot", "pgJDBC"],
+      "runtime": "JVM",
+      "verification_status": "source_documented",
+      "capabilities": {
+        "integration.http": {"status": "supported_with_conditions", "conditions": ["Include Spring Web and configure the service."], "evidence": [{"source_url": "https://spring.io/guides/gs/rest-service", "checked_at": "2026-11-19", "applies_to": "Spring REST service guide"}]},
+        "integration.postgresql": {"status": "supported_with_conditions", "conditions": ["Add the PostgreSQL JDBC driver and configure a data source."], "evidence": [{"source_url": "https://jdbc.postgresql.org/documentation/", "checked_at": "2026-11-19", "applies_to": "pgJDBC documentation"}]},
+        "platform.linux": {"status": "unknown", "evidence": []},
+        "deployment.container": {"status": "unknown", "evidence": []},
+        "resources.memory_peak_mb": {"status": "unknown", "evidence": []},
+        "dependencies.native": {"status": "supported_with_conditions", "value": "not_required", "conditions": ["pgJDBC is a pure Java Type 4 driver; this does not establish the requirements of other dependencies."], "evidence": [{"source_url": "https://jdbc.postgresql.org/documentation/", "checked_at": "2026-11-19", "applies_to": "pgJDBC documentation"}]}
+      },
+      "preference_signals": {},
+      "tradeoffs": ["The service runs on a JVM; runtime memory has not been measured in this profile."],
+      "next_validation": "Build and test the service, PostgreSQL integration, and container memory use in the target environment."
+    }
+  ]
+}

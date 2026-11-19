@@ -7,6 +7,8 @@ A programmatic, source-linked union of programming-language identities and tool 
 | `data/inventory.json` | Canonical records with source identities, match evidence, package identifiers, and tools |
 | `data/sources.json` | Source roles, terms, filters, and monitor endpoints |
 | `data/source_state.json` | Last generated upstream revisions, validators, digests, and counts |
+| `data/suitability_profiles.json` | Evidence-backed stack profiles linked to canonical language IDs |
+| `data/task_profile.schema.json` | JSON Schema for the structured task profile |
 | `data/wikipedia.json` | Supplemental discovery seed only |
 | `data/discovery_candidates.json` | Seed candidates linked, ambiguous, or still discovery-only |
 | `data/unresolved_matches.json` | Exact-key collisions and joins left unresolved |
@@ -15,6 +17,7 @@ A programmatic, source-linked union of programming-language identities and tool 
 | `scripts/monitor_sources.py` | Checks upstream revisions, validators, and content changes |
 | `scripts/verify_inventory.py` | Checks identities, source counts, readiness, and generated totals |
 | `mcp/server.py` | Read-only MCP interface |
+| `mcp/task_matching.py` | Task-profile validation, hard-constraint checks, and weighted ranking |
 | `SOURCES.md` | Source roles, monitoring cadence, and review cycle |
 | `ARCHITECTURE.md` | System map and editable diagram |
 | `DATA-LICENSE.md` | Code and dataset license boundaries |
@@ -29,7 +32,11 @@ Run the stdio MCP server from this checkout:
 uv run --python 3.11 --locked python mcp/server.py
 ```
 
-The server reads committed JSON snapshots. It makes no network requests, installs nothing, and does not launch language servers. Tools are `search_index`, `list_shelf`, `get_language`, and `check_tools`. The PATH check returns the absolute locations of matching executables.
+The server reads committed JSON snapshots. It makes no network requests, installs nothing, and does not launch language servers. Tools are `search_index`, `list_shelf`, `get_language`, `check_tools`, `recommend_stack`, `compare_candidates`, and `get_suitability_evidence`. The PATH check returns the absolute locations of matching executables.
+
+## Task matching
+
+`recommend_stack` turns a request into a structured task profile (`data/task_profile.schema.json`), then filters and ranks recorded language, framework, and runtime combinations from `data/suitability_profiles.json`. Hard requirements eliminate candidates only on recorded evidence; a `supported_with_conditions` claim stays unknown until its conditions are checked. Missing or unevidenced constraints are reported as unknown, never guessed. Ranking adds comparison points for existing project languages, frameworks, team experience, and evidenced priorities; ties share a rank. Every result carries the claims, conditions, HTTPS sources, and a validation step, so a recommendation can be traced back to what a source documented and what remains unmeasured. Profiles are curated, not generated: they cover a small set of common service stacks and grow only with reviewed evidence.
 
 ## Identity and matching
 

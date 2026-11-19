@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["task"],
+  "properties": {
+    "task": {"type": "string", "pattern": "\\S"},
+    "existing_project": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "languages": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "frameworks": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "target": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "platform": {"type": "string", "minLength": 1},
+        "deployment": {"type": "string", "minLength": 1}
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "required_integrations": {"type": "array", "items": {"type": "string", "minLength": 1}},
+        "memory_limit_mb": {"type": "number", "exclusiveMinimum": 0},
+        "native_dependencies_allowed": {"type": "boolean"}
+      }
+    },
+    "priorities": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "team_experience": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "unknowns": {"type": "array", "items": {"type": "string", "minLength": 1}}
+  }
+}

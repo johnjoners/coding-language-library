@@ -10,6 +10,11 @@ from collections import Counter
 from pathlib import Path
 from typing import Any
 
+if __package__:
+    from .task_matching import compare_candidates, get_suitability_evidence, recommend_stack
+else:
+    from task_matching import compare_candidates, get_suitability_evidence, recommend_stack
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 PROTOCOL = "2024-11-05"
@@ -21,6 +26,10 @@ def load_inventory() -> dict[str, Any]:
 
 def load_adapters() -> dict[str, Any]:
     return json.loads((DATA / "adapters.json").read_text(encoding="utf-8"))
+
+
+def load_suitability_profiles() -> dict[str, Any]:
+    return json.loads((DATA / "suitability_profiles.json").read_text(encoding="utf-8"))
 
 
 def norm(value: str) -> str:
@@ -137,6 +146,24 @@ def tool_check_tools(args: dict[str, Any]) -> str:
         "executables": checked}, ensure_ascii=False, indent=1)
 
 
+def tool_recommend_stack(args: dict[str, Any]) -> str:
+    result = recommend_stack(args.get("task_profile", {}), load_suitability_profiles(), args.get("limit", 5))
+    return json.dumps({"recommendations": result}, ensure_ascii=False, indent=1)
+
+
+def tool_compare_candidates(args: dict[str, Any]) -> str:
+    result = compare_candidates(args.get("candidate_ids", []), args.get("task_profile", {}), load_suitability_profiles())
+    return json.dumps({"comparisons": result}, ensure_ascii=False, indent=1)
+
+
+def tool_get_suitability_evidence(args: dict[str, Any]) -> str:
+    result = get_suitability_evidence(args.get("language_id", ""), args.get("capability"), load_suitability_profiles())
+    return json.dumps(result, ensure_ascii=False, indent=1)
+
+
+TASK_PROFILE_SCHEMA = json.loads((DATA / "task_profile.schema.json").read_text(encoding="utf-8"))
+
+
 TOOLS = {
  "search_index": (tool_search_index, {"description": "Search canonical identities, aliases, extensions, source IDs, package IDs, and linked tools.",
   "inputSchema": {"type": "object", "properties": {"query": {"type": "string"}, "offset": {"type": "integer", "default": 0}, "limit": {"type": "integer", "default": 25}}, "required": ["query"]}}),
@@ -144,6 +171,9 @@ TOOLS = {
   "inputSchema": {"type": "object", "properties": {"filter": {"type": "string", "enum": ["all", "language-server", "runtime-or-compiler", "development-tools", "package-manager", "linguist", "wikidata", "pldb", "single-source"], "default": "all"}, "offset": {"type": "integer", "default": 0}, "limit": {"type": "integer", "default": 50}}}}),
  "get_language": (tool_get_language, {"description": "Get a source-linked record and its tool and adapter evidence.", "inputSchema": {"type": "object", "properties": {"name": {"type": "string"}}, "required": ["name"]}}),
  "check_tools": (tool_check_tools, {"description": "Check recorded language-tool and Homebrew executable names against PATH.", "inputSchema": {"type": "object", "properties": {"name": {"type": "string"}, "limit": {"type": "integer", "default": 40}}, "required": ["name"]}}),
+ "recommend_stack": (tool_recommend_stack, {"description": "Rank recorded language stacks for a structured task profile. Unknown constraints remain visible; the tool installs nothing.", "annotations": {"readOnlyHint": True}, "inputSchema": {"type": "object", "properties": {"task_profile": TASK_PROFILE_SCHEMA, "limit": {"type": "integer", "default": 5, "minimum": 1, "maximum": 20}}, "required": ["task_profile"]}}),
+ "compare_candidates": (tool_compare_candidates, {"description": "Compare stack IDs against one structured task profile, including failed and unknown constraints.", "annotations": {"readOnlyHint": True}, "inputSchema": {"type": "object", "properties": {"candidate_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "task_profile": TASK_PROFILE_SCHEMA}, "required": ["candidate_ids", "task_profile"]}}),
+ "get_suitability_evidence": (tool_get_suitability_evidence, {"description": "Return documented suitability claims and evidence for a canonical language ID.", "annotations": {"readOnlyHint": True}, "inputSchema": {"type": "object", "properties": {"language_id": {"type": "string"}, "capability": {"type": "string"}}, "required": ["language_id"]}}),
 }
 
 

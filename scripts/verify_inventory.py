@@ -18,6 +18,21 @@ def load(name: str) -> dict[str, Any]:
     return json.loads((DATA / name).read_text(encoding="utf-8"))
 
 
+def verify_evidence(evidence: Any, context: str, errors: list[str]) -> None:
+    if not isinstance(evidence, list):
+        errors.append(f"evidence is not a list: {context}")
+        return
+    for index, item in enumerate(evidence):
+        if not isinstance(item, dict):
+            errors.append(f"evidence item is not an object: {context}[{index}]")
+            continue
+        if not isinstance(item.get("source_url"), str) or not item["source_url"].startswith("https://"):
+            errors.append(f"evidence source URL must use HTTPS: {context}[{index}]")
+        for field in ("checked_at", "applies_to"):
+            if not isinstance(item.get(field), str) or not item[field].strip():
+                errors.append(f"evidence lacks {field}: {context}[{index}]")
+
+
 def main() -> int:
     inventory = load("inventory.json")
     sources = load("sources.json")["sources"]
@@ -25,6 +40,8 @@ def main() -> int:
     candidates = load("discovery_candidates.json")["entries"]
     unresolved = load("unresolved_matches.json")
     adapters = load("adapters.json")
+    suitability = load("suitability_profiles.json")
+    task_profile_schema = load("task_profile.schema.json")
     errors: list[str] = []
     rows = inventory.get("languages", [])
     ids = [row.get("id") for row in rows]
@@ -86,6 +103,55 @@ def main() -> int:
         errors.append("unknown Wikipedia candidate status")
     if not adapters.get("adapters") or not any(a.get("verification", {}).get("status") == "tested" for a in adapters["adapters"]):
         errors.append("no tested MCP adapter pairing recorded")
+
+    if suitability.get("schema_version") != 1 or not isinstance(suitability.get("stacks"), list):
+        errors.append("suitability profile schema or stacks list is invalid")
+        suitability_stacks = []
+    else:
+        suitability_stacks = suitability["stacks"]
+    stack_ids = [stack.get("id") for stack in suitability_stacks if isinstance(stack, dict)]
+    if len(stack_ids) != len(suitability_stacks) or len(stack_ids) != len(set(stack_ids)):
+        errors.append("suitability stack IDs are missing, invalid, or duplicated")
+    verification_statuses = {"catalogue_only", "source_documented", "environment_checked", "project_tested"}
+    claim_statuses = {"supported", "supported_with_conditions", "unsupported", "unknown"}
+    for index, stack in enumerate(suitability_stacks):
+        context = f"suitability stack {index}"
+        if not isinstance(stack, dict):
+            continue
+        if stack.get("language_id") not in ids:
+            errors.append(f"suitability profile does not link to a canonical language ID: {stack.get('id')}")
+        if stack.get("verification_status") not in verification_statuses:
+            errors.append(f"invalid suitability verification status: {stack.get('id')}")
+        capabilities = stack.get("capabilities", {})
+        if not isinstance(capabilities, dict):
+            errors.append(f"suitability capabilities are not an object: {stack.get('id')}")
+            continue
+        for capability, claim in capabilities.items():
+            claim_context = f"{context}.{capability}"
+            if not isinstance(claim, dict):
+                errors.append(f"suitability claim is not an object: {claim_context}")
+                continue
+            if claim.get("status", "unknown") not in claim_statuses:
+                errors.append(f"invalid suitability claim status: {claim_context}")
+            conditions = claim.get("conditions", [])
+            if not isinstance(conditions, list) or any(not isinstance(value, str) for value in conditions):
+                errors.append(f"suitability conditions are invalid: {claim_context}")
+            verify_evidence(claim.get("evidence", []), claim_context, errors)
+        signals = stack.get("preference_signals", {})
+        if not isinstance(signals, dict):
+            errors.append(f"suitability preference signals are not an object: {stack.get('id')}")
+            continue
+        for priority, signal in signals.items():
+            signal_context = f"{context}.preference.{priority}"
+            if not isinstance(signal, dict) or signal.get("status", "unknown") not in claim_statuses:
+                errors.append(f"invalid suitability preference signal: {signal_context}")
+                continue
+            verify_evidence(signal.get("evidence", []), signal_context, errors)
+
+    if task_profile_schema.get("$schema") != "https://json-schema.org/draft/2020-12/schema":
+        errors.append("task profile schema draft is not declared")
+    if task_profile_schema.get("type") != "object" or "task" not in task_profile_schema.get("required", []):
+        errors.append("task profile schema must require a task object field")
 
     actual = {
         "languages": len(rows),
