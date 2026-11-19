@@ -188,7 +188,7 @@ def handle(msg: dict[str, Any]) -> dict[str, Any] | None:
     method, msg_id = msg.get("method"), msg.get("id")
     if method == "notifications/initialized" or msg_id is None: return None
     if method == "initialize":
-        return respond(msg_id, {"protocolVersion": PROTOCOL, "capabilities": {"tools": {}}, "serverInfo": {"name": "coding-language-library", "version": "0.3.0"}})
+        return respond(msg_id, {"protocolVersion": PROTOCOL, "capabilities": {"tools": {}}, "serverInfo": {"name": "coding-language-library", "version": "0.3.1"}})
     if method == "ping": return respond(msg_id, {})
     if method == "tools/list": return respond(msg_id, {"tools": [{"name": n, **spec} for n, (_, spec) in TOOLS.items()]})
     if method == "tools/call":

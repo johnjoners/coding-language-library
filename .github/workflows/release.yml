@@ -51,6 +51,10 @@ jobs:
           assert replies[2]["result"]["isError"] is False, replies[2]
           print(sorted(tools))
           '
+      - name: Publish to PyPI
+        env:
+          UV_PUBLISH_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
+        run: uv publish dist/*
       - name: Publish the GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
