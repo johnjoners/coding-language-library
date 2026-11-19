@@ -2,7 +2,7 @@
 
 ## Supported version
 
-The latest commit on `main` is supported. There are no tagged releases.
+The latest tagged release is supported, and the latest commit on `main` for unreleased changes. Tagged releases bundle the `data/` snapshots at build time; the server reports its version in `initialize`.
 
 ## Reporting a vulnerability
 

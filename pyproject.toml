@@ -3,6 +3,7 @@ name = "coding-language-library"
 version = "0.3.0"
 description = "Source-linked union of programming-language and tooling catalogues"
 requires-python = ">=3.11"
+license-files = ["LICENSE", "DATA-LICENSE.md", "THIRD_PARTY_NOTICES.md", "licenses/*"]
 
 [project.scripts]
 coding-language-library = "mcp.server:main"

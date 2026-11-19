@@ -1,0 +1,57 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: read
+
+jobs:
+  release:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ github.ref }}
+      - uses: astral-sh/setup-uv@68559e99cc807c1eb7e9238fd43a15bba460eec2
+      - name: Check the tag matches the package version
+        run: |
+          project=$(sed -n 's/^version = "\(.*\)"$/\1/p' pyproject.toml)
+          server=$(sed -n 's/.*"serverInfo": {"name": "coding-language-library", "version": "\([^"]*\)"}.*/\1/p' mcp/server.py)
+          if [ "v$project" != "$GITHUB_REF_NAME" ] || [ "$server" != "$project" ]; then
+            echo "tag $GITHUB_REF_NAME, pyproject $project, server $server"
+            exit 1
+          fi
+      - name: Verify inventory and tests
+        run: |
+          uv run --locked --group catalog python scripts/verify_inventory.py
+          uv run --locked --group catalog python -m unittest discover -s tests
+      - name: Build the distribution
+        run: uv build --out-dir dist
+      - name: Smoke-test the wheel without a checkout
+        working-directory: ${{ runner.temp }}
+        run: |
+          wheel=$(ls "$GITHUB_WORKSPACE"/dist/*.whl)
+          out=$(uvx --no-cache --from "$wheel" coding-language-library <<'EOF'
+          {"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"release-check","version":"0"}}}
+          {"jsonrpc":"2.0","id":2,"method":"tools/list"}
+          {"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"get_language","arguments":{"name":"Python"}}}
+          EOF
+          )
+          echo "$out" | python3 -c '
+          import json, sys
+          replies = [json.loads(line) for line in sys.stdin if line.strip()]
+          tools = {tool["name"] for tool in replies[1]["result"]["tools"]}
+          assert len(tools) == 7, tools
+          assert replies[2]["result"]["isError"] is False, replies[2]
+          print(sorted(tools))
+          '
+      - name: Publish the GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" dist/*.whl dist/*.tar.gz --verify-tag --generate-notes

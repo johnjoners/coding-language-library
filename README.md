@@ -38,6 +38,12 @@ Without a checkout, run the packaged entry point from the git repository, or ins
 uvx --from git+https://github.com/johnjoners/coding-language-library coding-language-library
 ```
 
+Pin a tagged release when you want a fixed catalogue snapshot; the wheel bundles the data at build time:
+
+```sh
+uvx --from git+https://github.com/johnjoners/coding-language-library@v0.3.0 coding-language-library
+```
+
 The server reads the committed JSON snapshots under `data/`, which are also bundled into the package. It makes no network requests, installs nothing, and does not launch language servers.
 
 | Tool | Does |
