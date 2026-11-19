@@ -1,6 +1,6 @@
 # coding-language-library
 
-A programmatic, source-linked union of programming-language identities and tool catalogues. The inventory combines broad discovery, structured identities, language-recognition metadata, and package availability. No one list defines the catalogue.
+A source-linked union of programming-language identities and tool catalogues: broad discovery, structured identities, language-recognition metadata, and package availability. No one list defines the catalogue.
 
 | Path | Contents |
 | --- | --- |
@@ -32,17 +32,42 @@ Run the stdio MCP server from this checkout:
 uv run --python 3.11 --locked python mcp/server.py
 ```
 
-The server reads committed JSON snapshots. It makes no network requests, installs nothing, and does not launch language servers. Tools are `search_index`, `list_shelf`, `get_language`, `check_tools`, `recommend_stack`, `compare_candidates`, and `get_suitability_evidence`. The PATH check returns the absolute locations of matching executables.
+The server reads the committed JSON snapshots under `data/`. It makes no network requests, installs nothing, and does not launch language servers.
+
+| Tool | Does |
+| --- | --- |
+| `search_index` | Searches identities, aliases, extensions, source IDs, package IDs, and linked tools |
+| `list_shelf` | Pages the union, filtered by source coverage or recorded tooling |
+| `get_language` | Returns one source-linked record with its tool and adapter evidence |
+| `check_tools` | Checks recorded tool and Homebrew executable names against `PATH` |
+| `recommend_stack` | Ranks recorded stacks against a caller-supplied task profile |
+| `compare_candidates` | Compares chosen stack IDs against one profile, failed constraints included |
+| `get_suitability_evidence` | Returns documented suitability claims and evidence for a language ID |
 
 ## Task matching
 
-`recommend_stack` turns a request into a structured task profile (`data/task_profile.schema.json`), then filters and ranks recorded language, framework, and runtime combinations from `data/suitability_profiles.json`. Hard requirements eliminate candidates only on recorded evidence; a `supported_with_conditions` claim stays unknown until its conditions are checked. Missing or unevidenced constraints are reported as unknown, never guessed. Ranking adds comparison points for existing project languages, frameworks, team experience, and evidenced priorities; ties share a rank. Every result carries the claims, conditions, HTTPS sources, and a validation step, so a recommendation can be traced back to what a source documented and what remains unmeasured. Profiles are curated, not generated: they cover a small set of common service stacks and grow only with reviewed evidence.
+`recommend_stack` and `compare_candidates` rank the recorded stacks in `data/suitability_profiles.json` against a task profile the caller fills in (`data/task_profile.schema.json`). The matcher never reads the `task` string, so a requirement left in prose is invisible to it.
+
+| Profile field | Effect |
+| --- | --- |
+| `task` | Request text, validated for presence only; constraint terms named in it without a structured field are echoed in `unstructured_terms` on every result |
+| `existing_project.languages` | +100 when a stack language matches |
+| `existing_project.frameworks` | +60 when a stack framework matches |
+| `team_experience` | +20 on a language or framework match |
+| `priorities` | Position-weighted points, capped at 60, only where the profile records a supported signal with evidence |
+| `target.platform` | Hard filter against the `platform.*` capability |
+| `target.deployment` | Hard filter against the `deployment.*` capability |
+| `requirements.required_integrations` | Hard filter per integration against `integration.*` |
+| `requirements.memory_limit_mb` | Hard filter against the recorded `resources.memory_peak_mb` |
+| `requirements.native_dependencies_allowed` | `false` fails a stack whose `dependencies.native` claim is `required` |
+
+A stack is eliminated only by a recorded, contradicting claim. Constraints that are missing, unevidenced, or `supported_with_conditions` are listed as unknown in the result. Constraint terms named in the `task` text but not placed in a structured field are never parsed or applied; they are echoed in `unstructured_terms` so the caller can move them into the profile. `recommend_stack` drops failed stacks; `compare_candidates` keeps them so the failure stays visible. Ties share a rank. Each result carries its claims, conditions, HTTPS sources, a suggested next validation, and the profile's `unknowns` echoed as open questions.
+
+Profiles are curated by hand: a small set of service stacks, grown only with reviewed evidence.
 
 ## Identity and matching
 
-The canonical inventory is a source union, not a ranking. PLDB and Wikidata provide broad identity coverage; the language-recognition file adds GitHub-scoped identities; package registries contribute tool availability. Source membership is recorded on each record. Stable IDs, published crosswalks, exact page links, exact names, and published aliases are used for joins. Ambiguous joins remain separate and are reported in `data/unresolved_matches.json`.
-
-The Wikipedia list is kept as a discovery seed. It can reveal candidates or gaps, but entries that have no corroborating identity-source match stay outside `data/inventory.json`.
+Joins use stable IDs, published crosswalks, exact page links, exact names, and source-published aliases. Ambiguous joins stay separate and are counted in `data/unresolved_matches.json`. The Wikipedia list seeds discovery only; a candidate with no identity-source match never enters `data/inventory.json`.
 
 ## Refresh and monitoring
 
@@ -53,7 +78,7 @@ uv run --locked --group catalog python scripts/build_inventory.py
 uv run --locked --group catalog python scripts/verify_inventory.py
 ```
 
-A weekly workflow checks conditional HTTP validators, content hashes, revisions, and entity digests. When source content changes, it rebuilds snapshots and opens a review pull request. A human reviews the data and source terms before merging; the workflow never updates `main` automatically. See [SOURCES.md](SOURCES.md) for the change signals and review process.
+A weekly workflow checks validators, content hashes, revisions, and entity digests. On a source change it rebuilds snapshots and opens a review pull request; a human reviews the data and source terms before merging, and the workflow never updates `main`. See [SOURCES.md](SOURCES.md) for the change signals and review process.
 
 ## Terms
 

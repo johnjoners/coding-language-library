@@ -16,6 +16,7 @@
 ## MCP
 
 - `mcp/server.py` reads the generated JSON under `data/` and remains read-only.
+- `recommend_stack` and `compare_candidates` never parse the `task` text. Constraint terms left in it are echoed in `unstructured_terms` on every result, so the caller moves them into structured fields.
 - Keep output bounded and paginated. Reject unknown names and invalid filters as tool errors.
 - Do not install packages or launch language servers from the catalogue server.
 - Label a route as tested only when the exact adapter and language-server pair is recorded in `data/adapters.json`.

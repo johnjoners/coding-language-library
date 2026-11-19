@@ -163,6 +163,23 @@ class TaskMatchingTests(unittest.TestCase):
 
         self.assertTrue({"recommend_stack", "compare_candidates", "get_suitability_evidence"} <= set(TOOLS))
 
+    def test_constraint_terms_left_in_prose_are_flagged_not_parsed(self):
+        task = {"task": "Build a webhook service that stays under 256 MB with no native dependencies"}
+        result = recommend_stack(task, PROFILES)
+        self.assertIn("requirements.memory_limit_mb", result[0]["unstructured_terms"])
+        self.assertIn("requirements.native_dependencies_allowed", result[0]["unstructured_terms"])
+        compared = compare_candidates(["go-pgx", "java-spring"], task, PROFILES)
+        self.assertEqual(compared[0]["unstructured_terms"], result[0]["unstructured_terms"])
+        structured = {**task, "requirements": {"memory_limit_mb": 256, "native_dependencies_allowed": False}}
+        self.assertEqual(recommend_stack(structured, PROFILES)[0]["unstructured_terms"], [])
+
+    def test_prose_lint_uses_word_boundaries_not_substrings(self):
+        from mcp.task_matching import _unstructured_terms
+        self.assertEqual(_unstructured_terms({"task": "Rewrite the climbing log in a frameworked style"}), [])
+        self.assertEqual(_unstructured_terms({"task": "Serve 3 GB of media files"}),
+                         ["requirements.memory_limit_mb"])
+        self.assertEqual(_unstructured_terms({"task": "Sync calendar events", "requirements": {"required_integrations": ["Calendar"]}}), [])
+
     def test_invalid_or_ambiguous_candidate_identifiers_fail_closed(self):
         with self.assertRaises(ValueError):
             compare_candidates(["missing"], TASK, PROFILES)

@@ -12,7 +12,8 @@ profiles, including claim statuses, conditions, and HTTPS evidence. The stdio
 MCP server reads the committed files. It does not install tools or launch
 language servers. `recommend_stack` filters and ranks recorded stacks against
 a structured task profile; conditional support stays unknown, and unevidenced
-constraints are reported rather than guessed.
+constraints are reported rather than guessed. Constraint terms left in the
+task text are flagged in `unstructured_terms`, not parsed.
 
 A catalogue match is not a compatibility check. Python with Pyright is the only
 adapter pairing marked tested.

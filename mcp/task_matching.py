@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import re
 from typing import Any
 
 
@@ -20,6 +21,36 @@ RANK_WEIGHTS = {
 
 def _norm(value: str) -> str:
     return "".join(char for char in value.casefold() if char.isalnum() or char in "+#")
+
+
+PROSE_PATTERNS = [
+    (re.compile(r"\b(?:memory|ram)\b|\b\d+(?:\.\d+)?\s*(?:mb|gb|kib|mib|gib)\b", re.IGNORECASE), "requirements.memory_limit_mb"),
+    (re.compile(r"\bnative\b", re.IGNORECASE), "requirements.native_dependencies_allowed"),
+    (re.compile(r"\bplatform\b", re.IGNORECASE), "target.platform"),
+    (re.compile(r"\b(?:deploy|deployment)\b", re.IGNORECASE), "target.deployment"),
+    (re.compile(r"\bintegrat(?:e|es|ed|ion|ions)\b", re.IGNORECASE), "requirements.required_integrations"),
+]
+
+
+def _unstructured_terms(task: dict[str, Any]) -> list[str]:
+    """Constraint terms named in the task text but missing from the structured fields."""
+    text = task.get("task", "") if isinstance(task.get("task"), str) else ""
+    if not text.strip():
+        return []
+    requirements = task.get("requirements", {})
+    target = task.get("target", {})
+    occupied = {
+        "requirements.memory_limit_mb": requirements.get("memory_limit_mb") is not None,
+        "requirements.native_dependencies_allowed": requirements.get("native_dependencies_allowed") is not None,
+        "requirements.required_integrations": bool(requirements.get("required_integrations")),
+        "target.platform": bool(target.get("platform")),
+        "target.deployment": bool(target.get("deployment")),
+    }
+    found: list[str] = []
+    for pattern, field in PROSE_PATTERNS:
+        if not occupied.get(field) and field not in found and pattern.search(text):
+            found.append(field)
+    return found
 
 
 def _validate_evidence(evidence: Any, context: str) -> None:
@@ -229,9 +260,11 @@ def _supported_signal(signal: Any) -> bool:
             and bool(signal.get("evidence")))
 
 
-def _record(task: dict[str, Any], stack: dict[str, Any]) -> dict[str, Any]:
+def _record(task: dict[str, Any], stack: dict[str, Any], unstructured: list[str] | None = None) -> dict[str, Any]:
     constraints = _hard_constraints(task, stack)
     score, reasons = _rank(task, stack)
+    if unstructured is None:
+        unstructured = _unstructured_terms(task)
     capabilities = stack.get("capabilities", {})
     signals = stack.get("preference_signals", {})
     evidence = [
@@ -272,6 +305,7 @@ def _record(task: dict[str, Any], stack: dict[str, Any]) -> dict[str, Any]:
         "tradeoffs": stack.get("tradeoffs", []),
         "evidence": evidence,
         "verification_status": stack.get("verification_status", "catalogue_only"),
+        "unstructured_terms": unstructured,
         "open_questions": task.get("unknowns", []),
         "next_validation": stack.get("next_validation", "Build and test a minimal representative project."),
     }
@@ -294,8 +328,9 @@ def recommend_stack(task_profile: dict[str, Any], profiles: dict[str, Any], limi
     if isinstance(limit, bool) or not isinstance(limit, int) or not 1 <= limit <= MAX_RESULTS:
         raise ValueError(f"limit must be an integer from 1 to {MAX_RESULTS}")
     ranked = []
+    unstructured = _unstructured_terms(task_profile)
     for stack in _profiles(profiles):
-        record = _record(task_profile, stack)
+        record = _record(task_profile, stack, unstructured)
         if record["hard_constraints"]["failed"]:
             continue
         ranked.append(record)
@@ -314,7 +349,7 @@ def compare_candidates(candidate_ids: list[str], task_profile: dict[str, Any], p
     if missing:
         raise ValueError("unknown candidate stack IDs: " + ", ".join(missing))
     _validate_task(task_profile)
-    compared = [_record(task_profile, by_id[value]) for value in candidate_ids]
+    compared = [_record(task_profile, by_id[value], _unstructured_terms(task_profile)) for value in candidate_ids]
     compared.sort(key=lambda row: -row["rank_score"])
     return _assign_ranks(compared)
 
