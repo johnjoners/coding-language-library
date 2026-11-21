@@ -41,7 +41,7 @@ uvx --from git+https://github.com/johnjoners/coding-language-library coding-lang
 Pin a tagged release when you want a fixed catalogue snapshot; the wheel bundles the data at build time:
 
 ```sh
-uvx --from git+https://github.com/johnjoners/coding-language-library@v0.3.1 coding-language-library
+uvx --from git+https://github.com/johnjoners/coding-language-library@v0.3.2 coding-language-library
 ```
 
 Releases also ship to PyPI:
