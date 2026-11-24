@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-19T00:59:21+00:00",
+ "generated_at": "2026-11-24T02:15:18+00:00",
  "sources": {
   "pldb": {
    "name": "Programming Language Database",
@@ -87,53 +87,53 @@
    "last_modified": null,
    "records": 5159,
    "programming_languages": 3463,
-   "retrieved_at": "2026-11-19T00:58:23+00:00"
+   "retrieved_at": "2026-11-24T02:14:43+00:00"
   },
   "wikidata": {
-   "items": 1920,
-   "requested_ids": 1921,
+   "items": 1949,
+   "requested_ids": 1950,
    "missing_ids": [
     "Q137924569"
    ],
-   "qid_digest": "9d764805ee869cf2d688d658478d8136a3999d1bd4ccaa956310445f1353be76",
-   "retrieved_at": "2026-11-19T00:59:10+00:00"
+   "qid_digest": "b7a063f91c2a7be9da3d237c61683054d5c49c195d0d60878c531fd5f5faef35",
+   "retrieved_at": "2026-11-24T02:15:17+00:00"
   },
   "github_linguist": {
    "etag": "\"c575f93209a661947fb677560f11f803fca1ccd9eb2624dfc2495fdf375583ed\"",
    "entries": 849,
    "programming_languages": 573,
-   "retrieved_at": "2026-11-19T00:59:11+00:00"
+   "retrieved_at": "2026-11-24T02:15:17+00:00"
   },
   "mason_registry": {
-   "etag": "\"0x8DF45BA8092A0B5\"",
-   "last_modified": "Wed, 18 Nov 2026 21:25:43 GMT",
+   "etag": "\"0x8DF499D8240B21B\"",
+   "last_modified": "Mon, 23 Nov 2026 20:08:15 GMT",
    "packages": 608,
-   "retrieved_at": "2026-11-19T00:59:12+00:00"
+   "retrieved_at": "2026-11-24T02:15:17+00:00"
   },
   "homebrew": {
-   "etag": "\"6afe45b9-1ebdbfb\"",
-   "last_modified": "Thu, 19 Nov 2026 00:41:29 GMT",
-   "formulae": 8733,
-   "retrieved_at": "2026-11-19T00:59:20+00:00"
+   "etag": "\"6b04f06b-1ec2bf5\"",
+   "last_modified": "Tue, 24 Nov 2026 02:03:23 GMT",
+   "formulae": 8742,
+   "retrieved_at": "2026-11-24T02:15:18+00:00"
   },
   "wikipedia_seed": {
-   "revision": 1384874713,
-   "retrieved_at": "2026-11-18T21:17:43+00:00",
-   "entries": 670
+   "revision": 1386835851,
+   "retrieved_at": "2026-11-24T02:14:41+00:00",
+   "entries": 671
   }
  },
  "counts": {
-  "languages": 4562,
+  "languages": 4576,
   "pldb_records": 3463,
-  "wikidata_items": 1920,
+  "wikidata_items": 1949,
   "github_linguist_languages": 573,
-  "with_multiple_identity_sources": 1141,
+  "with_multiple_identity_sources": 1155,
   "with_mason_tools": 129,
   "with_homebrew_formula": 57,
-  "wikipedia_candidates": 670,
+  "wikipedia_candidates": 671,
   "wikipedia_linked_candidates": 557,
   "wikipedia_only_candidates": 42,
-  "unresolved_identity_matches": 238,
+  "unresolved_identity_matches": 241,
   "unresolved_mason_language_names": 101,
   "mason_packages_associated": 501,
   "mason_lsp_packages": 269,
@@ -308,7 +308,7 @@
      "licenses": [
       "proprietary"
      ],
-     "source_id": "pkg:github/github/codeql-cli-binaries@v2.27.4",
+     "source_id": "pkg:github/github/codeql-cli-binaries@v2.27.5",
      "executables": {
       "codeql": "{{source.asset.bin}}"
      },
@@ -1737,7 +1737,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxfmt@0.78.0",
+     "source_id": "pkg:npm/oxfmt@0.79.0",
      "executables": {
       "oxfmt": "npm:oxfmt"
      },
@@ -1860,7 +1860,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/nxls@1.11.3",
+     "source_id": "pkg:npm/nxls@1.11.4",
      "executables": {
       "nxls": "npm:nxls"
      },
@@ -1921,7 +1921,7 @@
      "licenses": [
       "MIT-0"
      ],
-     "source_id": "pkg:pypi/cfn-lint@1.60.1",
+     "source_id": "pkg:pypi/cfn-lint@1.61.0",
      "executables": {
       "cfn-lint": "pypi:cfn-lint"
      },
@@ -1966,7 +1966,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -6157,7 +6157,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570457037
+     "lastrevid": 2571968085
     }
    },
    "matches": [
@@ -9553,8 +9553,8 @@
    "id": "wikidata:Q296187",
    "name": "APL",
    "aliases": [
-    "A Programming Language",
     "A programming language",
+    "A Programming Language",
     "APL (language)",
     "APL language",
     "APL programming language",
@@ -9616,7 +9616,7 @@
        "Q3839507"
       ]
      },
-     "lastrevid": 2556070254
+     "lastrevid": 2572030073
     }
    },
    "matches": [
@@ -10237,7 +10237,7 @@
        "Q7397"
       ]
      },
-     "lastrevid": 2131215779
+     "lastrevid": 2572990394
     }
    },
    "matches": [
@@ -10376,6 +10376,34 @@
    "matches": [],
    "readiness": [
     "pldb-listed",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q4653581",
+   "name": "ARB assembly language",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q4653581",
+     "name": "ARB assembly language",
+     "aliases": [],
+     "description": "low-level shading language",
+     "enwiki": "ARB assembly language",
+     "claims": {
+      "instance_of": [
+       "Q3496485"
+      ]
+     },
+     "lastrevid": 2571940453
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
     "single-source"
    ],
    "package_identifiers": {},
@@ -12644,8 +12672,8 @@
    "id": "wikidata:Q3627876",
    "name": "Atari ST BASIC",
    "aliases": [
-    "ST Basic",
-    "ST BASIC"
+    "ST BASIC",
+    "ST Basic"
    ],
    "sources": {
     "pldb": {
@@ -13479,8 +13507,8 @@
    "id": "wikidata:Q784816",
    "name": "AutoHotkey",
    "aliases": [
-    "ahk",
-    "AHK"
+    "AHK",
+    "ahk"
    ],
    "sources": {
     "github_linguist": {
@@ -13540,7 +13568,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2561365693
+     "lastrevid": 2573033832
     }
    },
    "matches": [
@@ -14216,7 +14244,7 @@
        "Q187432"
       ]
      },
-     "lastrevid": 2547641373
+     "lastrevid": 2572090944
     }
    },
    "matches": [
@@ -14873,7 +14901,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570659468
+     "lastrevid": 2572058820
     }
    },
    "matches": [
@@ -15804,7 +15832,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/ewhauser/shuck@v0.2.7",
+     "source_id": "pkg:github/ewhauser/shuck@v0.2.11",
      "executables": {
       "shuck": "{{source.asset.bin}}"
      },
@@ -15879,7 +15907,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2567936633
+     "lastrevid": 2572152174
     }
    },
    "matches": [
@@ -18595,7 +18623,7 @@
      "licenses": [
       "BSD-2-Clause"
      ],
-     "source_id": "pkg:pypi/oelint-adv@9.12.1",
+     "source_id": "pkg:pypi/oelint-adv@9.14.0",
      "executables": {
       "oelint-adv": "pypi:oelint-adv"
      },
@@ -19435,7 +19463,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2556788581
+     "lastrevid": 2572452807
     }
    },
    "matches": [],
@@ -20646,8 +20674,8 @@
    "aliases": [
     "b****fuck",
     "BF",
-    "BrainF***",
     "Brainf***",
+    "BrainF***",
     "brainf**k",
     "Brainf*ck",
     "brainfsck",
@@ -21090,20 +21118,44 @@
    "tools": []
   },
   {
-   "id": "pldb:brown-university-interactive-language",
+   "id": "wikidata:Q4976335",
    "name": "BRUIN",
-   "aliases": [],
+   "aliases": [
+    "Brown University Interactive Language"
+   ],
    "sources": {
     "pldb": {
      "id": "brown-university-interactive-language",
      "name": "BRUIN",
      "wikipedia": "https://en.wikipedia.org/wiki/Brown_University_Interactive_Language"
+    },
+    "wikidata": {
+     "id": "Q4976335",
+     "name": "Brown University Interactive Language",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "Brown University Interactive Language",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571942419
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "brownuniversityinteractivelanguage",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -21818,7 +21870,7 @@
        "Q28922885"
       ]
      },
-     "lastrevid": 2567804978
+     "lastrevid": 2573837901
     }
    },
    "matches": [
@@ -21910,8 +21962,8 @@
    "id": "wikidata:Q1064516",
    "name": "C shell",
    "aliases": [
-    "Csh",
     "csh",
+    "Csh",
     "csh(1)",
     "csh.1",
     "tcsh"
@@ -22333,7 +22385,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -22426,7 +22478,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -22453,7 +22505,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -22909,7 +22961,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -22948,7 +23000,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -26047,7 +26099,7 @@
    "tools": []
   },
   {
-   "id": "pldb:cesil",
+   "id": "wikidata:Q5065544",
    "name": "Cesil",
    "aliases": [],
    "sources": {
@@ -26055,12 +26107,42 @@
      "id": "cesil",
      "name": "Cesil",
      "wikipedia": "https://en.wikipedia.org/wiki/Cesil"
+    },
+    "wikidata": {
+     "id": "Q5065544",
+     "name": "Cesil",
+     "aliases": [],
+     "description": "educational computer programming language",
+     "enwiki": "CESIL",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571943037
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "cesil",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "cesil",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -27166,7 +27248,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570439359
+     "lastrevid": 2573811978
     }
    },
    "matches": [],
@@ -27313,8 +27395,8 @@
    "id": "wikidata:Q283456",
    "name": "CHICKEN",
    "aliases": [
-    "Chicken Scheme",
-    "CHICKEN Scheme"
+    "CHICKEN Scheme",
+    "Chicken Scheme"
    ],
    "sources": {
     "pldb": {
@@ -28198,8 +28280,8 @@
     "IL Assembly",
     "ilasm",
     "Microsoft Intermediate Language MSIL",
-    "msil",
-    "MSIL"
+    "MSIL",
+    "msil"
    ],
    "sources": {
     "github_linguist": {
@@ -30027,7 +30109,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2549075630
+     "lastrevid": 2571855712
     }
    },
    "matches": [
@@ -30104,7 +30186,7 @@
     {
      "name": "clojure",
      "available": true,
-     "version": "1.12.6.1673",
+     "version": "1.12.7.1681",
      "executables": [
       "clj",
       "clojure"
@@ -30942,8 +31024,8 @@
    "id": "wikidata:Q5675045",
    "name": "CMS Pipelines",
    "aliases": [
-    "CMS Pipeline",
     "CMS pipeline",
+    "CMS Pipeline",
     "Hartmann pipeline",
     "TSO Pipelines"
    ],
@@ -31292,7 +31374,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2567836061
+     "lastrevid": 2572723904
     }
    },
    "matches": [
@@ -31359,7 +31441,7 @@
      "licenses": [
       "EPL-2.0"
      ],
-     "source_id": "pkg:github/eclipse-che4z/che-che4z-lsp-for-cobol@2.5.1",
+     "source_id": "pkg:github/eclipse-che4z/che-che4z-lsp-for-cobol@2.5.2",
      "executables": {
       "cobol-language-support": "{{source.asset.bin}}"
      },
@@ -31409,7 +31491,7 @@
    "tools": []
   },
   {
-   "id": "pldb:cobolscript",
+   "id": "wikidata:Q3681874",
    "name": "CobolScript",
    "aliases": [],
    "sources": {
@@ -31417,12 +31499,42 @@
      "id": "cobolscript",
      "name": "CobolScript",
      "wikipedia": "https://en.wikipedia.org/wiki/CobolScript"
+    },
+    "wikidata": {
+     "id": "Q3681874",
+     "name": "CobolScript",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "CobolScript",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571939148
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "cobolscript",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "cobolscript",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -32695,7 +32807,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570450971
+     "lastrevid": 2572198779
     }
    },
    "matches": [
@@ -32797,7 +32909,7 @@
    "tools": []
   },
   {
-   "id": "pldb:commonloops",
+   "id": "wikidata:Q5153266",
    "name": "CommonLoops",
    "aliases": [],
    "sources": {
@@ -32805,12 +32917,42 @@
      "id": "commonloops",
      "name": "CommonLoops",
      "wikipedia": "https://en.wikipedia.org/wiki/CommonLoops"
+    },
+    "wikidata": {
+     "id": "Q5153266",
+     "name": "CommonLoops",
+     "aliases": [],
+     "description": "",
+     "enwiki": "CommonLoops",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571943725
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "commonloops",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "commonloops",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -32845,7 +32987,7 @@
    "tools": []
   },
   {
-   "id": "pldb:compact-application-solution-language",
+   "id": "wikidata:Q5155269",
    "name": "Compact Application Solution Language",
    "aliases": [],
    "sources": {
@@ -32853,12 +32995,45 @@
      "id": "compact-application-solution-language",
      "name": "Compact Application Solution Language",
      "wikipedia": "https://en.wikipedia.org/wiki/Compact_Application_Solution_Language"
+    },
+    "wikidata": {
+     "id": "Q5155269",
+     "name": "Compact Application Solution Language",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "Compact Application Solution Language",
+     "claims": {
+      "official_site": [
+       "https://www.caslsoft.com/"
+      ],
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571943769
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "compactapplicationsolutionlanguage",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "compactapplicationsolutionlanguage",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -34295,7 +34470,7 @@
        "Q56223375"
       ]
      },
-     "lastrevid": 2568122927
+     "lastrevid": 2573837993
     }
    },
    "matches": [
@@ -34539,7 +34714,7 @@
    "tools": []
   },
   {
-   "id": "pldb:corbascript",
+   "id": "wikidata:Q5169707",
    "name": "CorbaScript",
    "aliases": [],
    "sources": {
@@ -34547,12 +34722,42 @@
      "id": "corbascript",
      "name": "CorbaScript",
      "wikipedia": "https://en.wikipedia.org/wiki/CorbaScript"
+    },
+    "wikidata": {
+     "id": "Q5169707",
+     "name": "CorbaScript",
+     "aliases": [],
+     "description": "object-oriented scripting language",
+     "enwiki": "CorbaScript",
+     "claims": {
+      "instance_of": [
+       "Q187432"
+      ]
+     },
+     "lastrevid": 2571943932
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "corbascript",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "corbascript",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -37183,7 +37388,7 @@
        "Q681263"
       ]
      },
-     "lastrevid": 2492128206
+     "lastrevid": 2572430624
     }
    },
    "matches": [
@@ -38646,7 +38851,7 @@
        "Q899523"
       ]
      },
-     "lastrevid": 2570810601
+     "lastrevid": 2572069413
     }
    },
    "matches": [
@@ -38795,7 +39000,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -39222,7 +39427,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570469718
+     "lastrevid": 2573810905
     }
    },
    "matches": [],
@@ -39665,6 +39870,7 @@
      "enwiki": null,
      "claims": {
       "official_site": [
+       "https://dbytelang.org/",
        "https://dbytelang.site"
       ],
       "source_repository": [
@@ -39684,7 +39890,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570735671
+     "lastrevid": 2573028664
     }
    },
    "matches": [],
@@ -39987,7 +40193,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2571389587
+     "lastrevid": 2573092915
     }
    },
    "matches": [],
@@ -40947,8 +41153,8 @@
    "id": "wikidata:Q427002",
    "name": "DIGITAL Command Language",
    "aliases": [
-    "dcl",
-    "DCL"
+    "DCL",
+    "dcl"
    ],
    "sources": {
     "github_linguist": {
@@ -42135,6 +42341,34 @@
    "matches": [],
    "readiness": [
     "pldb-listed",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q60750841",
+   "name": "DOORS Extension Language",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q60750841",
+     "name": "DOORS Extension Language",
+     "aliases": [],
+     "description": "scripting language that extends Rational DOORS",
+     "enwiki": "DOORS Extension Language",
+     "claims": {
+      "instance_of": [
+       "Q187432"
+      ]
+     },
+     "lastrevid": 2571977621
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
     "single-source"
    ],
    "package_identifiers": {},
@@ -45169,7 +45403,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -47090,7 +47324,7 @@
       "Apache-2.0",
       "MIT"
      ],
-     "source_id": "pkg:github/WhatsApp/erlang-language-platform@2026-11-16",
+     "source_id": "pkg:github/WhatsApp/erlang-language-platform@2026-11-20",
      "executables": {
       "elp": "{{source.asset.bin}}"
      },
@@ -47436,6 +47670,38 @@
    "readiness": [
     "wikidata-linked",
     "pldb-listed"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q141626943",
+   "name": "ETamil",
+   "aliases": [
+    "eTamil, e-Tamil"
+   ],
+   "sources": {
+    "wikidata": {
+     "id": "Q141626943",
+     "name": "ETamil",
+     "aliases": [
+      "eTamil, e-Tamil"
+     ],
+     "description": "Tamil-first programming language",
+     "enwiki": "ETamil",
+     "claims": {
+      "instance_of": [
+       "Q211496"
+      ]
+     },
+     "lastrevid": 2572001565
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -47961,10 +48227,11 @@
        "http://www.eventscripts.com"
       ],
       "instance_of": [
+       "Q865493",
        "Q9143"
       ]
      },
-     "lastrevid": 2570477136
+     "lastrevid": 2573696484
     }
    },
    "matches": [],
@@ -48985,8 +49252,8 @@
    "name": "F#",
    "aliases": [
     "F Sharp",
-    "FSharp",
     "fsharp",
+    "FSharp",
     "F♯"
    ],
    "sources": {
@@ -50081,7 +50348,7 @@
    "tools": []
   },
   {
-   "id": "pldb:fasttrack-scripting-host",
+   "id": "wikidata:Q5436883",
    "name": "FastTrack Scripting Host",
    "aliases": [],
    "sources": {
@@ -50089,12 +50356,34 @@
      "id": "fasttrack-scripting-host",
      "name": "FastTrack Scripting Host",
      "wikipedia": "https://en.wikipedia.org/wiki/FastTrack_Scripting_Host"
+    },
+    "wikidata": {
+     "id": "Q5436883",
+     "name": "FastTrack Scripting Host",
+     "aliases": [],
+     "description": "software product for Windows operating systems",
+     "enwiki": "FastTrack Automation Studio",
+     "claims": {
+      "instance_of": [
+       "Q187432"
+      ]
+     },
+     "lastrevid": 2571945766
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "fasttrackscriptinghost",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -53160,7 +53449,7 @@
        "Q651794"
       ]
      },
-     "lastrevid": 2567778523
+     "lastrevid": 2573801058
     }
    },
    "matches": [
@@ -54810,8 +55099,8 @@
    "id": "pldb:fpp",
    "name": "Functional PHP Preprocessor",
    "aliases": [
-    "FPP",
-    "fpp"
+    "fpp",
+    "FPP"
    ],
    "sources": {
     "github_linguist": {
@@ -55702,6 +55991,34 @@
    "matches": [],
    "readiness": [
     "pldb-listed",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q5519842",
+   "name": "Game Description Language",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q5519842",
+     "name": "Game Description Language",
+     "aliases": [],
+     "description": "A language for a computational representation of games",
+     "enwiki": "Game Description Language",
+     "claims": {
+      "instance_of": [
+       "Q28920209"
+      ]
+     },
+     "lastrevid": 2571946419
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
     "single-source"
    ],
    "package_identifiers": {},
@@ -58587,8 +58904,8 @@
    "id": "wikidata:Q6024222",
    "name": "GNU Awk",
    "aliases": [
-    "gawk",
-    "Gawk"
+    "Gawk",
+    "gawk"
    ],
    "sources": {
     "wikidata": {
@@ -58815,8 +59132,8 @@
    "id": "wikidata:Q50378369",
    "name": "GNU epsilon",
    "aliases": [
-    "Epsilon",
-    "epsilon"
+    "epsilon",
+    "Epsilon"
    ],
    "sources": {
     "wikidata": {
@@ -59441,7 +59758,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570714872
+     "lastrevid": 2572941192
     }
    },
    "matches": [],
@@ -59678,19 +59995,41 @@
    "tools": []
   },
   {
-   "id": "pldb:golog",
+   "id": "wikidata:Q85762412",
    "name": "Golog",
    "aliases": [],
    "sources": {
     "pldb": {
      "id": "golog",
      "name": "Golog"
+    },
+    "wikidata": {
+     "id": "Q85762412",
+     "name": "GOLOG",
+     "aliases": [],
+     "description": "high-level logic programming language",
+     "enwiki": "GOLOG",
+     "claims": {
+      "instance_of": [
+       "Q28920209"
+      ]
+     },
+     "lastrevid": 2571980291
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "golog",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -59928,7 +60267,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570528862
+     "lastrevid": 2572470469
     }
    },
    "matches": [
@@ -61128,7 +61467,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -62499,19 +62838,41 @@
    "tools": []
   },
   {
-   "id": "pldb:hancock",
+   "id": "wikidata:Q104869304",
    "name": "Hancock",
    "aliases": [],
    "sources": {
     "pldb": {
      "id": "hancock",
      "name": "Hancock"
+    },
+    "wikidata": {
+     "id": "Q104869304",
+     "name": "Hancock",
+     "aliases": [],
+     "description": "programming language intended for data mining",
+     "enwiki": "Hancock (programming language)",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571984236
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "hancock",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -63077,7 +63438,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -63637,7 +63998,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -64216,7 +64577,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -69956,7 +70317,7 @@
    "tools": []
   },
   {
-   "id": "pldb:iptscrae",
+   "id": "wikidata:Q5973118",
    "name": "IPTSCRAE",
    "aliases": [],
    "sources": {
@@ -69964,12 +70325,42 @@
      "id": "iptscrae",
      "name": "IPTSCRAE",
      "wikipedia": "https://en.wikipedia.org/wiki/IPTSCRAE"
+    },
+    "wikidata": {
+     "id": "Q5973118",
+     "name": "IPTSCRAE",
+     "aliases": [],
+     "description": "",
+     "enwiki": "IPTSCRAE",
+     "claims": {
+      "instance_of": [
+       "Q187432"
+      ]
+     },
+     "lastrevid": 2571947854
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "iptscrae",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "iptscrae",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -70095,8 +70486,8 @@
    "id": "wikidata:Q5986860",
    "name": "Irvine Dataflow",
    "aliases": [
-    "Id",
-    "ID"
+    "ID",
+    "Id"
    ],
    "sources": {
     "pldb": {
@@ -71795,7 +72186,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2568185261
+     "lastrevid": 2572516227
     }
    },
    "matches": [
@@ -72021,7 +72412,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -72052,7 +72443,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -72145,7 +72536,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/idelice/jls@v0.11.1",
+     "source_id": "pkg:github/idelice/jls@v0.12.0",
      "executables": {
       "jls": "{{source.asset.lsp}}",
       "jls-debug-adapter": "{{source.asset.dap}}"
@@ -72185,7 +72576,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -72230,7 +72621,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -72891,7 +73282,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxfmt@0.78.0",
+     "source_id": "pkg:npm/oxfmt@0.79.0",
      "executables": {
       "oxfmt": "npm:oxfmt"
      },
@@ -73009,7 +73400,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -73059,7 +73450,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -73220,7 +73611,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxlint@1.93.0",
+     "source_id": "pkg:npm/oxlint@1.94.0",
      "executables": {
       "oxlint": "npm:oxlint"
      },
@@ -73279,7 +73670,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -73341,7 +73732,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/eslint_d@15.1.0",
+     "source_id": "pkg:npm/eslint_d@15.1.1",
      "executables": {
       "eslint_d": "npm:eslint_d"
      },
@@ -73368,7 +73759,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -75789,7 +76180,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxfmt@0.78.0",
+     "source_id": "pkg:npm/oxfmt@0.79.0",
      "executables": {
       "oxfmt": "npm:oxfmt"
      },
@@ -76180,7 +76571,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570691597
+     "lastrevid": 2573531204
     }
    },
    "matches": [],
@@ -76229,6 +76620,34 @@
    "matches": [],
    "readiness": [
     "github-language-identified",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q113827490",
+   "name": "JuMP",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q113827490",
+     "name": "JuMP",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "JuMP",
+     "claims": {
+      "instance_of": [
+       "Q4724010"
+      ]
+     },
+     "lastrevid": 2572379936
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
     "single-source"
    ],
    "package_identifiers": {},
@@ -79308,7 +79727,7 @@
        "Q899523"
       ]
      },
-     "lastrevid": 2568554715
+     "lastrevid": 2571825472
     }
    },
    "matches": [
@@ -79531,7 +79950,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -80817,6 +81236,34 @@
    "tools": []
   },
   {
+   "id": "wikidata:Q6486733",
+   "name": "Language for Systems Development",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q6486733",
+     "name": "Language for Systems Development",
+     "aliases": [],
+     "description": "system programming language developed at Brown University",
+     "enwiki": "Language for Systems Development",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571949213
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
    "id": "pldb:lyric",
    "name": "Language for Your Remote Instruction by Computer",
    "aliases": [],
@@ -81766,7 +82213,7 @@
        "lean"
       ],
       "official_site": [
-       "https://lean-lang.org/"
+       "https://lean-lang.org"
       ],
       "source_repository": [
        "https://github.com/leanprover/lean",
@@ -81781,12 +82228,12 @@
        "Q6509476"
       ],
       "instance_of": [
-       "Q1130645",
        "Q11387554",
+       "Q341",
        "Q9143"
       ]
      },
-     "lastrevid": 2570770805
+     "lastrevid": 2574086787
     }
    },
    "matches": [
@@ -83901,8 +84348,8 @@
     "ISO/IEC 13816",
     "JIS X 3012",
     "Lisp (programming language)",
-    "List Processor",
-    "LISt Processor"
+    "LISt Processor",
+    "List Processor"
    ],
    "sources": {
     "pldb": {
@@ -83949,7 +84396,7 @@
        "Q28922885"
       ]
      },
-     "lastrevid": 2567752647
+     "lastrevid": 2573361755
     }
    },
    "matches": [
@@ -83990,7 +84437,7 @@
    "tools": []
   },
   {
-   "id": "pldb:lisp-2",
+   "id": "wikidata:Q6458813",
    "name": "LISP 2",
    "aliases": [],
    "sources": {
@@ -83998,12 +84445,42 @@
      "id": "lisp-2",
      "name": "LISP 2",
      "wikipedia": "https://en.wikipedia.org/wiki/LISP_2"
+    },
+    "wikidata": {
+     "id": "Q6458813",
+     "name": "LISP 2",
+     "aliases": [],
+     "description": "abandoned 1960s programming language proposal",
+     "enwiki": "LISP 2",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2572378803
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "lisp2",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "lisp2",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -84603,7 +85080,7 @@
    "tools": []
   },
   {
-   "id": "pldb:lil-lang",
+   "id": "wikidata:Q6650398",
    "name": "Little Implementation Language",
    "aliases": [],
    "sources": {
@@ -84611,12 +85088,45 @@
      "id": "lil-lang",
      "name": "Little Implementation Language",
      "wikipedia": "https://en.wikipedia.org/wiki/Little_Implementation_Language"
+    },
+    "wikidata": {
+     "id": "Q6650398",
+     "name": "Little Implementation Language",
+     "aliases": [],
+     "description": "system programming language",
+     "enwiki": "Little Implementation Language",
+     "claims": {
+      "programming_paradigm": [
+       "Q1418502"
+      ],
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571949554
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "littleimplementationlanguage",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "littleimplementationlanguage",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -85916,26 +86426,32 @@
   },
   {
    "id": "wikidata:Q6459541",
-   "name": "LOOM",
-   "aliases": [],
+   "name": "Loom",
+   "aliases": [
+    "Loom Knowledge Representation System",
+    "Loom KRS"
+   ],
    "sources": {
     "wikidata": {
      "id": "Q6459541",
-     "name": "LOOM",
-     "aliases": [],
+     "name": "Loom",
+     "aliases": [
+      "Loom KRS",
+      "Loom Knowledge Representation System"
+     ],
      "description": "knowledge representation language",
-     "enwiki": "LOOM (ontology)",
+     "enwiki": "Loom Knowledge Representation System",
      "claims": {
       "programming_paradigm": [
-       "Q3478658",
        "Q531152"
       ],
       "instance_of": [
+       "Q111048186",
        "Q1144882",
-       "Q9143"
+       "Q7095059"
       ]
      },
-     "lastrevid": 2570550712
+     "lastrevid": 2572081670
     }
    },
    "matches": [],
@@ -86475,7 +86991,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2563181569
+     "lastrevid": 2574067891
     }
    },
    "matches": [
@@ -86710,7 +87226,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -86759,7 +87275,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -90336,8 +90852,8 @@
    "name": "Max (programming language)",
    "aliases": [
     "Max",
-    "max/msp",
     "Max/MSP",
+    "max/msp",
     "maxmsp"
    ],
    "sources": {
@@ -90686,7 +91202,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/%40spyglassmc/language-server@0.4.70",
+     "source_id": "pkg:npm/%40spyglassmc/language-server@0.4.71",
      "executables": {
       "spyglassmc-language-server": "npm:spyglassmc-language-server"
      },
@@ -91126,6 +91642,34 @@
    "tools": []
   },
   {
+   "id": "wikidata:Q111913927",
+   "name": "Mercury",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q111913927",
+     "name": "Mercury",
+     "aliases": [],
+     "description": "",
+     "enwiki": "Mercury (RemObjects BASIC programming language)",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571986593
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
    "id": "wikidata:Q206040",
    "name": "Mercury",
    "aliases": [
@@ -91200,22 +91744,6 @@
      "sources": [
       "github_linguist",
       "pldb"
-     ]
-    },
-    {
-     "method": "exact-name-or-published-alias",
-     "key": "mercury",
-     "sources": [
-      "pldb",
-      "wikidata"
-     ]
-    },
-    {
-     "method": "exact-name-or-published-alias",
-     "key": "mercury",
-     "sources": [
-      "github_linguist",
-      "wikidata"
      ]
     },
     {
@@ -91471,6 +91999,34 @@
    "readiness": [
     "wikidata-linked",
     "pldb-listed"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q6715473",
+   "name": "META II",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q6715473",
+     "name": "META II",
+     "aliases": [],
+     "description": "Programming language",
+     "enwiki": "META II",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571949798
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -93273,7 +93829,7 @@
     {
      "name": "minizinc",
      "available": true,
-     "version": "2.10.1",
+     "version": "2.11.0",
      "executables": [
       "minizinc",
       "mzn2doc"
@@ -95233,6 +95789,34 @@
     "github-language-identified",
     "wikidata-linked",
     "pldb-listed"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q17037811",
+   "name": "MOL-360",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q17037811",
+     "name": "MOL-360",
+     "aliases": [],
+     "description": "computer programming language",
+     "enwiki": "MOL-360",
+     "claims": {
+      "instance_of": [
+       "Q4117397"
+      ]
+     },
+     "lastrevid": 2571965592
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -100747,8 +101331,8 @@
    "name": "Nim",
    "aliases": [
     "Nim programming language",
-    "Nimrod",
-    "nimrod"
+    "nimrod",
+    "Nimrod"
    ],
    "sources": {
     "github_linguist": {
@@ -102610,7 +103194,7 @@
        "Q341"
       ]
      },
-     "lastrevid": 2567912892
+     "lastrevid": 2574166623
     }
    },
    "matches": [
@@ -102999,7 +103583,7 @@
    "tools": []
   },
   {
-   "id": "pldb:o-matrix",
+   "id": "wikidata:Q7072014",
    "name": "O-Matrix",
    "aliases": [],
    "sources": {
@@ -103007,12 +103591,42 @@
      "id": "o-matrix",
      "name": "O-Matrix",
      "wikipedia": "https://en.wikipedia.org/wiki/O-Matrix"
+    },
+    "wikidata": {
+     "id": "Q7072014",
+     "name": "O-Matrix",
+     "aliases": [],
+     "description": "",
+     "enwiki": "O-Matrix",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571951981
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "omatrix",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "omatrix",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -103957,8 +104571,8 @@
    "aliases": [
     "obj-c",
     "Obj-C programming language",
-    "Objc",
     "objc",
+    "Objc",
     "Objective C programming language",
     "Objective-C (programming language)",
     "Objective-C programming language"
@@ -106754,8 +107368,8 @@
     "abl",
     "openedge",
     "OpenEdge Advanced Business Language",
-    "progress",
     "Progress",
+    "progress",
     "Progress 4GL"
    ],
    "sources": {
@@ -107163,7 +107777,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570571715
+     "lastrevid": 2573543311
     }
    },
    "matches": [],
@@ -107313,7 +107927,7 @@
        "Q238137"
       ]
      },
-     "lastrevid": 2326520483
+     "lastrevid": 2573710675
     }
    },
    "matches": [
@@ -109284,6 +109898,34 @@
    "tools": []
   },
   {
+   "id": "wikidata:Q60767282",
+   "name": "PAL-11R",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q60767282",
+     "name": "PAL-11R",
+     "aliases": [],
+     "description": "assembly programming language",
+     "enwiki": "PAL-11R",
+     "claims": {
+      "instance_of": [
+       "Q165436"
+      ]
+     },
+     "lastrevid": 2571977760
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
    "id": "pldb:palasm",
    "name": "PALASM",
    "aliases": [],
@@ -109876,7 +110518,7 @@
        "https://pari.math.u-bordeaux.fr/"
       ],
       "source_repository": [
-       "http://pari.math.u-bordeaux.fr/git/pari.git"
+       "https://pari.math.u-bordeaux.fr/git/pari.git"
       ],
       "implemented_in": [
        "Q15777"
@@ -109888,7 +110530,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570484324
+     "lastrevid": 2572245278
     }
    },
    "matches": [
@@ -111614,7 +112256,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2566419095
+     "lastrevid": 2572213707
     }
    },
    "matches": [
@@ -111774,7 +112416,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/tree-sitter-perl/perl-lsp@v0.9.2",
+     "source_id": "pkg:github/tree-sitter-perl/perl-lsp@v0.10.0",
      "executables": {
       "perl-lsp": "{{source.asset.bin}}"
      },
@@ -112396,7 +113038,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2568059764
+     "lastrevid": 2572658316
     }
    },
    "matches": [
@@ -112479,7 +113121,7 @@
     {
      "name": "php",
      "available": true,
-     "version": "8.5.12",
+     "version": "8.6.0",
      "executables": [
       "pear",
       "peardev",
@@ -112621,7 +113263,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:composer/symplify/easy-coding-standard@13.3.19",
+     "source_id": "pkg:composer/symplify/easy-coding-standard@13.3.24",
      "executables": {
       "ecs": "composer:ecs"
      },
@@ -112674,7 +113316,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -112693,7 +113335,7 @@
       "ISC",
       "MIT"
      ],
-     "source_id": "pkg:npm/devsense-php-ls@1.0.19523",
+     "source_id": "pkg:npm/devsense-php-ls@1.0.19556",
      "executables": {
       "devsense-php-ls": "npm:devsense-php-ls"
      },
@@ -112802,7 +113444,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:composer/vimeo/psalm@7.9.0",
+     "source_id": "pkg:composer/vimeo/psalm@7.15.0",
      "executables": {
       "psalm": "composer:psalm",
       "psalm-language-server": "composer:psalm-language-server",
@@ -112888,7 +113530,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -112942,7 +113584,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/phpstan/phpstan@2.3.6",
+     "source_id": "pkg:github/phpstan/phpstan@2.3.7",
      "executables": {
       "phpstan": "php:phpstan.phar"
      },
@@ -112969,7 +113611,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -114288,7 +114930,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570720206
+     "lastrevid": 2571839935
     }
    },
    "matches": [
@@ -115092,7 +115734,7 @@
        "Q691358"
       ]
      },
-     "lastrevid": 2556916367
+     "lastrevid": 2573573803
     }
    },
    "matches": [],
@@ -115324,7 +115966,7 @@
        "Q845739"
       ]
      },
-     "lastrevid": 2567695241
+     "lastrevid": 2573311364
     }
    },
    "matches": [
@@ -115412,7 +116054,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/sql-formatter@15.9.0",
+     "source_id": "pkg:npm/sql-formatter@15.10.0",
      "executables": {
       "sql-formatter": "npm:sql-formatter"
      },
@@ -115487,7 +116129,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/kitagry/bqls@v0.8.7",
+     "source_id": "pkg:github/kitagry/bqls@v0.8.8",
      "executables": {
       "bqls": "{{source.asset.bin}}"
      },
@@ -115804,7 +116446,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -119640,7 +120282,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570435404
+     "lastrevid": 2573878213
     }
    },
    "matches": [
@@ -122211,7 +122853,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:pypi/jupytext@1.19.6",
+     "source_id": "pkg:pypi/jupytext@1.19.7",
      "executables": {
       "jupytext": "pypi:jupytext"
      },
@@ -122266,7 +122908,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:pypi/pyproject-fmt@2.31.0",
+     "source_id": "pkg:pypi/pyproject-fmt@2.31.2",
      "executables": {
       "pyproject-fmt": "pypi:pyproject-fmt"
      },
@@ -122390,7 +123032,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -122459,7 +123101,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -122700,7 +123342,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -122945,7 +123587,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -123073,7 +123715,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/astral-sh/ruff@0.17.5",
+     "source_id": "pkg:github/astral-sh/ruff@0.17.6",
      "executables": {
       "ruff": "{{source.asset.bin}}"
      },
@@ -123128,7 +123770,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:pypi/pyrefly@1.4.1",
+     "source_id": "pkg:pypi/pyrefly@1.5.0",
      "executables": {
       "pyrefly": "pypi:pyrefly"
      },
@@ -123147,7 +123789,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:pypi/ty@0.0.105",
+     "source_id": "pkg:pypi/ty@0.0.107",
      "executables": {
       "ty": "pypi:ty"
      },
@@ -123184,7 +123826,7 @@
      "licenses": [
       "GPL-3.0"
      ],
-     "source_id": "pkg:pypi/pymobiledevice3@11.58.0",
+     "source_id": "pkg:pypi/pymobiledevice3@11.62.0",
      "executables": {
       "pymobiledevice3": "pypi:pymobiledevice3"
      },
@@ -123337,7 +123979,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570582205
+     "lastrevid": 2574001487
     }
    },
    "matches": [
@@ -124203,6 +124845,40 @@
    "tools": []
   },
   {
+   "id": "wikidata:Q142212250",
+   "name": "Q142212250",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q142212250",
+     "name": "Q142212250",
+     "aliases": [],
+     "description": "",
+     "enwiki": "Vim9 script",
+     "claims": {
+      "official_site": [
+       "https://www.vim.org/vim90.php"
+      ],
+      "source_repository": [
+       "https://github.com/brammool/vim9"
+      ],
+      "instance_of": [
+       "Q187432"
+      ]
+     },
+     "lastrevid": 2572444270
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
    "id": "wikidata:Q1457000",
    "name": "Q1457000",
    "aliases": [],
@@ -124532,7 +125208,7 @@
     {
      "name": "openjdk@8",
      "available": true,
-     "version": "1.8.0-512",
+     "version": "1.8.0-514",
      "executables": [
       "appletviewer",
       "clhsdb",
@@ -126325,7 +127001,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:pypi/jupytext@1.19.6",
+     "source_id": "pkg:pypi/jupytext@1.19.7",
      "executables": {
       "jupytext": "pypi:jupytext"
      },
@@ -128215,8 +128891,8 @@
    "id": "wikidata:Q63565848",
    "name": "Reason",
    "aliases": [
-    "reasonml",
-    "ReasonML"
+    "ReasonML",
+    "reasonml"
    ],
    "sources": {
     "github_linguist": {
@@ -132107,7 +132783,7 @@
        "Q187432"
       ]
      },
-     "lastrevid": 2567889475
+     "lastrevid": 2572052190
     }
    },
    "matches": [
@@ -132184,7 +132860,7 @@
     {
      "name": "ruby",
      "available": true,
-     "version": "4.0.9",
+     "version": "4.0.10",
      "executables": [
       "bundle",
       "bundler",
@@ -132786,7 +133462,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -132817,7 +133493,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -132894,7 +133570,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -133532,7 +134208,7 @@
    "tools": []
   },
   {
-   "id": "pldb:sagemath",
+   "id": "wikidata:Q142232224",
    "name": "Sage",
    "aliases": [],
    "sources": {
@@ -133552,9 +134228,30 @@
      "aka": "Sage",
      "wikipedia": "https://en.wikipedia.org/wiki/SageMath",
      "githubLanguage": "Sage"
+    },
+    "wikidata": {
+     "id": "Q142232224",
+     "name": "Sage",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": null,
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2573004179
     }
    },
    "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "sage",
+     "sources": [
+      "github_linguist",
+      "wikidata"
+     ]
+    },
     {
      "method": "pldb-githubLanguage",
      "key": "Sage",
@@ -133566,6 +134263,7 @@
    ],
    "readiness": [
     "github-language-identified",
+    "wikidata-linked",
     "pldb-listed"
    ],
    "package_identifiers": {},
@@ -134045,8 +134743,8 @@
    "id": "wikidata:Q7388824",
    "name": "SAS",
    "aliases": [
-    "SAS Language",
-    "SAS language"
+    "SAS language",
+    "SAS Language"
    ],
    "sources": {
     "github_linguist": {
@@ -134272,7 +134970,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/stylelint@18.0.0",
+     "source_id": "pkg:npm/stylelint@18.1.0",
      "executables": {
       "stylelint": "npm:stylelint"
      },
@@ -134913,7 +135611,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -134940,7 +135638,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -135092,6 +135790,34 @@
    "matches": [],
    "readiness": [
     "pldb-listed",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q85798328",
+   "name": "SCELBAL",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q85798328",
+     "name": "SCELBAL",
+     "aliases": [],
+     "description": "1976 programming language",
+     "enwiki": "SCELBAL",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571981090
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
     "single-source"
    ],
    "package_identifiers": {},
@@ -135818,7 +136544,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2563355839
+     "lastrevid": 2574068130
     }
    },
    "matches": [],
@@ -142086,7 +142812,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570657913
+     "lastrevid": 2572503910
     }
    },
    "matches": [
@@ -142119,7 +142845,7 @@
     {
      "name": "solidity",
      "available": true,
-     "version": "0.8.38",
+     "version": "0.8.39",
      "executables": [
       "solc",
       "yul-phaser"
@@ -142142,7 +142868,7 @@
      "licenses": [
       "GPL-3.0-or-later"
      ],
-     "source_id": "pkg:github/ethereum/solidity@v0.8.38",
+     "source_id": "pkg:github/ethereum/solidity@v0.8.39",
      "executables": {
       "solc": "{{source.asset.file}}"
      },
@@ -144816,8 +145542,8 @@
    "id": "wikidata:Q2204794",
    "name": "Stanford Artificial Intelligence Language",
    "aliases": [
-    "SAIL",
-    "Sail"
+    "Sail",
+    "SAIL"
    ],
    "sources": {
     "github_linguist": {
@@ -145523,6 +146249,34 @@
       ]
      },
      "lastrevid": 2570596559
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q7394782",
+   "name": "STOIC",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q7394782",
+     "name": "STOIC",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "STOIC",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571955248
     }
    },
    "matches": [],
@@ -147125,7 +147879,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2568530937
+     "lastrevid": 2574100311
     }
    },
    "matches": [
@@ -147412,7 +148166,7 @@
     {
      "name": "swi-prolog",
      "available": true,
-     "version": "10.0.2",
+     "version": "11.0.0",
      "executables": [
       "swipl",
       "swipl-ld",
@@ -147500,7 +148254,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2563335624
+     "lastrevid": 2573109154
     }
    },
    "matches": [
@@ -148189,6 +148943,34 @@
       ]
      },
      "lastrevid": 1729782381
+    }
+   },
+   "matches": [],
+   "readiness": [
+    "wikidata-linked",
+    "single-source"
+   ],
+   "package_identifiers": {},
+   "homebrew_formulas": [],
+   "tools": []
+  },
+  {
+   "id": "wikidata:Q85804688",
+   "name": "Systems Programming Language",
+   "aliases": [],
+   "sources": {
+    "wikidata": {
+     "id": "Q85804688",
+     "name": "Systems Programming Language",
+     "aliases": [],
+     "description": "Programming language by Hewlett-Packard",
+     "enwiki": "Systems Programming Language",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2571981196
     }
    },
    "matches": [],
@@ -152759,7 +153541,7 @@
    "tools": []
   },
   {
-   "id": "pldb:treelang",
+   "id": "wikidata:Q7837689",
    "name": "Treelang",
    "aliases": [],
    "sources": {
@@ -152767,12 +153549,42 @@
      "id": "treelang",
      "name": "Treelang",
      "wikipedia": "https://en.wikipedia.org/wiki/Treelang"
+    },
+    "wikidata": {
+     "id": "Q7837689",
+     "name": "Treelang",
+     "aliases": [],
+     "description": "programming language",
+     "enwiki": "Treelang",
+     "claims": {
+      "instance_of": [
+       "Q9143"
+      ]
+     },
+     "lastrevid": 2572379161
     }
    },
-   "matches": [],
+   "matches": [
+    {
+     "method": "exact-name-or-published-alias",
+     "key": "treelang",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    },
+    {
+     "method": "exact-wikipedia-sitelink",
+     "key": "treelang",
+     "sources": [
+      "pldb",
+      "wikidata"
+     ]
+    }
+   ],
    "readiness": [
-    "pldb-listed",
-    "single-source"
+    "wikidata-linked",
+    "pldb-listed"
    ],
    "package_identifiers": {},
    "homebrew_formulas": [],
@@ -154334,8 +155146,8 @@
    "name": "TypeScript",
    "aliases": [
     ".ts",
-    "ts",
-    "TS"
+    "TS",
+    "ts"
    ],
    "sources": {
     "github_linguist": {
@@ -154407,7 +155219,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2563162385
+     "lastrevid": 2573905279
     }
    },
    "matches": [
@@ -154559,7 +155371,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxfmt@0.78.0",
+     "source_id": "pkg:npm/oxfmt@0.79.0",
      "executables": {
       "oxfmt": "npm:oxfmt"
      },
@@ -154677,7 +155489,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:github/blopker/codebook@v0.4.0",
+     "source_id": "pkg:github/blopker/codebook@v0.4.1",
      "executables": {
       "codebook-lsp": "{{source.asset.bin}}"
      },
@@ -154727,7 +155539,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/elijah-potter/harper@v3.2.0",
+     "source_id": "pkg:github/elijah-potter/harper@v3.3.0",
      "executables": {
       "harper-ls": "{{source.asset.bin}}"
      },
@@ -154869,7 +155681,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/oxlint@1.93.0",
+     "source_id": "pkg:npm/oxlint@1.94.0",
      "executables": {
       "oxlint": "npm:oxlint"
      },
@@ -154928,7 +155740,7 @@
      "licenses": [
       "Apache-2.0"
      ],
-     "source_id": "pkg:github/snyk/cli@v1.1308.4",
+     "source_id": "pkg:github/snyk/cli@v1.1309.0",
      "executables": {
       "snyk": "{{source.asset.file}}"
      },
@@ -154990,7 +155802,7 @@
      "licenses": [
       "MIT"
      ],
-     "source_id": "pkg:npm/eslint_d@15.1.0",
+     "source_id": "pkg:npm/eslint_d@15.1.1",
      "executables": {
       "eslint_d": "npm:eslint_d"
      },
@@ -155017,7 +155829,7 @@
      "licenses": [
       "LGPL-2.1-or-later"
      ],
-     "source_id": "pkg:pypi/semgrep@1.185.0",
+     "source_id": "pkg:pypi/semgrep@1.186.0",
      "executables": {
       "semgrep": "pypi:semgrep",
       "pysemgrep": "pypi:pysemgrep"
@@ -157739,8 +158551,8 @@
    "id": "wikidata:Q667566",
    "name": "VBA",
    "aliases": [
-    "visual basic for applications",
-    "Visual Basic for Applications"
+    "Visual Basic for Applications",
+    "visual basic for applications"
    ],
    "sources": {
     "github_linguist": {
@@ -159251,8 +160063,8 @@
    "name": "Visual Basic .NET",
    "aliases": [
     "vb .net",
-    "vb.net",
     "VB.NET",
+    "vb.net",
     "vb.net VisualBasic.NET",
     "vbnet",
     "visual basic",
@@ -160900,8 +161712,8 @@
    "id": "wikidata:Q20155677",
    "name": "WebAssembly",
    "aliases": [
-    "wasm",
     "Wasm",
+    "wasm",
     "WASM",
     "wast",
     "WebASM"
@@ -162933,8 +163745,8 @@
     "Intel assembly syntax",
     "Intel syntax",
     "X86 asm",
-    "X86 Assembly",
     "X86 assembly",
+    "X86 Assembly",
     "X86 assembly programming in long mode",
     "X86 assembly programming in protected mode",
     "X86 assembly programming in real mode",
@@ -163015,7 +163827,7 @@
        "Q9143"
       ]
      },
-     "lastrevid": 2570437532
+     "lastrevid": 2572446003
     }
    },
    "matches": [],
@@ -163051,8 +163863,8 @@
    "name": "xBase",
    "aliases": [
     "Advanced Protheus Language",
-    "advpl",
     "AdvPL",
+    "advpl",
     "clipper",
     "foxpro"
    ],
@@ -163861,8 +164673,8 @@
    "id": "wikidata:Q2115",
    "name": "XML",
    "aliases": [
-    "Extensible Markup Language",
-    "eXtensible Markup Language"
+    "eXtensible Markup Language",
+    "Extensible Markup Language"
    ],
    "sources": {
     "wikidata": {

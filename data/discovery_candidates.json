@@ -13,8 +13,8 @@
    "cadence_days": 7
   }
  },
- "revision": 1384874713,
- "retrieved_at": "2026-11-18T21:17:43+00:00",
+ "revision": 1386835851,
+ "retrieved_at": "2026-11-24T02:14:41+00:00",
  "entries": [
   {
    "name": "A.NET (A#/A sharp)",
@@ -542,6 +542,15 @@
    ]
   },
   {
+   "name": "Bend",
+   "article": "https://en.wikipedia.org/wiki/Bend_%28programming_language%29",
+   "section": "B",
+   "status": "linked",
+   "inventory_ids": [
+    "pldb:bend"
+   ]
+  },
+  {
    "name": "BETA",
    "article": "https://en.wikipedia.org/wiki/BETA_%28programming_language%29",
    "section": "B",
@@ -756,7 +765,7 @@
    "section": "C",
    "status": "linked",
    "inventory_ids": [
-    "pldb:cesil"
+    "wikidata:Q5065544"
    ]
   },
   {
@@ -963,7 +972,7 @@
    "section": "C",
    "status": "linked",
    "inventory_ids": [
-    "pldb:cobolscript"
+    "wikidata:Q3681874"
    ]
   },
   {
@@ -2833,7 +2842,7 @@
    "status": "ambiguous",
    "inventory_ids": [
     "pldb:lil",
-    "pldb:lil-lang"
+    "wikidata:Q6650398"
    ]
   },
   {
@@ -3247,8 +3256,9 @@
    "name": "Mercury",
    "article": "https://en.wikipedia.org/wiki/Mercury_%28programming_language%29",
    "section": "M",
-   "status": "linked",
+   "status": "ambiguous",
    "inventory_ids": [
+    "wikidata:Q111913927",
     "wikidata:Q206040"
    ]
   },
@@ -5254,7 +5264,8 @@
    "status": "ambiguous",
    "inventory_ids": [
     "wikidata:Q1140574",
-    "wikidata:Q28942400"
+    "wikidata:Q28942400",
+    "wikidata:Q85804688"
    ]
   },
   {

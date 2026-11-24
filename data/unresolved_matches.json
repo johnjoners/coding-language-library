@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-11-19T00:59:21+00:00",
- "count": 238,
+ "generated_at": "2026-11-24T02:15:18+00:00",
+ "count": 241,
  "matches": [
   {
    "method": "exact-name-or-published-alias",
@@ -222,6 +222,16 @@
     "github_linguist:225",
     "wikidata:Q20870787",
     "wikidata:Q223679"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "mercury",
+   "candidates": [
+    "github_linguist:229",
+    "wikidata:Q111913927",
+    "wikidata:Q206040"
    ],
    "reason": "ambiguous-exact-name"
   },
@@ -1829,6 +1839,16 @@
   },
   {
    "method": "exact-name-or-published-alias",
+   "key": "mercury",
+   "candidates": [
+    "pldb:mercury",
+    "wikidata:Q111913927",
+    "wikidata:Q206040"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
    "key": "msl",
    "candidates": [
     "pldb:mimix-stream-language",
@@ -2126,6 +2146,16 @@
     "pldb:sa-c-programming-language",
     "pldb:sac-programming-language",
     "wikidata:Q7388405"
+   ],
+   "reason": "ambiguous-exact-name"
+  },
+  {
+   "method": "exact-name-or-published-alias",
+   "key": "sage",
+   "candidates": [
+    "pldb:sage",
+    "pldb:sagemath",
+    "wikidata:Q142232224"
    ],
    "reason": "ambiguous-exact-name"
   },

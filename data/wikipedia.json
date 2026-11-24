@@ -1,9 +1,9 @@
 {
- "retrieved_at": "2026-11-18T21:17:43+00:00",
+ "retrieved_at": "2026-11-24T02:14:41+00:00",
  "source": "https://en.wikipedia.org/wiki/List_of_programming_languages",
- "revision": 1384874713,
+ "revision": 1386835851,
  "license": "CC BY-SA 4.0 (Wikipedia text; attribution to the linked articles)",
- "count": 670,
+ "count": 671,
  "entries": [
   {
    "name": "A.NET (A#/A sharp)",
@@ -356,6 +356,12 @@
   {
    "name": "BeanShell",
    "article": "https://en.wikipedia.org/wiki/BeanShell",
+   "section": "B",
+   "note": ""
+  },
+  {
+   "name": "Bend",
+   "article": "https://en.wikipedia.org/wiki/Bend_%28programming_language%29",
    "section": "B",
    "note": ""
   },

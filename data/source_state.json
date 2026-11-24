@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-19T00:59:21+00:00",
+ "generated_at": "2026-11-24T02:15:18+00:00",
  "sources": {
   "pldb": {
    "etag": "\"6ea7675250b04a1e522c044ed9385a9347b5e554\"",
@@ -8,46 +8,46 @@
    "sha256": "43669fa00f6d449e4894405523f68e89aa42e0db17a005ec8ad94854d6392a40",
    "records": 5159,
    "programming_languages": 3463,
-   "retrieved_at": "2026-11-19T00:58:23+00:00"
+   "retrieved_at": "2026-11-24T02:14:43+00:00"
   },
   "wikidata": {
-   "items": 1920,
-   "requested_ids": 1921,
+   "items": 1949,
+   "requested_ids": 1950,
    "missing_ids": [
     "Q137924569"
    ],
-   "qid_digest": "9d764805ee869cf2d688d658478d8136a3999d1bd4ccaa956310445f1353be76",
-   "revision_digest": "204f8b68736104044ac6e6ccb3c078d86a71314b6fdd9fd55015cbe8762fd9ef",
-   "retrieved_at": "2026-11-19T00:59:10+00:00",
-   "query_sha256": "9d764805ee869cf2d688d658478d8136a3999d1bd4ccaa956310445f1353be76",
-   "modified_digest": "d78dc30bc88c6f9ffd444ad639c72baded694735392efdf51a12b216ea25a90d"
+   "qid_digest": "b7a063f91c2a7be9da3d237c61683054d5c49c195d0d60878c531fd5f5faef35",
+   "revision_digest": "83651dd4113046d9b4804f477b5f951a01a85599e67bb8f405de47fe529ee1f3",
+   "retrieved_at": "2026-11-24T02:15:17+00:00",
+   "query_sha256": "b7a063f91c2a7be9da3d237c61683054d5c49c195d0d60878c531fd5f5faef35",
+   "modified_digest": "9666aa921c08a22fac3b932e3d3ed8b0aa3518d0b96dc082ada19d9af72e3291"
   },
   "github_linguist": {
    "etag": "\"c575f93209a661947fb677560f11f803fca1ccd9eb2624dfc2495fdf375583ed\"",
    "sha256": "05e20bd736808a9e468ae1546e1a3b518b95fa215ee6f746903f7e164a9fd37b",
    "entries": 849,
    "programming_languages": 573,
-   "retrieved_at": "2026-11-19T00:59:11+00:00"
+   "retrieved_at": "2026-11-24T02:15:17+00:00"
   },
   "mason_registry": {
-   "etag": "\"0x8DF45BA8092A0B5\"",
-   "last_modified": "Wed, 18 Nov 2026 21:25:43 GMT",
-   "sha256": "3800ead2dddd4a0407f2de24dfbc222772e1075a36af906b994b3a41a21a943b",
+   "etag": "\"0x8DF499D8240B21B\"",
+   "last_modified": "Mon, 23 Nov 2026 20:08:15 GMT",
+   "sha256": "ddd501744950c22988be3bc6f23772e3389d7658d678dc3bca28de246cb3d780",
    "packages": 608,
-   "retrieved_at": "2026-11-19T00:59:12+00:00"
+   "retrieved_at": "2026-11-24T02:15:17+00:00"
   },
   "homebrew": {
-   "etag": "\"6afe45b9-1ebdbfb\"",
-   "last_modified": "Thu, 19 Nov 2026 00:41:29 GMT",
-   "sha256": "61fb6888c180b9c1044a82076abe0d178938db676e28ca16f46ea4095e75cfe3",
-   "formulae": 8733,
-   "retrieved_at": "2026-11-19T00:59:20+00:00"
+   "etag": "\"6b04f06b-1ec2bf5\"",
+   "last_modified": "Tue, 24 Nov 2026 02:03:23 GMT",
+   "sha256": "44c4cea86886a6c87b9252900d25b78ab93a189dc626804a38560179e85060fc",
+   "formulae": 8742,
+   "retrieved_at": "2026-11-24T02:15:18+00:00"
   },
   "wikipedia_seed": {
-   "revision": 1384874713,
-   "retrieved_at": "2026-11-18T21:17:43+00:00",
-   "entries": 670,
-   "sha256": "a943ad2f0994780387661d341ff101fccb01eb9081cd6f7f0d0bb0bccc6fd5e8"
+   "revision": 1386835851,
+   "retrieved_at": "2026-11-24T02:14:41+00:00",
+   "entries": 671,
+   "sha256": "bb3a1fbaf79e1fbd1eccfab8b18072ff3aa98c4df164cd4693f3032d86ffe669"
   }
  }
 }
